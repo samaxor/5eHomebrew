@@ -1,5 +1,5 @@
 {
-	"spells":{
-		"Homebrew.json": "<object>"
+	"spell":{
+		"spell/Spells.json": "<object>"
 	}
 }
