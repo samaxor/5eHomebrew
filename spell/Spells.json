@@ -12,11 +12,6 @@
 			"targetSchema": "1.0"
 		}],
 		"dateAdded": 0,
-		"dependencies": {
-			"spell": [
-				"PHB"
-			]
-		},
 		"dateLastModified": 0
 	},
 	"spell": [{
@@ -66,7 +61,7 @@
 			"You speak a word of power that suddenly impacts one creature you can see within range. It causes a deep wound, as if struck with a spear. The target immediately takes {@damage 4d8} piercing damage.",
 			"In addition, the target must make a Constitution saving throw. On a failure, the next instance of healing is blocked."
 		],
-		"source": "",
+		"source": "Homebrew",
 		"components": {
 			"v": true
 		},
