@@ -1,18 +1,16 @@
 {
 	"_meta": {
-		"sources": [
-			{
-				"json": "Homebrew",
-				"abbreviation": "Brew",
-				"full": "Homebrew",
-				"authors": [
-					"samaxor"
-				],
-				"version": "1.0.0",
-				"url": "https://github.com/samaxor/5eHomebrew",
-				"targetSchema": "1.0"
-			}
-		],
+		"sources": [{
+			"json": "Homebrew",
+			"abbreviation": "Brew",
+			"full": "Homebrew",
+			"authors": [
+				"samaxor"
+			],
+			"version": "1.0.0",
+			"url": "https://github.com/samaxor/5eHomebrew",
+			"targetSchema": "1.0"
+		}],
 		"dateAdded": 0,
 		"dependencies": {
 			"spell": [
@@ -21,92 +19,79 @@
 		},
 		"dateLastModified": 0
 	},
-	"spell": [
-		{
-			"name": "Power Word Subtract",
-			"level": 3,
-			"school": "T",
-			"time": [
+	"spell": [{
+		"name": "Power Word Subtract",
+		"level": 3,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"classes": {
+			"fromClassList": [{
+					"name": "Wizard",
+					"source": "PHB"
+				},
 				{
-					"number": 1,
-					"unit": "action"
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
 				}
 			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 60
+			"fromSubclass": [{
+				"class": {
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				"subclass": {
+					"name": "Arcana",
+					"source": "SCAG"
 				}
-			},
-			"duration": [
-				{
-					"type": "instant"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "PHB"
-					},
-					{
-						"name": "Sorcerer",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Arcana",
-							"source": "SCAG"
-						}
-					}
-				]
-			},
+			}]
+		},
+		"entries": [
+			"You speak a word of power that suddenly impacts one creature you can see within range. It causes a deep wound, as if struck with a spear. The target immediately takes {@damage 4d8} piercing damage.",
+			"In addition, the target must make a Constitution saving throw. On a failure, the next instance of healing is blocked."
+		],
+		"source": "",
+		"components": {
+			"v": true
+		},
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
 			"entries": [
-				"You speak a word of power that suddenly impacts one creature you can see within range. It causes a deep wound, as if struck with a spear. The target immediately takes {@damage 4d8} piercing damage.",
-				"In addition, the target must make a Constitution saving throw. On a failure, the next instance of healing is blocked."
-			],
-			"source": "",
-			"components": {
-				"v": true
-			},
-			"entriesHigherLevel": [
-				{
-					"name": "At Higher Levels",
-					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
-					]
-				}
-			],
-			"damageInflict": [
-				"piercing"
-			],
-			"spellAttack": [
-				"R"
-			],
-			"savingThrow": [
-				"constitution"
-			],
-			"areaTags": [
-				"ST"
+				"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
 			]
-		}
-	],
-	"foundrySpell": [
-		{
-			"name": "Power Word Subtract",
-			"source": "Homebrew",
+		}],
+		"damageInflict": [
+			"piercing"
+		],
+		"spellAttack": [
+			"R"
+		],
+		"savingThrow": [
+			"constitution"
+		],
+		"areaTags": [
+			"ST"
+		]
+	}],
+	"foundrySpell": [{
+		"name": "Power Word Subtract",
+		"source": "Homebrew"
 
-		}
-	]
+	}]
 }
