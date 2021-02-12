@@ -1,0 +1,54 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "feats",
+				"abbreviation": "feats",
+				"full": "feats",
+				"authors": [
+					"samaxor"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/samaxor/5eHomebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+  "feat": [
+    {
+        "name": "Surace Sweller",
+        "source": "Homebrew",
+        "prerquisite": [
+          { 
+          "feature": [
+            {
+            "Sunlight Sensivity"
+            }
+           ]
+          }
+        ],
+        
+        "entries": [
+            "You have spent enough time in the sun that you have grown accustomed to it. You gain the following benefits:",
+            {
+            "type": "list",
+            "items": [
+"You lost the Sunlight Sensitivity trait",
+"You fain the proficiency with the Perception skill",
+"Once you take this feat, you learn the light cantrip if you do not already know it. Onnce you reach 5th level, you can also cast the spell Daylight once per long rest. Wisdom is your spellcasting ability modifier for these spells"
+]
+}
+],
+"ability": [
+{
+  "wis": 1
+  }
+  ]
+  
+
+
+        ]
+    }
+]
