@@ -1,54 +1,61 @@
 {
 	"_meta": {
-		"sources": [
-			{
-				"json": "feats",
-				"abbreviation": "feats",
-				"full": "feats",
-				"authors": [
-					"samaxor"
-				],
-				"version": "1.0.0",
-				"url": "https://github.com/samaxor/5eHomebrew",
-				"targetSchema": "1.0.0"
-			}
-		],
-		"dateAdded": 0,
-		"dateLastModified": 0
+		"sources": [{
+			"json": "DnDBeyond",
+			"abbreviation": "Bnd",
+			"full": "D&D Beyond",
+			"authors": [
+				"Adam Bradford"
+			],
+			"convertedBy": [
+				"TheGiddyLimit"
+			],
+			"version": "1.0.0",
+			"url": "https://rpg.rem.uz/Dungeons%20%26%20Dragons/D%26D%205th%20Edition/Core/XGE%20Bonus%20-%20Expanded%20Racial%20Feats.pdf",
+			"targetSchema": "1.1.2"
+		}],
+		"dateAdded": 1539373091,
+		"dateLastModified": 1539373091
 	},
-  "feat": [
-    {
-        "name": "Surace Sweller",
-        "source": "Homebrew",
-        "prerquisite": [
-          { 
-          "feature": [
-            {
-            "Sunlight Sensivity"
-            }
-           ]
-          }
-        ],
-        
-        "entries": [
-            "You have spent enough time in the sun that you have grown accustomed to it. You gain the following benefits:",
-            {
-            "type": "list",
-            "items": [
-"You lost the Sunlight Sensitivity trait",
-"You fain the proficiency with the Perception skill",
-"Once you take this feat, you learn the light cantrip if you do not already know it. Onnce you reach 5th level, you can also cast the spell Daylight once per long rest. Wisdom is your spellcasting ability modifier for these spells"
-]
+	"feat": [{
+			"name": "Sky Warden",
+			"source": "DnDBeyond",
+			"prerequisite": [{
+				"race": [{
+					"name": "aarakocra"
+				}]
+			}],
+			"entries": [
+				"You are trained for both scouting the skies and aerial combat. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the Perception skill if you don't already have it. You add double your proficiency bonus to Perception checks that rely on sight.",
+						"Once per turn, if you are flying and dive at least 30 feet straight toward a target and then hit it with a melee weapon attack, the attack deals an extra {@dice 1d6} damage to the target."
+					]
+				}
+			],
+			"ability": [{
+				"choose": {
+					"from": [
+						"dex",
+						"wis"
+					],
+					"amount": 1
+				}
+			}]
+		},
+		{
+			"name": "Angelic Protection",
+			"source": "DnDBeyond",
+			"prerequisite": [{
+				"race": [{
+					"name": "aasimar"
+				}]
+			}],
+			"entries": [
+				"The innate resistance to magic that angels possess extends to you. You have advantage on saving throws against spells and other magical effects."
+			]
+		}
+	]
 }
-],
-"ability": [
-{
-  "wis": 1
-  }
-  ]
-  
-
-
-        ]
-    }
-]
