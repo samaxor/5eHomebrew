@@ -15,7 +15,7 @@
 		"dateLastModified": 0
 	},
 	"race": [{
-		"name": "Dobutsu",
+		"name": "Dobutsu (base)",
 		"source": "Ben's Brew",
 		"size": "M",
 		"speed": {
@@ -65,21 +65,21 @@
 				"type": "entries",
 				"name": "Beast Senses",
 				"entries": [
-					"You are proficient in the Perception skill."
+					"You are proficient in the Perception skill."
 				]
 			},
 			{
 				"type": "entries",
 				"name": "Darkvision",
 				"entries": [
-					"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 				]
 			},
 			{
 				"type": "entries",
 				"name": "Natural Weapons",
 				"entries": [
-					"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 				]
 			},
 			{
@@ -100,10 +100,30 @@
 		]
 	}],
 	"subraces": [{
-		"name": "",
-		"source": "",
-		"overwrite": {
-			"languageProficiencies": true
-		}
+		"name": "Dobutsu (Neko)",
+		"source": "Ben's Brew",
+		"fluff": {
+			"entries": [
+				"The neko have similarities to domesticated cats. People usually think of them as being weaker than the other dōbutsu. They often go adventuring having a super high chance of leaving home because of the curiosity inside them. The neko have tails and ears that are more glossy and often lick them. The nekos of the past often were seen with wild cats that seemed to be close companions.."
+			]
+		},
+		"ability": [{
+			"dex": 1
+		}],
+		"entries": [{
+				"name": "Naturally Graceful",
+				"type": "entries",
+				"entries": [
+					"Cats always land on their feet. You have resistance to fall damage."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Elusive",
+				"entries": [
+					"Opportunity attacks against you have disadvantage."
+				]
+			}
+		]
 	}]
 }
