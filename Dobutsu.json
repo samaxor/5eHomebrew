@@ -21,9 +21,18 @@
 		"speed": {
 			"walk": 30
 		},
+		"darkvision": 60,
 		"ability": [{
 			"wis": 2
 		}],
+		"languageProficiencies": [{
+			"common": true,
+			"sylvan": true
+		}],
+		"skillProficiencies": [{
+			"perception": true
+		}],
+
 		"entries": [{
 				"name": "Age",
 				"type": "entries",
@@ -89,5 +98,12 @@
 			}
 
 		]
+	}],
+	"subraces": [{
+		"name": "",
+		"source": "",
+		"overwrite": {
+			"languageProficiencies": true
+		}
 	}]
 }
