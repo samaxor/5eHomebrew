@@ -1,0 +1,57 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Dōbutsu",
+			"abbreviation": "Dōbutsu",
+			"full": "Dōbutsu",
+			"authors": [
+				"Ben's Brew"
+			],
+			"version": "1.0.0",
+			"url": "https://github.com/samaxor/5eHomebrew",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [{
+		"name": "Dōbutsu",
+		"source": "Ben's Brew",
+		"size": "M",
+		"speed": {
+			"walk": 30
+		},
+		"ability": [{
+			"wis": 2
+		}],
+		"entries": [{
+				"name": "Age",
+				"type": "entries",
+				"entries": [
+					"Dōbutsu come of age in their teens and rarely exceed one century."
+				]
+			},
+			{
+				"name": "Alignment",
+				"type": "entries",
+				"entries": [
+					"Being so closely aligned with the fey, dōbutsu take after them and their chaotic natures."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Size",
+				"entries": [
+					"Dōbutsu vary from below five feet to seven feet tall. Your size is Medium."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Speed",
+				"entries": [
+					"Your base walking speed is 30 feet."
+				]
+			}
+		]
+	}]
+}
