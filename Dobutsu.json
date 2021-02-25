@@ -51,7 +51,43 @@
 				"entries": [
 					"Your base walking speed is 30 feet."
 				]
+			},
+			{
+				"type": "entries",
+				"name": "Beast Senses",
+				"entries": [
+					"You are proficient in the Perception skill."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Darkvision",
+				"entries": [
+					"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Natural Weapons",
+				"entries": [
+					"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Languages",
+				"entries": [
+					"You can speak, read and write Common and Sylvan."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Subrace",
+				"entries": [
+					"You may choose the type of dōbutsu you will be. There are four types: Neko, Kitsune, Okami or Usagi."
+				]
 			}
+
 		]
 	}]
 }
