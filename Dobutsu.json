@@ -1,9 +1,9 @@
 {
 	"_meta": {
 		"sources": [{
-			"json": "Dōbutsu",
-			"abbreviation": "Dōbutsu",
-			"full": "Dōbutsu",
+			"json": "Dobutsu",
+			"abbreviation": "Dobutsu",
+			"full": "Dobutsu",
 			"authors": [
 				"Ben's Brew"
 			],
@@ -15,7 +15,7 @@
 		"dateLastModified": 0
 	},
 	"race": [{
-		"name": "Dōbutsu",
+		"name": "Dobutsu",
 		"source": "Ben's Brew",
 		"size": "M",
 		"speed": {
