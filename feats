@@ -1,0 +1,38 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "feats",
+			"abbreviation": "Feats",
+			"full": "Feats",
+			"authors": [
+				"Ben's Brew"
+			],
+			"version": "1.0.0",
+			"url": "https://github.com/samaxor/5eHomebrew",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"feat": [{
+			"name": "Arcane Armour",
+			"source": "Ben's Brew",
+"prerequisite": [
+    {
+        "spellcasting": true
+    },
+]
+			"entries": [
+				"You manifest magic around you, granting you additional protection. While you are not wearing any armour, your base AC equals 10 + your Dexterity modifier + your spellcasting ability modifier.",
+
+			],
+		},
+		{
+			"name": "Combat Champion",
+			"source": "Ben's Brew",
+			"entries": [
+				"You know exactly what it takes to survive on the battlefield - training and reflexes. You learn one fighting style of your choice from the fighter class. Not only that, but you cannot learn a fighting style that you already have picked before. "
+			]
+		}
+	]
+}
