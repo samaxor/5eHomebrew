@@ -54,8 +54,12 @@
 			"source": "Ben's Brew",
 			"prerequisite": [{
 				"ability": [{
-					"dex": 13
-				}]
+						"str": 13
+					},
+					{
+						"dex": 13
+					}
+				]
 			}],
 			"ability": [{
 				"choose": {
@@ -72,6 +76,36 @@
 					"type": "list",
 					"items": [
 						"Whenever a creature attacks you, you can use your reaction to make one melee attack towards that creature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dual Caster",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"spellcasting": true
+			}],
+			"entries": [
+				"You have mastered the ability to cast multiple spells at once. Whenever you use your action to cast a cantrip that deals damage as an action, you can cast an additional cantrip as a bonus action. The additional cantrip cannot cause damage in this way."
+
+			]
+		},
+		{
+			"name": "Dual Wield Master",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"ability": [{
+					"dex": 13
+				}]
+			}],
+			"entries": [
+				"You are well practised with making rapid strikes with a weapon in your off-hand, and gain the following benefits. However, your second off-hand attack can not add special optional attacks like a paladin's smite.",
+				{
+					"type": "list",
+					"items": [
+						"If you use two-weapon fighting to use a bonus action to attack with a light weapon, you can attack twice with it instead of once. This can be done with a non-light weapon if used in conjunction with the feat Dual Wielder.",
+						"If you throw a light weapon, you can draw another light weapon as part of the action. This can be done with a non-light weapon if used in conjunction with the feat Dual Wielder."
 					]
 				}
 			]
