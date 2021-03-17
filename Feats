@@ -71,8 +71,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Whenever a creature attacks you, you can use your reaction to make one melee attack towards that creature.",
-						"Increase your Strength or Dexterity by 1, to a maximum of 20."
+						"Whenever a creature attacks you, you can use your reaction to make one melee attack towards that creature."
 					]
 				}
 			]
