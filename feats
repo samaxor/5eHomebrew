@@ -17,15 +17,13 @@
 	"feat": [{
 			"name": "Arcane Armour",
 			"source": "Ben's Brew",
-"prerequisite": [
-    {
-        "spellcasting": true
-    },
-]
+			"prerequisite": [{
+				"spellcasting": true
+			}],
 			"entries": [
-				"You manifest magic around you, granting you additional protection. While you are not wearing any armour, your base AC equals 10 + your Dexterity modifier + your spellcasting ability modifier.",
+				"You manifest magic around you, granting you additional protection. While you are not wearing any armour, your base AC equals 10 + your Dexterity modifier + your spellcasting ability modifier."
 
-			],
+			]
 		},
 		{
 			"name": "Combat Champion",
