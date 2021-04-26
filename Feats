@@ -135,7 +135,7 @@
 			"entries": [{
 				"type": "list",
 				"items": [
-					"You gain proficiency in the [@skill arcana} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+					"You gain proficiency in the {@skill arcana} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
 					"You learn the prestidigitation and detect magic spells. You can cast detect magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
 				]
 			}]
@@ -178,6 +178,53 @@
 					"You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn’t currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area"
 				]
 			}]
+		},
+		{
+			"name": "Surface Dweller",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"other": "Sunlight Sensitivity"
+			}],
+			"ability": [{
+				"wis": 1
+			}],
+			"entries": [
+				"You have spent enough time in the sun that you have grown accustomed to it. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You lost the Sunlight Sensitivity trait",
+						"You gain proficiency with the {@skill perception} skill",
+						"Once you take this feat, you learn the light cantrip if you do not already know it. Once you reach 5th level, you can also cast the spell daylight once per long rest. Wisdom is your spell casting ability modifier for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Improbalbe Strength",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"other": "Small sized race"
+			}],
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"You're unnaturally strong for your size. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain advantage on ability checks to escape from a grapple or the restrained condition",
+						"You are considered one size larger for the purposes of grappling, shoving, carry weight, and wielding weapons. If you already have this benefit from a different source, or if you are under the 'enlarge' effect of the enlarge/reduce spell, you deal an extra 1d4 damage once per turn when you with a heavy and/or two-handed weapon."
+					]
+				}
+			]
 		}
 	]
 }
