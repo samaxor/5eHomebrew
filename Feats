@@ -240,6 +240,145 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Adapted to Darkness",
+			"source": "Ben's Brew",
+			"ability": [{
+				"wis": 1
+			}],
+			"entries": [
+				"You have learned to cope with the darkness to the extreme, honing your senses to supernatural levels and gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain Darkvision out to 30 feet. If you already have Darkvision, or gain it later from another source, increase the range of that Darkvision by 30 feet instead."
+					]
+				}
+			]
+		},
+		{
+			"name": "Adept Spellcraft",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"spellcasting": true
+			}],
+			"entries": [
+				"Through hard work and dedication to the craft of spellcasting, you have learned to alter the effects of your spells, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn a Metamagic option from the Metamagic list in the Sorcerer class except for Empowered Spell, Heightened Spell, or Quickened Spell. Replace Charisma in the Metamagic’s description with the spellcasting ability of the spell used, if different, and you may choose to spend the appropriate amount of Spellcraft Points (instead of Sorcery Points) to apply the effects of your Metamagic.",
+						"You gain 2 Spellcraft Points, which you regain each time you complete a long rest. You may use these Spellcraft Points to fuel your Metamagic option chosen by this feat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bully",
+			"source": "Ben's Brew",
+			"entries": [
+				"You’ve mastered the brutal art of kicking your opponent while they’re down and taking advantage of any and every opening you can find, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on opportunity attacks.",
+						"You are granted an opportunity attack when a creature within your reach attempts to stand up from being prone.",
+						"When you are granted an opportunity attack against a creature, instead of a melee attack you may choose to perform a shove attempt against that creature, with advantage on your roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deadeye",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"ability": [{
+						"str": 13
+					},
+					{
+						"dex": 13
+					}
+				]
+			}],
+			"entries": [
+				"Knives, darts, and javelins are playtoys to you, and you make it apparent with how easily and mind-boggling well you use them. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"The normal range of your thrown weapon attacks is increased by 10, and the maximum range is increased by 30.",
+						"You may draw a weapon with the thrown property with a free hand after each attack you make with a weapon.",
+						"You may choose to treat a ranged attack you make with a thrown weapon as a ranged weapon attack, applying the benefits of any racial, class, or feat abilities you have which affect your ranged attacks.",
+						"Once on each of your turns when you hit with an attack made with a weapon with the thrown property, you may choose to make it a special ricochet attack, bouncing your weapon off the first target to hit another. Select another creature within the weapon’s normal throwing range of the original target of your attack, and if the original attack roll would have also hit that target, deal damage to it equal to the damage dice of the weapon, of its type. You must release the weapon from your hand if the triggering attack was a melee attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "Element-Touched",
+			"source": "Ben's Brew",
+			"entries": [
+				"You’ve become innately attuned to a certain elemental force, perhaps by distant blood, or perhaps due to a supernatural pact or event. Select acid, cold, fire, thunder, lightning, poison, radiant, or necrotic damage, and gain the following benefits based on your choice:",
+				{
+					"type": "list",
+					"items": [
+						"You have resistance to the chosen type of damage.",
+						"When you score a critical hit with an attack roll, you deal an additional 1d4 damage of the chosen type."
+					]
+				}
+			]
+		},
+		{
+			"name": "Learned Caster",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"other": "The ability to learn spells or elemental disciplines from a list"
+			}],
+			"ability": [{
+				"choose": {
+					"from": [
+						"int",
+						"wis",
+						"cha"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"You’ve toiled more than the average caster to perfect your magics, tapping into previously unknown powers and gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn an additional 2 level 5 or lower spells from one of your class spell lists of levels which you can cast for that class, or gain an additional 2 elemental disciplines for which you meet the requirements for.",
+						"When you gain a level, you may choose to replace 1 of your known spells or elemental disciplines for a new one you meet the requirements for in that class."
+					]
+				}
+			]
+		},
+		{
+			"name": "One With the Sea",
+			"source": "Ben's Brew",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"con"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"Swimming and diving are sport to you, having expanded your lung capacity, perfected your stroke technique, and honed your senses to underwater dangers. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You may swim at your normal movement speed in any body of water with a current weaker than that of strong rapids.",
+						"You may hold your breath twice as long as normal.",
+						"You have advantage on all Constitution checks made to hold your breath, or to swim for an extended period of time.",
+						"While actively searching, you have advantage on Wisdom (Perception) checks made to notice objects or creatures which are submerged in water."
+					]
+				}
+			]
 		}
 	]
 }
