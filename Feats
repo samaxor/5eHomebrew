@@ -28,6 +28,15 @@
 		{
 			"name": "Combat Champion",
 			"source": "Ben's Brew",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
+				}
+			}],
 			"entries": [
 				"You know exactly what it takes to survive on the battlefield - training and reflexes. You learn one fighting style of your choice from the fighter class. Not only that, but you cannot learn a fighting style that you already have picked before. "
 			]
@@ -110,6 +119,65 @@
 				}
 			]
 
+		},
+		{
+			"name": "Magus",
+			"source": "Ben's Brew",
+			"ability": [{
+				"choose": {
+					"from": [
+						"int",
+						"wis"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [{
+				"type": "list",
+				"items": [
+					"You gain proficiency in the [@skill arcana} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+					"You learn the prestidigitation and detect magic spells. You can cast detect magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+				]
+			}]
+		},
+		{
+			"name": "Weapon Artist",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"other": "Proficiency in the weapon type chosen "
+			}],
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"You have become an artist with your preferred type of weapon. You gain the following benefits: ",
+				{
+					"type": "list",
+					"items": [
+						"Choose a particular weapon type (i.e. long swords, spear, quarterstaff, short bow, etc). When you attack with your chosen weapon type, your critical range extends by 1, and you score a critical hit on a 19 or 20."
+					]
+				}
+			]
+		},
+		{
+			"name": "Zookeeper",
+			"source": "Ben's Brew",
+			"ability": [{
+				"wis": 1
+			}],
+			"entries": [{
+				"type": "list",
+				"items": [
+					"You gain proficiency in the {@skill animal handling} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it. ",
+					"You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn’t currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area"
+				]
+			}]
 		}
 	]
 }
