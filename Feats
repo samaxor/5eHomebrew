@@ -379,6 +379,217 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Point Blank Shot",
+			"source": "Ben's Brew",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"con"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"You have adapted to fighting in close quarters, using smaller ranged weapons to angle effectively and fire rapidly. You gain the following benefits when using a ranged weapon without the Heavy property:",
+				{
+					"type": "list",
+					"items": [
+						"When attacking a creature within 30 feet of you with a ranged attack, neither being within 5 feet of a hostile creature, nor the target being prone, imposes the normal disadvantage to the attack roll.",
+						"When a hostile creature’s movement would provoke an opportunity attack from you by leaving a space within 5 feet of you, you can use your reaction to make a ranged attack against that creature with a -5 penalty to the attack roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Second Skin",
+			"source": "Ben's Brew",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"You’ve become so accustomed to wearing your armor that it no longer feels like it’s there to you, granting the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You don and doff armor in half the normal time, or ¼ the time if assisted.",
+						"You can don or doff a shield using your free item interaction for the turn, instead of as an action.",
+						"While moving at half your normal speed or resting, you do not take any penalties or disadvantages to your ability checks normally imposed by wearing medium or heavy armor."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skilled Worker",
+			"source": "Ben's Brew",
+			"ability": [{
+				"choose": {
+					"from": [
+						"int",
+						"wis"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"Through hard work and dedication to your trade, you become a cut above the rest of the craftsmen and gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in one tool of your choice. Alternatively, you may select 1 of your current tool proficiencies and apply double your proficiency bonus when making ability checks using that tool.",
+						"When you choose to craft during downtime using a tool you are proficient with, you craft at a rate of 10 + three times your level in gold pieces per day, instead of the normal amount.",
+						"While crafting during downtime, you can now maintain a comfortable lifestyle at no cost."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tactician",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"ability": [{
+					"int": 13
+				}]
+			}],
+			"entries": [
+				"You have a mind for battle, using your superior intellect to predict your opponent’s moves before they make them, and prepare yourself for attack, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You may use your Intelligence modifier in place of your Dexterity modifier when calculating your Armour Class, including whilel wearing armour but not when using alternate calculations to your Armour Cloass. Any maximum modifier bonus is still applied to the new ability modifier.",
+						"When you are not surprised, before you roll initiative, you may take a -5 penalty to the roll to gain a +2 bonus to your Armor Class, as well as to all attack rolls adn saving throws you make, until the end of your first turn in combat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Athlete (Improved)",
+			"source": "Ben's Brew",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"You have undergone extensive physical training to gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you are {@condition prone}, standing up uses only 5 feet of your movement.",
+						"Climbing doesn't cost you extra movement.",
+						"You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.",
+						"Once per long rest, when you make an {@skill Athletics} or {@skill Acrobatics} check, you may choose to roll 1d6 and add it to the result. You must make this choice after seeing the roll, but before you know the results."
+					]
+				}
+			]
+		},
+		{
+			"name": "Charger (Improved)",
+			"source": "Ben's Brew",
+			"entries": [
+				"When you use your action to {@action Dash}, you can use a bonus action to make one melee weapon attack or to {@action shove} a creature.",
+				"If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).",
+				"When you successfully shove a creature, you may also choose to deal 5 bludgeoning damage to it."
+			]
+		},
+		{
+			"name": "Dungeon Delver (Improved)",
+			"source": "Ben's Brew",
+			"entries": [
+				"Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors.",
+						"You have advantage on saving throws made to avoid or resist traps.",
+						"You have resistance to the damage dealt by traps.",
+						"Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom ({@skill Perception}) score.",
+						"You have advantage on {@skill History} and {@skill Arcana} checks made to identify particular traps and dungeons."
+					]
+				}
+			]
+		},
+		{
+			"name": "Healer (Improved)",
+			"source": "Ben's Brew",
+			"entries": [
+				"You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you use a {@item healer's kit|phb} to stabilize a dying creature, that creature also regains hit points equal to your level.",
+						"As an action, you can spend one use of a {@item healer's kit|phb} to tend to a creature and restore {@dice 1d6 + 4} hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Heavy Armor Master (Improved)",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"proficiency": [{
+					"armor": "heavy"
+				}]
+			}],
+			"ability": [{
+				"str": 1
+			}],
+			"entries": [
+				"You can use your armor to deflect strikes that would kill others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"While you are wearing heavy armor, all damage that you take is reduced by 3."
+					]
+				}
+			]
+		},
+		{
+			"name": "Linguist (Improved)",
+			"source": "Ben's Brew",
+			"ability": [{
+				"int": 1
+			}],
+			"languageProficiencies": [{
+				"any": 3
+			}],
+			"entries": [
+				"You have studied languages and codes, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn three languages of your choice.",
+						"You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it.",
+						"Your mastery of language has afforded you a way with words. Once per long rest, when you make a Charisma ability check, you may choose to roll 1d6 and add it to the result. You must make this choice after seeing the roll, but before you know the results."
+					]
+				}
+			]
+		},
+		{
+			"name": "Savage Attacker (Improved)",
+			"source": "Ben's Brew",
+			"entries": [
+				"Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total. Additionally, once per long rest, when you score a critical hit with an attack, you may choose to add a single additional weapon die of damage. You must make this decision after you see the attack roll, but before damage is rolled."
+			]
+		},
+		{
+			"name": "Tough (Improved)",
+			"source": "Ben's Brew",
+			"entries": [
+				"Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points. Additionally, once per long rest, you may choose to reroll a single death saving throw and use the higher result."
+			]
 		}
 	]
 }
