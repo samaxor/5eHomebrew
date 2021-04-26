@@ -38,7 +38,13 @@
 				}
 			}],
 			"entries": [
-				"You know exactly what it takes to survive on the battlefield - training and reflexes. You learn one fighting style of your choice from the fighter class. Not only that, but you cannot learn a fighting style that you already have picked before. "
+				"You know exactly what it takes to survive on the battlefield: training and reflexes. You gain the following benefits: ",
+				{
+					"type": "list",
+					"items": [
+						"You learn one fighting style of your choice from the fighter class. Not only that, but you cannot learn a fighting style that you already have picked before."
+					]
+				}
 			]
 		},
 		{
@@ -47,13 +53,16 @@
 			"ability": [{
 				"wis": 1
 			}],
-			"entries": [{
-				"type": "list",
-				"items": [
-					"You gain proficiency in the {@skill medicine} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-					"During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom ({@skill medicine}) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends."
-				]
-			}],
+			"entries": [
+				"You master the physician’s arts, gaining the following benefits: ",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill medicine} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom ({@skill medicine}) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends."
+					]
+				}
+			],
 			"skillProficiencies": [{
 				"medicine": true
 			}]
@@ -132,13 +141,16 @@
 					"amount": 1
 				}
 			}],
-			"entries": [{
-				"type": "list",
-				"items": [
-					"You gain proficiency in the {@skill arcana} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-					"You learn the prestidigitation and detect magic spells. You can cast detect magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
-				]
-			}]
+			"entries": [
+				"You study the arcane arts, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill arcana} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+						"You learn the prestidigitation and detect magic spells. You can cast detect magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
+					]
+				}
+			]
 		},
 		{
 			"name": "Weapon Artist",
@@ -171,13 +183,16 @@
 			"ability": [{
 				"wis": 1
 			}],
-			"entries": [{
-				"type": "list",
-				"items": [
-					"You gain proficiency in the {@skill animal handling} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it. ",
-					"You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn’t currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area"
-				]
-			}]
+			"entries": [
+				"You master the techniques needed to train and handle animals. You gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill animal handling} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it. ",
+						"You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn’t currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area"
+					]
+				}
+			]
 		},
 		{
 			"name": "Surface Dweller",
@@ -201,7 +216,7 @@
 			]
 		},
 		{
-			"name": "Improbalbe Strength",
+			"name": "Improbable Strength",
 			"source": "Ben's Brew",
 			"prerequisite": [{
 				"other": "Small sized race"
