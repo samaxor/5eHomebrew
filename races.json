@@ -342,6 +342,101 @@
 					}]
 				}
 			]
+		},
+		{
+			"name": "Starforged",
+			"source": "Ben's Brew",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [{
+				"con": 2,
+				"choose": {
+					"from": [
+						"str",
+						"dex",
+						"int",
+						"wis",
+						"cha"
+					],
+					"count": 1
+				}
+			}],
+			"traitTags": [
+				"Starforged Resilience",
+				"Natural Armor"
+			],
+			"languageProficiencies": [{
+				"common": true,
+				"anyStandard": 1
+			}],
+			"resist": [
+				"cold"
+			],
+			"conditionImmune": [
+				"disease"
+			],
+			"entries": [{
+					"name": "Age",
+					"entries": [
+						"After achieving sentience, starforged mature at the same age as humans. They can live until their core run out of energy, a process that can take up to 700 years."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Most starforged take comfort in order and discipline, tending toward law and neutrality, but some have absorbed the morality—or lack thereof—of the beings they served with."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Most starforged stand between 5 and 6½ feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Starforged Resilience",
+					"entries": [
+						"Your constructed and cosmic nature grants you the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You have resistance to cold damage",
+								"You don't need to eat, drink, or breathe.",
+								"You are immune to disease.",
+								"You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can't put you to sleep."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentry's Rest",
+					"entries": [
+						"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious}, and you can see and hear as normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Integrated Protection",
+					"entries": [
+						"Your body is composed of metal, stone, and strands of starlight. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				}
+			]
 		}
 
 	]
