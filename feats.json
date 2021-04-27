@@ -464,7 +464,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You may use your Intelligence modifier in place of your Dexterity modifier when calculating your Armour Class, including whilel wearing armour but not when using alternate calculations to your Armour Cloass. Any maximum modifier bonus is still applied to the new ability modifier.",
+						"You may use your Intelligence modifier in place of your Dexterity modifier when calculating your Armour Class, including while wearing armour but not when using alternate calculations to your Armour Cloass. Any maximum modifier bonus is still applied to the new ability modifier.",
 						"When you are not surprised, before you roll initiative, you may take a -5 penalty to the roll to gain a +2 bonus to your Armor Class, as well as to all attack rolls adn saving throws you make, until the end of your first turn in combat."
 					]
 				}
