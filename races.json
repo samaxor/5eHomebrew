@@ -530,49 +530,62 @@
 			"subraces": [{
 					"name": "Geo-Construct",
 					"source": "Ben's Brew",
-					"entries": [
-						"You are composed of mostly inorganic matter, be it metal, stone or crystals. You gain the following traits:",
-						{
-							"type": "list",
-							"items": [
-								"You gain immunity to poison damage and the poisoned condition.",
-								"You don't need to eat, drink, or breathe.",
-								"When you are reduced to 0 hit points but not killed outright, you can use your reaction to drop to 1 hit point instead. You cannot use this feature again until you finish a long rest."
-							]
-						}
-					]
+					"entries": [{
+						"name": "Geo-Construct",
+						"type": "entries",
+						"entries": [
+							"You are composed of mostly inorganic matter, be it metal, stone or crystals. You gain the following traits:",
+							{
+								"type": "list",
+								"items": [
+									"You gain immunity to poison damage and the poisoned condition.",
+									"You don't need to eat, drink, or breathe.",
+									"When you are reduced to 0 hit points but not killed outright, you can use your reaction to drop to 1 hit point instead. You cannot use this feature again until you finish a long rest."
+								]
+							}
+						]
+					}]
+
 				},
 				{
 					"name": "Dendro-Contruct",
 					"source": "Ben's Brew",
-					"entries": [
-						"You are made of wood and other plant-derived materials, causing your body to work similarly to a plant. You gain the following traits:",
-						{
-							"type": "list",
-							"items": [
-								"You do not need to sleep. Instead, you can rest by doing light activity while remaining relative still (like keeping watch or reading a book).",
-								"You do not need to eat or drink as long as you have access to sunlight or a good amount of soil.",
-								"You can go 1 hour without breathing without suffering ill consequences.",
-								"You gain proficiency in the Nature or Survival skills."
-							]
-						}
-					]
+					"entries": [{
+						"name": "Dendro-Contruct",
+						"type": "entries",
+						"entries": [
+							"You are made of wood and other plant-derived materials, causing your body to work similarly to a plant. You gain the following traits:",
+							{
+								"type": "list",
+								"items": [
+									"You do not need to sleep. Instead, you can rest by doing light activity while remaining relative still (like keeping watch or reading a book).",
+									"You do not need to eat or drink as long as you have access to sunlight or a good amount of soil.",
+									"You can go 1 hour without breathing without suffering ill consequences.",
+									"You gain proficiency in the Nature or Survival skills."
+								]
+							}
+						]
+					}]
 				},
 				{
 					"name": "Necro-Construct",
 					"source": "Ben's Brew",
-					"entries": [
-						"Your body is constructed using organic matter in the necromantic way, and thus share characteristics of an undead. You gain the following traits:",
-						{
-							"type": "list",
-							"items": [
-								"You gain resistance to necrotic damage.",
-								"You have advantage on checks and saving throws to avoid exhaustion.",
-								"You can go 1 hour without breathing without suffering ill consequences.",
-								"You have some form of innate magic implanted into your system. You learn one cantrip. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
-							]
-						}
-					]
+					"entries": [{
+						"name": "Geo-Construct",
+						"type": "entries",
+						"entries": [
+							"Your body is constructed using organic matter in the necromantic way, and thus share characteristics of an undead. You gain the following traits:",
+							{
+								"type": "list",
+								"items": [
+									"You gain resistance to necrotic damage.",
+									"You have advantage on checks and saving throws to avoid exhaustion.",
+									"You can go 1 hour without breathing without suffering ill consequences.",
+									"You have some form of innate magic implanted into your system. You learn one cantrip. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+								]
+							}
+						]
+					}]
 				}
 			]
 		}
