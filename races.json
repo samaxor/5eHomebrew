@@ -214,7 +214,9 @@
 			"size": [
 				"M"
 			],
-			"speed": 30,
+			"speed": {
+				"walk": 30
+			},
 			"ability": [{
 				"str": 1,
 				"con": 1
@@ -349,7 +351,9 @@
 			"size": [
 				"M"
 			],
-			"speed": 30,
+			"speed": {
+				"walk": 30
+			},
 			"ability": [{
 				"con": 2,
 				"choose": {
@@ -434,6 +438,140 @@
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and one other language of your choice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Automata",
+			"source": "Ben's Brew",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"ability": [{
+				"con": 1,
+				"choose": {
+					"from": [
+						"str",
+						"dex",
+						"int",
+						"wis",
+						"cha"
+					],
+					"count": 1
+				}
+			}],
+			"languageProficiencies": [{
+				"common": true,
+				"anyStandard": 1
+			}],
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"disease"
+			],
+			"entries": [{
+					"name": "Age",
+					"entries": [
+						"Automatas don't age in the same way as other races do, but their body slowly decays if not taken care of properly. Automata can survive only for 5 to 50 years, depending on what it is made of, if it doesn't have access to the proper materials or tools required for its maintenance. After that time, it will crumble, rust or rot away. Proper maintenance can make an Automata immortal.",
+						"For the purpose of game mechanics, you're immune to biological aging, both magical and non-magical."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Built as slaves or servants, most Automatas keep their 'rule - encased ' mentality even when free, and tend therefore towards lawful alignments. They don't seem to show a predilection for good or evil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"An Automata's size can vary greatly, ranging from as little as 3 feet to more than 8. Your size is either Medium or Small (your choice). "
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Artificial being",
+					"entries": [
+						"Even though you still count as a humanoid, your body doesn't work as the one of any other mortal race. You gain the following additional traits:",
+						{
+							"type": "list",
+							"items": [
+								"You have advantage on saving throws against being poisoned, and you have resistance to poison damage.",
+								"You are immune to disease.",
+								"You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.",
+								"While you live, the armor incorporated into your body can't be removed against your will."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Not far from humanoids.",
+					"entries": [
+						"Even though you are not made of flesh and bone (at least in most cases), you still need to enter a 'sleeping ' state for 6 hours a day, like a normal person would, though it's more like a temporary shut-down to you. Most Automatas can't dream.','Also, you don't necessarily need to eat, but you do require to consume some kind of energy in order to keep yourself active: it could be sunlight, coal, or even food. The DM will decide whether your choice of power source is eligible or not. In order to keep all your systems functioning you also require air (be it for some kind of chemical/ magical/ photosynthetic reaction that happens inside you or something else) like a normal human would."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				}
+			],
+			"subraces": [{
+					"name": "Geo-Construct",
+					"source": "Ben's Brew",
+					"entries": [
+						"You are composed of mostly inorganic matter, be it metal, stone or crystals. You gain the following traits:",
+						{
+							"type": "list",
+							"items": [
+								"You gain immunity to poison damage and the poisoned condition.",
+								"You don't need to eat, drink, or breathe.",
+								"When you are reduced to 0 hit points but not killed outright, you can use your reaction to drop to 1 hit point instead. You cannot use this feature again until you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"name": "Dendro-Contruct",
+					"source": "Ben's Brew",
+					"entries": [
+						"You are made of wood and other plant-derived materials, causing your body to work similarly to a plant. You gain the following traits:",
+						{
+							"type": "list",
+							"items": [
+								"You do not need to sleep. Instead, you can rest by doing light activity while remaining relative still (like keeping watch or reading a book).",
+								"You do not need to eat or drink as long as you have access to sunlight or a good amount of soil.",
+								"You can go 1 hour without breathing without suffering ill consequences.",
+								"You gain proficiency in the Nature or Survival skills."
+							]
+						}
+					]
+				},
+				{
+					"name": "Necro-Construct",
+					"source": "Ben's Brew",
+					"entries": [
+						"Your body is constructed using organic matter in the necromantic way, and thus share characteristics of an undead. You gain the following traits:",
+						{
+							"type": "list",
+							"items": [
+								"You gain resistance to necrotic damage.",
+								"You have advantage on checks and saving throws to avoid exhaustion.",
+								"You can go 1 hour without breathing without suffering ill consequences.",
+								"You have some form of innate magic implanted into your system. You learn one cantrip. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+							]
+						}
 					]
 				}
 			]
