@@ -15,35 +15,36 @@
 		"dateLastModified": 0
 	},
 	"charoption": [{
-		"name": "Villager",
-		"source": "Ben's Brew",
-		"optionType": "OF",
-		"entries": [
-			"Improved Background. This feature replaces the background of your character. As a simple villiger, you gain the following benefits:",
-			{
-				"type": "list",
-				"items": [
-					"Hardy body. +2 to all saving throws",
-					"Untapped potential. +2 to any ability score"
-				]
-			},
-			{
-				"name": "Villager",
-				"source": "Ben's Brew",
-				"optionType": "OF",
-				"entries": [
-					"You grew up around wealth and noblilty, thus gaining the following benefits:",
-					{
-						"type": "list",
-						"items": [
-							"Well fed. +5 to maximum health.",
-							"Noble education. You learn two additional languages/proficiencies and gain a +1 to any two ability scores."
-						]
-					}
-				]
+			"name": "Villager",
+			"source": "Ben's Brew",
+			"optionType": "OF",
+			"entries": [
+				"Improved Background. This feature replaces the background of your character. As a simple villiger, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Hardy body. +2 to all saving throws",
+						"Untapped potential. +2 to any ability score"
+					]
+				}
+			]
+		},
+		{
+			"name": "Noble",
+			"source": "Ben's Brew",
+			"optionType": "OF",
+			"entries": [
+				"You grew up around wealth and noblilty, thus gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Well fed. +5 to maximum health.",
+						"Noble education. You learn two additional languages/proficiencies and gain a +1 to any two ability scores."
+					]
+				}
+			]
 
 
-			}
-		]
-	}]
+		}
+	]
 }
