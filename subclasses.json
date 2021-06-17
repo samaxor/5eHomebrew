@@ -1,0 +1,207 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "subclasses",
+			"abbreviation": "Subclasses",
+			"full": "Irin Subclasses Volume 1",
+			"authors": [
+				"Ben's Brew"
+			],
+			"version": "1.0.0",
+			"url": "https://github.com/samaxor/5eHomebrew"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"subclass": [{
+		"name": "Protection Domain",
+		"shortName": "Protection",
+		"source": "Ben's Brew",
+		"subclassSpells": [{
+				"name": "Sanctuary",
+				"source": "PHB"
+			},
+			{
+				"name": "Shield of Faith",
+				"source": "PHB"
+			},
+			{
+				"name": "Aid",
+				"source": "PHB"
+			},
+			{
+				"name": "Warding Bond",
+				"source": "PHB"
+			},
+			{
+				"name": "Beacon of Hope",
+				"source": "PHB"
+			},
+			{
+				"name": "Glyoh of Warding",
+				"source": "PHB"
+			},
+			{
+				"name": "Aura of Purity",
+				"source": "PHB"
+			},
+			{
+				"name": "Stone Skin",
+				"source": "PHB"
+			},
+			{
+				"name": "Circle of Power",
+				"source": "PHB"
+			},
+			{
+				"name": "Wall of Force",
+				"source": "PHB"
+			}
+		],
+		"subclassFeatures": [
+			"Bonus Proficiency|Cleric||Protection|protectiondomain|1",
+			"Shield the Defenseless|Cleric||Protection|protectiondomain|1",
+			"Channel Divinity: Safeguard|Cleric||Protection|protectiondomain|2",
+			"Preservation|Cleric||Protection|protectiondomain|6",
+			"Divine Strike|Cleric||Protection|protectiondomain|8",
+			"Imposition of the Immortal|Cleric||Protection|protectiondomain|17"
+		],
+		"className": "Cleric",
+		"classSource": "PHB"
+	}],
+	"subclassFeature": [{
+			"name": "Protection Domain",
+			"source": "Ben's Brew",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "Ben's Brew",
+			"level": 1,
+			"entries": [
+				"Often manifested in clerics who worship Lord Ao or Chauntea, those under the protection domain try to heal the sick and prevent more harm. On account of this, they do not usually partake in causing even more harm, including to their enemies. They are pacifists who would prefer to talk things out, but still defend themselves when required. Very few will take arms against an enemy. Many will carry a simple dagger, but that can be used in a pinch to cut bandages. Others will stretch their calling into battle, bulking in armor and shields to not be hurt. Their way of thinking is that if they're unable to be hurt from a deadly blow, they can step in place of an attack to an ally.",
+				{
+					"type": "table",
+					"caption": "Protection Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell bane}, {@spell dissonant whispers}"
+						],
+						[
+							"3rd",
+							"{@spell ray of enfeeblement}, {@spell shatter}"
+						],
+						[
+							"5th",
+							"{@spell bestow curse}, {@spell dispel magic}"
+						],
+						[
+							"7th",
+							"{@spell confusion}, {@spell blight}"
+						],
+						[
+							"9th",
+							"{@spell contagion}, {@spell destructive wave}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||Protection|protectiondomain|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shield the Defenseless|Cleric||Protection|protectiondomain|1"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Bonus Proficiency",
+			"entries": [
+				"At 1st level, you gain proficiency in heavy armor."
+			],
+			"source": "Ben's Brew",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "Ben's Brew",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Shield the Defenseless",
+			"entries": [
+				"From 1st level, you have been trained to be in the thick of battle, curing the wounds of the knights and paladins. You gain the protection fighting style. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield. At 8th level, you no longer have to be within 5 feet of a creature to use this feature. Instead, a shield of radiance protects the creature. You must be within 30 feet of them, and must be able to see them."
+			],
+			"source": "Ben's Brew",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "Ben's Brew",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Channel Divinity: Safeguard",
+			"source": "Ben's Brew",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "Ben's Brew",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can make it harder for your friends to be harmed in battle. As an action, you may touch one friendly creature within 5 feet of you. Attack rolls against the selected creature have disadvantage until end of your next turn."
+			]
+		},
+		{
+			"name": "Presevation",
+			"source": "Ben's Brew",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "Ben's Brew",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can help preserve your allies on the battlefield or in a dungeon, where danger is everywhere. Whenever a creature within 30 feet of you makes a saving throw, you can use your reaction to grant them advantage."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "Ben's Brew",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "Ben's Brew",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type of damage by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "Imposition of the Immortal",
+			"source": "Ben's Brew",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "Ben's Brew",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Finally at 17th level, you can now protect all of your allies on the battlefield from hostile foes. Whenever you use the Safeguard channel divinity, it instead affects all friendly creatures within 30’ of the creature you touch."
+			]
+		}
+	]
+}
