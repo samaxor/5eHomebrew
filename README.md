@@ -1,10 +1,10 @@
 # 5eHomebrew
 ## STATUS
-- Backgrounds - WIP
-- Feats - Add as needed
-- Races - Add as needed
-- Subclasses - Add as needed
-- Spells - To do
+- **Backgrounds** - *WIP*
+- **Feats** - Add as needed
+- **Races** - Add as needed
+- **Subclasses** - Add as needed
+- **Spells** - *To do*
 
 #### Useful links
 
