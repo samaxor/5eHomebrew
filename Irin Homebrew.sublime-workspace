@@ -20,6 +20,14 @@
 		"selected_items":
 		[
 			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: PackageDev",
+				"Package Control: Discover Packages"
+			],
+			[
 				"Packagere",
 				"PackageResourceViewer: Open Resource"
 			],
@@ -52,10 +60,13 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/samax/AppData/Local/FoundryVTT/Data/Custom/Resources/5eHomebrew"
 	],
 	"file_history":
 	[
+		"/C/Users/samax/AppData/Local/FoundryVTT/Data/Custom/Resources/5eHomebrew/gists/8a319a5c27aa8c50ab2775897906cb0e/feats.json",
+		"/C/Users/samax/AppData/Local/FoundryVTT/Data/Custom/Resources/5eHomebrew/improvedBackgrounds.json",
+		"/C/Users/samax/AppData/Local/FoundryVTT/Data/Custom/Resources/5eHomebrew/backgrounds.json",
+		"/C/Users/samax/AppData/Local/FoundryVTT/Data/Custom/Resources/5eHomebrew/improvedBackgrounds",
 		"/C/Users/samax/AppData/Local/FoundryVTT/Data/Custom/Homebrew/JSON/Races"
 	],
 	"find":
@@ -104,7 +115,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -175,7 +186,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 257.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

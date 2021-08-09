@@ -26,28 +26,6 @@
 			]
 		},
 		{
-			"name": "Combat Champion",
-			"source": "Ben's Brew",
-			"ability": [{
-				"choose": {
-					"from": [
-						"str",
-						"dex"
-					],
-					"amount": 1
-				}
-			}],
-			"entries": [
-				"You know exactly what it takes to survive on the battlefield: training and reflexes. You gain the following benefits: ",
-				{
-					"type": "list",
-					"items": [
-						"You learn one fighting style of your choice from the fighter class. Not only that, but you cannot learn a fighting style that you already have picked before."
-					]
-				}
-			]
-		},
-		{
 			"name": "Corpsman",
 			"source": "Ben's Brew",
 			"ability": [{
@@ -258,23 +236,6 @@
 			]
 		},
 		{
-			"name": "Adept Spellcraft",
-			"source": "Ben's Brew",
-			"prerequisite": [{
-				"spellcasting": true
-			}],
-			"entries": [
-				"Through hard work and dedication to the craft of spellcasting, you have learned to alter the effects of your spells, gaining the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You learn a Metamagic option from the Metamagic list in the Sorcerer class except for Empowered Spell, Heightened Spell, or Quickened Spell. Replace Charisma in the Metamagic’s description with the spellcasting ability of the spell used, if different, and you may choose to spend the appropriate amount of Spellcraft Points (instead of Sorcery Points) to apply the effects of your Metamagic.",
-						"You gain 2 Spellcraft Points, which you regain each time you complete a long rest. You may use these Spellcraft Points to fuel your Metamagic option chosen by this feat."
-					]
-				}
-			]
-		},
-		{
 			"name": "Bully",
 			"source": "Ben's Brew",
 			"entries": [
@@ -428,30 +389,6 @@
 			]
 		},
 		{
-			"name": "Skilled Worker",
-			"source": "Ben's Brew",
-			"ability": [{
-				"choose": {
-					"from": [
-						"int",
-						"wis"
-					],
-					"amount": 1
-				}
-			}],
-			"entries": [
-				"Through hard work and dedication to your trade, you become a cut above the rest of the craftsmen and gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You gain proficiency in one tool of your choice. Alternatively, you may select 1 of your current tool proficiencies and apply double your proficiency bonus when making ability checks using that tool.",
-						"When you choose to craft during downtime using a tool you are proficient with, you craft at a rate of 10 + three times your level in gold pieces per day, instead of the normal amount.",
-						"While crafting during downtime, you can now maintain a comfortable lifestyle at no cost."
-					]
-				}
-			]
-		},
-		{
 			"name": "Tactician",
 			"source": "Ben's Brew",
 			"prerequisite": [{
@@ -513,10 +450,11 @@
 					"type": "list",
 					"items": [
 						"You have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors.",
+						"You have advantage on {@skill Investigation} and {@skill Arcana} checks made to identify particular traps and dungeons.",
 						"You have advantage on saving throws made to avoid or resist traps.",
 						"You have resistance to the damage dealt by traps.",
-						"Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom ({@skill Perception}) score.",
-						"You have advantage on {@skill History} and {@skill Arcana} checks made to identify particular traps and dungeons."
+						"Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom ({@skill Perception}) score."
+
 					]
 				}
 			]
@@ -589,6 +527,126 @@
 			"source": "Ben's Brew",
 			"entries": [
 				"Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points. Additionally, once per long rest, you may choose to reroll a single death saving throw and use the higher result."
+			]
+		},
+		{
+			"name": "Metamagician",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"spellcasting": true
+			}],
+			"entries": [
+				"You gain a deeper understanding of the functions of metamagic.", {
+					"type": "list",
+					"items": [
+						"You gain 1 sorcery point. You can only use this sorcery point on metamagic unless you have other features taht allows you to use sorcery points.",
+						"You gain one sorcerer metamagic option."
+					]
+				}
+
+			]
+		},
+		{
+			"name": "Metamagic Reservior",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"spellcasting": true
+			}],
+			"entries": [
+				"Your metamagic pool increases in size. Your maximum  sorcery points increase by 2."
+
+			]
+		},
+		{
+			"name": "Shield Bearer",
+			"source": "Ben's Brew",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"con"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"Sometimes, others can benefit from your skill with a shield more than you could.",
+				{
+					"type": "list",
+					"items": [
+						"You can choose to impose disadvantage on any attack of opportunity made against a creature within 5 feet of you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sniper",
+			"source": "Ben's Brew",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"Given the time to line up your shot, you inflict grievous wounds.",
+				{
+					"type": "list",
+					"items": [
+						"Attack at long range with a ranged weapon does not impose disadvantage on the attack roll.",
+						"At the start of your turn, you can reduce your speed to zero and deal additional damage equal to your proficiency bonus with your next ranged weapon attack made before the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bow Mastery",
+			"source": "Ben's Brew",
+			"entries": [
+				"Bows are used by many, but you have trained to make the most of them. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you use the Attack action with a shortbow on your turn, you can make one additional ranged weapon attack as a bonus action.",
+						"When you use a longbow, its damage die increases from a d8 to a d10.",
+						"You can use Strength instead of Dexterity for the attack and damage rolls you make with longbows."
+					]
+				}
+			]
+		},
+		{
+			"name": "Might of the Magus",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"spellcasting": true
+			}],
+			"ability": [{
+				"choose": {
+					"from": [
+						"int",
+						"wis",
+						"cha"
+					],
+					"amount": 1
+				}
+			}],
+			"entries": [
+				"When a creature rolls a 1 on the d20 roll of a saving throw against a spell you cast that deals damage, they take the maximum possible damage from the dice, instead of the result you rolled."
+
+			]
+		},
+		{
+			"name": "Gish's Aftermagic",
+			"source": "Ben's Brew",
+			"prerequisite": [{
+				"spellcasting": true
+			}],
+			"entries": [
+				"When you cast a spell of 1st level or higher that does damage, the next successful weapon attack you make before the end of your turn deals an additional 1d10 damage, the same type as the spell you cast."
+
 			]
 		}
 	]
