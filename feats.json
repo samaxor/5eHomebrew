@@ -96,7 +96,7 @@
 				}]
 			}],
 			"entries": [
-				"You are well practised with making rapid strikes with a weapon in your off-hand, and gain the following benefits. However, your second off-hand attack can not add special optional attacks like a paladin's smite.",
+				"You are well practiced with making rapid strikes with a weapon in your off-hand, and gain the following benefits. However, your second off-hand attack can not add special optional attacks like a paladin's smite.",
 				{
 					"type": "list",
 					"items": [
@@ -263,7 +263,7 @@
 				]
 			}],
 			"entries": [
-				"Knives, darts, and javelins are playtoys to you, and you make it apparent with how easily and mind-boggling well you use them. You gain the following benefits:",
+				"Knives, darts, and javelins are play toys to you, and you make it apparent with how easily and mind-boggling well you use them. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -401,7 +401,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You may use your Intelligence modifier in place of your Dexterity modifier when calculating your Armour Class, including while wearing armour but not when using alternate calculations to your Armour Cloass. Any maximum modifier bonus is still applied to the new ability modifier.",
+						"You may use your Intelligence modifier in place of your Dexterity modifier when calculating your Armour Class, including while wearing armour but not when using alternate calculations to your Armour Class. Any maximum modifier bonus is still applied to the new ability modifier.",
 						"When you are not surprised, before you roll initiative, you may take a -5 penalty to the roll to gain a +2 bonus to your Armor Class, as well as to all attack rolls adn saving throws you make, until the end of your first turn in combat."
 					]
 				}
@@ -547,7 +547,7 @@
 			]
 		},
 		{
-			"name": "Metamagic Reservior",
+			"name": "Metamagic Reservoir",
 			"source": "Ben's Brew",
 			"prerequisite": [{
 				"spellcasting": true
@@ -610,7 +610,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you use the Attack action with a shortbow on your turn, you can make one additional ranged weapon attack as a bonus action.",
+						"When you use the Attack action with a short bow on your turn, you can make one additional ranged weapon attack as a bonus action.",
 						"When you use a longbow, its damage die increases from a d8 to a d10.",
 						"You can use Strength instead of Dexterity for the attack and damage rolls you make with longbows."
 					]
