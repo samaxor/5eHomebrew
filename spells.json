@@ -1,0 +1,335 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "spells",
+			"abbreviation": "spells",
+			"full": "spells",
+			"authors": [
+				"Ben's Brew"
+			],
+			"version": "1.0.0",
+			"url": "https://github.com/samaxor/5eHomebrew",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"spell": [{
+			"name": "Wild Strike",
+			"level": 3,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "bonus"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1,
+					"upTo": true
+				},
+				"concentration": true
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"The next time you hit a creature with a weapon attack during this spell's duration, your weapon seaps with potent poison, and the attack deals an extra {@damage 3d8} poison damage to the target. Additionally, the target must succeed on a Constitution saving throw or be {@condition poisoned} until the spell ends.",
+				"A creature {@condition poisoned} by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition poisoned}."
+			],
+			"source": "BensBrew",
+			"components": {
+				"v": true
+			},
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+				]
+			}],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"damageInflict": [
+				"poison"
+			],
+			"spellAttack": [
+				"M"
+			]
+		},
+		{
+			"name": "Tempest Spear",
+			"level": 2,
+			"school": "T",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, and as an Action on each of your turns for the duration (if you choose to concentrate on the spell), you throw a melee weapon you wield as though it had the \"Thrown 60/180\\\" property. On a hit, the weapon deals an additional {@damage 1d6} Lightning damage.",
+				"For the duration, you can use your bonus action to recall the weapon to you (as long as it remains on the same plane of existence as you), causing it to teleport back to your hand(s)."
+			],
+			"source": "BensBrew",
+			"components": {
+				"v": true
+			},
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, the additional lighting damage increases by {@dice 1d6} for  every slot above 2nd."
+				]
+			}],
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"R",
+				"O"
+			]
+		},
+		{
+			"name": "Feral Form",
+			"level": 3,
+			"school": "T",
+			"time": [{
+				"number": 1,
+				"unit": "bonus"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				}
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You transform to take on aspects of a feral bestial nature. Fur covers your body, you grow impressive musculature and size, your hands become claws, and your face becomes a bestial maw. Further, a primal rage overtakes you. For the duration:",
+				"You can make unarmed strike (claw) attacks which deal {@damage 2d4} slashing damage on a hit, instead of the normal damage for unarmed strikes. These attacks count as magical.",
+				"No more than once per turn, you can make an unarmed strike (bite) attack which deals {@damage 2d8} piercing damage on a hit, instead of the normal damage for unarmed strikes. These attacks count as magical.",
+				"Once per turn, when you reduce a creature to 0 hit points with a claw or bite attack with this spell, you can immediately move up to 15 feet without expending movement and make another claw or bite attack with this spell against a different creature.",
+				"Starting on your next turn, the spell ends early if your turn ends, and you have not attacked a hostile creature since your last turn or taken damage since then."
+			],
+			"source": "BensBrew",
+			"components": {
+				"s": true
+			},
+			"damageInflict": [
+				"piercing",
+				"slashing"
+			]
+		},
+		{
+			"name": "Frozen Star",
+			"level": 4,
+			"school": "C",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1,
+					"upTo": true
+				},
+				"concentration": true
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You create an orb of frost that hovers at an unoccupied point you can see within range. The orb is a small object the occupies a 5-foot space. It has an AC of 12, 30 hit points, immunity to cold and psychic damage, resistance to non-magical damage, and vulnerability to fire damage.",
+				"The orb sheds bright light in a 20-foot radius, and dim light for an additional 20 feet.",
+				"Each creature, other than you, that starts it turn within 40 feet of the orb must make a Constitution saving throw, suffering {@damage 3d6} cold damage on a failed save, or half as much on a successful one. A creature that fails its save and is within 20 feet of the orb becomes {@condition restrained}.",
+				"If you concentrate on the spell on the spell for the  full duration, when it ends, the orb explodes. The orb also explodes if it is destroyed. When the orb explodes, all creatures within 20 feet of it must make a Constitution saving throw, suffering {@damage 6d6} cold damage on a  failed save, or half as much on a successful one. A creature that fails its save is also {@condition petrified} in a thick layer of ice until its next turn ends."
+			],
+			"source": "BensBrew",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 5th level or higher, the damage a creature takes at the start of its turn increases by {@dice 1d6} for each slot level above 4th, and the damage caused by the orb's explosion increases by {@dice 2d6} for each slot above 4th."
+				]
+			}],
+			"damageInflict": [
+				"cold"
+			],
+			"spellAttack": [
+				"O"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"R"
+			]
+		},
+		{
+			"name": "Booming Blitz",
+			"level": 2,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [{
+				"type": "instant"
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You launch yourself forward, surrounded by thunderous force, in a straight line up to 30 feet. This movement ends if it is blocked by a creature or secured object. All creatures, other than you, within 5 feet of the line you move through must make a Constitution saving throw, suffering {@damage 2d6} thunder damage on a failed save, or half as much on a success.",
+				"At the end of the movement, if you are adjacent to a creature, you may make a single melee weapon attack as part of the spell. If the attack hits, it deals an extra {@damage 1d6} thunder damage."
+			],
+			"source": "BensBrew",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or greater, the damage increases by {@dice 1d6} for each slot level above 2nd."
+				]
+			}],
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"L"
+			]
+		}
+	]
+
+}
