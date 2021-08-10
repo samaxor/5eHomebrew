@@ -56,7 +56,7 @@
 				"The next time you hit a creature with a weapon attack during this spell's duration, your weapon seaps with potent poison, and the attack deals an extra {@damage 3d8} poison damage to the target. Additionally, the target must succeed on a Constitution saving throw or be {@condition poisoned} until the spell ends.",
 				"A creature {@condition poisoned} by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition poisoned}."
 			],
-			"source": "BensBrew",
+			"source": "Ben's Brew",
 			"components": {
 				"v": true
 			},
@@ -127,7 +127,7 @@
 				"As part of casting this spell, and as an Action on each of your turns for the duration (if you choose to concentrate on the spell), you throw a melee weapon you wield as though it had the \"Thrown 60/180\\\" property. On a hit, the weapon deals an additional {@damage 1d6} Lightning damage.",
 				"For the duration, you can use your bonus action to recall the weapon to you (as long as it remains on the same plane of existence as you), causing it to teleport back to your hand(s)."
 			],
-			"source": "BensBrew",
+			"source": "Ben's Brew",
 			"components": {
 				"v": true
 			},
@@ -184,7 +184,7 @@
 				"Once per turn, when you reduce a creature to 0 hit points with a claw or bite attack with this spell, you can immediately move up to 15 feet without expending movement and make another claw or bite attack with this spell against a different creature.",
 				"Starting on your next turn, the spell ends early if your turn ends, and you have not attacked a hostile creature since your last turn or taken damage since then."
 			],
-			"source": "BensBrew",
+			"source": "Ben's Brew",
 			"components": {
 				"s": true
 			},
@@ -242,7 +242,7 @@
 				"Each creature, other than you, that starts it turn within 40 feet of the orb must make a Constitution saving throw, suffering {@damage 3d6} cold damage on a failed save, or half as much on a successful one. A creature that fails its save and is within 20 feet of the orb becomes {@condition restrained}.",
 				"If you concentrate on the spell on the spell for the  full duration, when it ends, the orb explodes. The orb also explodes if it is destroyed. When the orb explodes, all creatures within 20 feet of it must make a Constitution saving throw, suffering {@damage 6d6} cold damage on a  failed save, or half as much on a successful one. A creature that fails its save is also {@condition petrified} in a thick layer of ice until its next turn ends."
 			],
-			"source": "BensBrew",
+			"source": "'Ben's Brew",
 			"components": {
 				"v": true,
 				"s": true
@@ -306,7 +306,7 @@
 				"You launch yourself forward, surrounded by thunderous force, in a straight line up to 30 feet. This movement ends if it is blocked by a creature or secured object. All creatures, other than you, within 5 feet of the line you move through must make a Constitution saving throw, suffering {@damage 2d6} thunder damage on a failed save, or half as much on a success.",
 				"At the end of the movement, if you are adjacent to a creature, you may make a single melee weapon attack as part of the spell. If the attack hits, it deals an extra {@damage 1d6} thunder damage."
 			],
-			"source": "BensBrew",
+			"source": "'Ben's Brew",
 			"components": {
 				"v": true,
 				"s": true
