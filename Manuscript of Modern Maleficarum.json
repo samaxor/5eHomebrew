@@ -1,9 +1,9 @@
 {
 	"_meta": {
 		"sources": [{
-			"json": "spells",
-			"abbreviation": "spells",
-			"full": "spells",
+			"json": "Manuscript of Modern Maleficarums",
+			"abbreviation": "MMM",
+			"full": "Manuscript of Modern Maleficarum",
 			"authors": [
 				"Ben's Brew"
 			],
