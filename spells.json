@@ -329,7 +329,755 @@
 			"areaTags": [
 				"L"
 			]
+		},
+		{
+			"name": "Arcane Reflection",
+			"level": 4,
+			"school": "A",
+			"time": [{
+				"number": 1,
+				"unit": "reaction",
+				"condition": "which you take when you are hit by a spell attack or forced to make a saving throw against a spell that targets only you"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [{
+				"type": "instant"
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "Improved Backgrounds",
+			"components": {
+				"s": true
+			},
+			"entries": [
+				"You conjure a magical mirror just before being struck by a spell. If the spell is a spell of 3rd level or lower, the spell has no effect on you and instead, the spell is cast at the original caster as part of this reaction. The spell uses your spellcasting ability modifier for its attack roll or your spell save DC. If the spell is of 4th level or higher, make an ability check using your spellcasting ability. The DC equal 10 + the spell's level. On a success, the spell is redirected back at the caster as described above."
+			],
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 5th level or higher, the spell is reflected if it is a level less than the level of the spell slot used"
+				]
+			}],
+			"backgrounds": [{
+				"name": "Special",
+				"source": "Improved Backgrounds"
+			}]
+		},
+		{
+			"name": "Resonant Shield",
+			"level": 0,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "round",
+					"amount": 1
+				}
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			},
+			"entries": [
+				"You raise the shield used in the spell's casting and prepare yourself against attacks. While is spell is active, you gain the same benefits as if you used the Dodge action.",
+				"Moreover, the next creature that hits you with a melee attack while this spell is active must succeed on a Strength saving throw or take force damage equal to your spellcasting ability modifier, be pushed 5 feet from you, and be knocked {@condition prone}. The spell then ends."
+			],
+			"source": "Improved Backgrounds",
+			"components": {
+				"s": true,
+				"m": "a shield worth a least 1sp"
+			},
+			"conditionInflict": [
+				"prone"
+			],
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"At 5th level, the force damage increases to {@dice 1d8} + your spellcasting modifier/ That damage roll increases again by {@dice 1d8} at 11th level ({@dice 2d8}) and once against at 17th level ({@dice 3d8})"
+				]
+			}],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Quill's Arcane Riposte",
+			"level": 4,
+			"school": "A",
+			"time": [{
+				"number": 1,
+				"unit": "reaction",
+				"condition": "which you take when a creature misses you with a melee weapon attack"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"duration": [{
+				"type": "instant"
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"When a large or smaller creature misses you with a melee weapon attack, you can magically deflect the attack back against that creature. Using your reaction, you catch your opponent's attack with your weapon in a magical parry that explosively reflects back the attacker's momentum in a blast of arcane energy.",
+				"The creature must make a Strength saving throw. On a failed save, the creature takes {@damage 4d12} force damage and is pushed back 15 feet, falling {@condition prone}. On a successful save, the creature takes half damage and is not pushed or knocked {@condition prone}."
+			],
+			"source": "Improved Backgrounds",
+			"components": {
+				"s": true,
+				"m": "one melee weapon which you are wielding"
+			},
+			"conditionInflict": [
+				"prone"
+			],
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d12} for each slot level above 5th."
+				]
+			}],
+			"backgrounds": [{
+				"name": "Special",
+				"source": "Improved Backgrounds"
+			}],
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Quill's Ghostly Blade",
+			"level": 2,
+			"school": "T",
+			"time": [{
+				"number": 1,
+				"unit": "bonus"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1,
+					"upTo": true
+				},
+				"concentration": true
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"The blade of a weapon you brandish transformers into a pale, ghostly light, allowing it to easily bypass your enemy's attacks made with that weapon.",
+				"Until the spell ends, you have advantage on melee attacks made with that weapon. The next time you hit with that weapon, it deals an extra {@damage 2d4} force damage and the spell ends/",
+				"The spell ends early if you are no longer holding the weapon used to cast the spell."
+			],
+			"source": "Improved Backgrounds",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "one melee weapon worth at least 10 gp"
+			},
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"The extra force damage increases by {@dice 1d4} for each level above 2nd that you cast the spell."
+				]
+			}],
+			"backgrounds": [{
+				"name": "Special",
+				"source": "Improved Backgrounds"
+			}],
+			"damageInflict": [
+				"force"
+			]
+		},
+		{
+			"name": "Quill's Zigzagging Lunge",
+			"level": 3,
+			"school": "C",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [{
+				"type": "instant"
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Choose up to 3 creatures that you can see within 60 feet of you. Each creature must be adjacent to an unoccupied space that you could occupy. You teleport between the chosen creatures in an order of your choosing, making a single melee weapon attack against each creature before teleporting to an unoccupied space within 15 feet of the last creature you attacked as part of this spell. A creature cannot be targeted with more than one attack using this spell."
+			],
+			"source": "Improved Backgrounds",
+			"components": {
+				"s": true,
+				"m": "one melee weapon that you use to make up to three attacks with as part of this spell"
+			},
+			"backgrounds": [{
+				"name": "Special",
+				"source": "Improved Backgrounds"
+			}],
+			"areaTags": [
+				"MT"
+			],
+			"miscTags": [
+				"TP"
+			]
+		},
+		{
+			"name": "Crystal Armour",
+			"level": 1,
+			"school": "A",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1,
+					"upTo": true
+				},
+				"concentration": true
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You create an armour of glistening crystals on your body. This armour increases your AC by 1 for the duration. If a creature hits you  with a melee attack while you have this armour, the creature takes {@damage 1d8} piercing damage, a creature can take this damage a maximum of once per turn."
+			],
+			"source": "Improved Backgrounds",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small crystal with a bit of holy text written on it"
+			},
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, the piercing damage increases by {@dice 1d8} for each slot."
+				]
+			}],
+			"damageInflict": [
+				"piercing"
+			],
+			"miscTags": [
+				"MAC"
+			]
+		},
+		{
+			"name": "Crystalline Rose",
+			"level": 3,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1,
+					"upTo": true
+				},
+				"concentration": true
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You summon a crystal rose, in an unoccupied space that you can see within range. As part of casting this spell, and on subsequent turns as a bonus action, you can cause the rose to drain the life of surrounding creatures. Each creature in a 20-foot radius centred on the rose must succeed on a Constitution saving throw or take {@damage 2d65} necrotic damage.",
+				"When you stop concentrating on the spell, the rose explodes. Each creature in the radius must success on a Dexterity saving throw or take an amount of piercing damage equal to the total number of necrotic damage rose dealt (to a maximum of {@dice 10d6}), or half as much damage on a success."
+			],
+			"source": "Improved Backgrounds",
+			"components": {
+				"s": true,
+				"m": "a dried rose"
+			},
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for every two slot levels above 3rd."
+				]
+			}],
+			"damageInflict": [
+				"necrotic",
+				"piercing"
+			],
+			"savingThrow": [
+				"dexterity",
+				"constitution"
+			],
+			"areaTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Oor's Hellfire Rebuttal",
+			"source": "Improved Backgrounds",
+			"level": 2,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "reaction",
+				"condition": "which you take in response to being damaged by a creature within 30 feet of you that you can see"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [{
+				"type": "instant"
+			}],
+			"entries": [
+				"Two fiery spirits emerge from your wounds, seeking revenge on the creature that damaged you.",
+				"Make a ranged spell attack for each spirit. On a hit, the target takes {@damage 3d6} fire damage."
+			],
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, you create one additional spirit for each slot level above 2nd."
+				]
+			}],
+			"damageInflict": [
+				"fire"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"backgrounds": [{
+				"name": "Special",
+				"source": "Improved Backgrounds"
+			}],
+			"spellAttack": [
+				"R"
+			]
+		},
+		{
+	"name": "Oor's Solar Flare Spear",
+	"level": 4,
+	"school": "V",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
 		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "feet",
+			"amount": 120
+		}
+	},
+	"duration": [
+		{
+			"type": "instant"
+		}
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Sorcerer",
+				"source": "PHB"
+			},
+			{
+				"name": "Paladin",
+				"source": "PHB"
+			}
+		]
+	},
+	"entries": [
+		"You concentrate the power of the sun, moulding it into a spear, and hurl it towards a creature you can see within range. Make a ranged spell attack against the creature. On a hit, it takes {@damage 4d10} fire damage and {@damage 4d10} radiant damage."
+	],
+	"source": "Improved Backgrounds",
+	"components": {
+		"v": true,
+		"s": true
+	},
+	"backgrounds": [
+		{
+			"name": "Special",
+			"source": "Improved Backgrounds"
+		}
+	],
+	"damageInflict": [
+		"fire",
+		"radiant"
+	],
+	"spellAttack": [
+		"R"
+	],
+	"areaTags": [
+		"ST"
+	]
+},
+{
+	"name": "Oor's Guiding Flame",
+	"source": "Improved Backgrounds",
+	"level": 2,
+	"school": "V",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "feet",
+			"amount": 60
+		}
+	},
+	"components": {
+		"v": true,
+		"s": true
+	},
+	"duration": [
+		{
+			"type": "timed",
+			"duration": {
+				"type": "round",
+				"amount": 1
+			}
+		}
+	],
+	"entries": [
+		"You point towards a creature you can see within range, causing a radiant fire to erupt at the creature's location. ",
+		"The creature must make a Dexterity saving throw. It takes {@damage 3d8} fire damage on a failed save, and the next attack roll against this target before the end of your next turn has advantage and deals an additional {@damage 2d8} radiant damage.",
+		"On a successful save, the creature takes half damage and suffers no additional effects."
+	],
+	"entriesHigherLevel": [
+		{
+			"name": "At Higher Levels",
+			"entries": [
+				"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@damage 1d8} fire damage and {@damage 1d8} radiant damage for each slot level above 2nd."
+			]
+		}
+	],
+	"damageInflict": [
+		"fire",
+		"radiant"
+	],
+	"areaTags": [
+		"ST"
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Cleric",
+				"source": "PHB"
+			},
+			{
+				"name": "Paladin",
+				"source": "PHB"
+			},
+			{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}
+		]
+	},
+	"backgrounds": [
+		{
+			"name": "Special",
+			"source": "Improved Backgrounds"
+		}
+	],
+	"savingThrow": [
+		"dexterity"
+	]
+},
+{
+	"name": "Polar Ray",
+	"level": 0,
+	"school": "V",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "feet",
+			"amount": 120
+		}
+	},
+	"duration": [
+		{
+			"type": "instant"
+		}
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Wizard",
+				"source": "PHB"
+			},
+			{
+				"name": "Sorcerer",
+				"source": "PHB"
+			},
+			{
+				"name": "Druid",
+				"source": "PHB"
+			},
+			{
+				"name": "Warlock",
+				"source": "PHB"
+			}
+		]
+	},
+	"entries": [
+		"You glaciate a mass of ice crystals around yourself and launch a beam of boreal air at an enemy or object within range. Make a ranged spell attack. On a hit, the target takes {@damage 1d6} cold damage plus an amount equal to your spellcasting ability modifier. This spell will instantly extinguish a campfire or freeze a gallon of water."
+	],
+	"source": "spells",
+	"components": {
+		"v": true,
+		"s": true
+	},
+	"entriesHigherLevel": [
+		{
+			"name": "At Higher Levels",
+			"entries": [
+				"This spell's damage increases by an amount equal to your spellcasting ability modifier at 5th level ({@dice 1d6} plus two times your modifier), 11th level ({@dice 1d6} plus three times your modifier), and 17th level ({@dice 1d6} plus four times your modifier)."
+			]
+		}
+	],
+	"damageInflict": [
+		"cold"
+	],
+	"spellAttack": [
+		"R"
+	]
+},
+{
+	"name": "Alina's Captivating Assistants",
+	"level": 3,
+	"school": "I",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
+		}
+	],
+	"range": {
+		"type": "radius",
+		"distance": {
+			"type": "feet",
+			"amount": 10
+		}
+	},
+	"duration": [
+		{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 10,
+				"upTo": true
+			},
+			"concentration": true
+		}
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Bard",
+				"source": "PHB"
+			}
+		]
+	},
+	"entries": [
+		"You create up to 4 illusionary images of yourself within the radius. You can decide the accessories of the images such as hairstyle, clothing, and jewellery, but they must still be easily identifiable as you. A creature can make an intelligence check against your spell save DC to identify which of the images is you. On a failure, the creature cannot tell the difference.",
+		"Each of these images is proficient in 1 instrument of your choosing. The images have the instrument they are proficient with in their hands when you create them.  You can command the illusions to perform and to stop performing as a bonus action. When the images play their instrument, it is indistinguishable from any real instrument. The images cannot leave the radius and will move with you at will. ",
+		"While this spell is active, you gain advantage on all performance checks while your images are performing."
+	],
+	"source": "spells",
+	"components": {
+		"v": true,
+		"s": true
+	},
+	"abilityCheck": [
+		"charisma"
+	]
+}
 	]
 
 }
