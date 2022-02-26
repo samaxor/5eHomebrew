@@ -1,11 +1,9 @@
 # 5eHomebrew
 ## STATUS
-## DATE SINCE LAST UPDATED:  24/09/21 
-- **Backgrounds** - *Need to finish/balance backgrounds*
-- **Feats** - *Balance existing and add as needed**
-- **Races** - Add as needed
-- **Subclasses** - *Rework circle of steel* 
-- **Spells** - *To do*
+## DATE SINCE LAST UPDATED:  26/02/22
+- **Introduction to Irin** - *Feats and Subclasses*
+- **Manuscript of Modern Maleficarums** - *New Spells*
+
 
 
 
