@@ -1367,7 +1367,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You lost the Sunlight Sensitivity trait",
+						"You lose the Sunlight Sensitivity trait",
 						"You gain proficiency with the {@skill perception} skill",
 						"Once you take this feat, you learn the light cantrip if you do not already know it. Once you reach 5th level, you can also cast the spell daylight once per long rest. Wisdom is your spell casting ability modifier for these spells."
 					]
@@ -1605,10 +1605,10 @@
 				{
 					"type": "list",
 					"items": [
+						"You gain proficiency in the Strength ({@skill Athletics}) skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
 						"When you are {@condition prone}, standing up uses only 5 feet of your movement.",
 						"Climbing doesn't cost you extra movement.",
-						"You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.",
-						"Once per long rest, when you make an {@skill Athletics} or {@skill Acrobatics} check, you may choose to roll 1d6 and add it to the result. You must make this choice after seeing the roll, but before you know the results."
+						"You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet."
 					]
 				}
 			]
@@ -1617,9 +1617,8 @@
 			"name": "Charger (Improved)",
 			"source": "Ben's Brew",
 			"entries": [
-				"When you use your action to {@action Dash}, you can use a bonus action to make one melee weapon attack or to {@action shove} a creature.",
-				"If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack's damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).",
-				"When you successfully shove a creature, you may also choose to deal 5 bludgeoning damage to it."
+				" As a bonus action, you can move up to your speed toward a hostile creature that you can see.",
+				"If you move at least 20 feet in a straight line immediately before taking the Attack action, you either gain a +5 bonus to your first attack’s damage roll (if it hits) or your target has disadvantage on it's ability check if you choose to shove."
 			]
 		},
 		{
