@@ -897,6 +897,142 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Improved Background: Artisan",
+            "source": "Ben's Brew",
+            "entries":
+            [
+                "You have a strong desire to create and have dedicated your life to it. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "Creator. You gain a +5 on skill checks related to crafting.",
+                        "Skilled hands. Increase your Dexterity or Intelligence by 1, to a maximum of 20.",
+                        "Tools of the trade. You gain proficiency in any two skills or tools. If you already of proficiency in a set of Artisan's tools, you may choose to gain expertise instead."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Improved Background: Scholar",
+            "source": "Ben's Brew",
+            "entries":
+            [
+                "You have studied the arcane arts. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "Researcher. You learn a cantrip from the wizard spell list. You cast it at character level",
+                        "Diligent study. Increase your Constitution or Intelligence by 1, to a maximum of 20.",
+                        "Verbose. You learn one additional language of your choice."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Improved Background: Nomad",
+            "source": "Ben's Brew",
+            "entries":
+            [
+                "[PLACEHOLDER]. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "Nature attuned. You learn a cantrip from the druid spell list. You cast it at character level.",
+                        "Wild one. Increase your Dexterity or Wisdom by 1, to a maximum of 20.",
+                        "Animal lover. You gain proficiency the Animal Handling skill. If you already have proficiency in Animal Handling, you may gain expertise in it instead."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Improved Background: Performer",
+            "source": "Ben's Brew",
+            "entries":
+            [
+                "[PLACEHOLDER]. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "[PLACEHOLDER]. You learn a cantrip from the bard spell list. You cast it at character level.",
+                        "[PLACEHOLDER]. Increase your Constitution or Charisma by 1, to a maximum of 20.",
+                        "[PLACEHOLDER]. You gain proficiency the Performance skill. If you already of proficiency in Performance, you may gain expertise in it instead."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Improved Background: Sage",
+            "source": "Ben's Brew",
+            "entries":
+            [
+                "[PLACEHOLDER]. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "[PLACEHOLDER]. You gain a +2 bonus to saving throws against spells.",
+                        "[PLACEHOLDER]. Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
+                        "[PLACEHOLDER]. You gain proficiency in the Arcana skill. If you already have proficiency in Arcana, you may gain expertise in it instead."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Improved Background: Priest",
+            "source": "Ben's Brew",
+            "entries":
+            [
+                "[PLACEHOLDER]. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "[PLACEHOLDER]. You learn a cantrip from the cleric spell list. You cast it at character level.",
+                        "[PLACEHOLDER]. Increase your Wisdom or Charisma by 1, to a maximum of 20.",
+                        "[PLACEHOLDER]. You gain proficiency the Religion skill. If you already of proficiency in Religion, you may gain expertise in it instead."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Improved Background: Cultist",
+            "source": "Ben's Brew",
+            "entries":
+            [
+                "[PLACEHOLDER]. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "[PLACEHOLDER]. You learn a cantrip from the warlock spell list. You cast it at character level.",
+                        "[PLACEHOLDER]. Increase your Intelligence or Charisma by 1, to a maximum of 20.",
+                        "[PLACEHOLDER]. You gain proficiency in two of the following skills: Arcana, Religion, History or Medicine"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Improved Background: PLACEHOLDER",
+            "source": "Ben's Brew",
+            "entries":
+            [
+                "[PLACEHOLDER]. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "[PLACEHOLDER]. You gain a +2 on skill checks related to bartering, selling and trading.",
+                        "[PLACEHOLDER]. Increase your Charisma or Wisdom by 1, to a maximum of 20.",
+                        "[PLACEHOLDER]. You gain proficiency in either Insight or Persuasion. If you already of proficiency in either one or both, you may choose to gain expertise instead."
+                    ]
+                }
+            ]
         }
     ],
     "subclass":
@@ -2258,6 +2394,58 @@
             "entries":
             [
                 "When you cast a spell of 1st level or higher that does damage, the next successful weapon attack you make before the end of your turn deals an additional 1d10 damage, the same type as the spell you cast."
+            ]
+        },
+        {
+            "name": "Arcane Assault",
+            "source": "Ben's Brew",
+            "prerequisite":
+            [
+                {
+                    "spellcasting": true
+                }
+            ],
+            "ability":
+            [
+                {
+                    "choose":
+                    {
+                        "from":
+                        [
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries":
+            [
+                "You are a specialist in combat magic. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "When you cast a spell of 1st-level or higher that requires an attack roll and you miss the attack, you can choose choose to deal half damage instead. You must complete a short or long rest before using this feature again.",
+                        "When you cast a cantrip that requires an attack roll and that requires you to roll multiple dice for the damage roll, instead of making only one spell attack, you can split the dice, making one spell attack for each die instead."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arcane Weapon Master",
+            "source": "Ben's Brew",
+            "prerequisite":
+            [
+                {
+                    "spellcasting": true
+                }
+            ],
+            "entries":
+            [
+                "You have learned to  infuse your spells with some of the magical properties of your weapons, augmenting and enhancing your magical capabilities.",
+                "You may use a magical weapon you are proficient with as a spellcasting focus. When casting spells this way, you gain a bonus to your spell attack rolls, spell damage rolls, and spell save DC equal to the magic bonus of that weapon. "
             ]
         }
     ]
