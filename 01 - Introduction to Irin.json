@@ -937,7 +937,7 @@
             "source": "Ben's Brew",
             "entries":
             [
-                "[PLACEHOLDER]. You gain the following benefits:",
+                "You are well acquainted with nature and animals. You gain the following benefits:",
                 {
                     "type": "list",
                     "items":
@@ -954,14 +954,14 @@
             "source": "Ben's Brew",
             "entries":
             [
-                "[PLACEHOLDER]. You gain the following benefits:",
+                "You have talent in the arts and self expression. You gain the following benefits:",
                 {
                     "type": "list",
                     "items":
                     [
-                        "[PLACEHOLDER]. You learn a cantrip from the bard spell list. You cast it at character level.",
-                        "[PLACEHOLDER]. Increase your Constitution or Charisma by 1, to a maximum of 20.",
-                        "[PLACEHOLDER]. You gain proficiency the Performance skill. If you already of proficiency in Performance, you may gain expertise in it instead."
+                        "Harmonic tune. You learn a cantrip from the bard spell list. You cast it at character level.",
+                        "Routine rehearsal. Increase your Constitution or Charisma by 1, to a maximum of 20.",
+                        "Show off. You gain proficiency the Performance skill. If you already of proficiency in Performance, you may gain expertise in it instead."
                     ]
                 }
             ]
@@ -971,14 +971,14 @@
             "source": "Ben's Brew",
             "entries":
             [
-                "[PLACEHOLDER]. You gain the following benefits:",
+                "You have dedicated time to studying the Weave and all its magics. You gain the following benefits:",
                 {
                     "type": "list",
                     "items":
                     [
-                        "[PLACEHOLDER]. You gain a +2 bonus to saving throws against spells.",
-                        "[PLACEHOLDER]. Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
-                        "[PLACEHOLDER]. You gain proficiency in the Arcana skill. If you already have proficiency in Arcana, you may gain expertise in it instead."
+                        "Arcane analysis. You gain a +2 bonus to saving throws against spells.",
+                        "Talented mind. Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
+                        "Well studied. You gain proficiency in the Arcana skill. If you already have proficiency in Arcana, you may gain expertise in it instead."
                     ]
                 }
             ]
@@ -988,14 +988,14 @@
             "source": "Ben's Brew",
             "entries":
             [
-                "[PLACEHOLDER]. You gain the following benefits:",
+                "You have practiced faith and a talent for divine power. You gain the following benefits:",
                 {
                     "type": "list",
                     "items":
                     [
-                        "[PLACEHOLDER]. You learn a cantrip from the cleric spell list. You cast it at character level.",
-                        "[PLACEHOLDER]. Increase your Wisdom or Charisma by 1, to a maximum of 20.",
-                        "[PLACEHOLDER]. You gain proficiency the Religion skill. If you already of proficiency in Religion, you may gain expertise in it instead."
+                        "Minor divinity. You learn a cantrip from the cleric spell list. You cast it at character level.",
+                        "Blessed body. Increase your Wisdom or Charisma by 1, to a maximum of 20.",
+                        "Faithful. You gain proficiency the Religion skill. If you already of proficiency in Religion, you may gain expertise in it instead."
                     ]
                 }
             ]
@@ -1005,31 +1005,14 @@
             "source": "Ben's Brew",
             "entries":
             [
-                "[PLACEHOLDER]. You gain the following benefits:",
+                "You have researched the arcane in unconventional ways. You gain the following benefits:",
                 {
                     "type": "list",
                     "items":
                     [
-                        "[PLACEHOLDER]. You learn a cantrip from the warlock spell list. You cast it at character level.",
-                        "[PLACEHOLDER]. Increase your Intelligence or Charisma by 1, to a maximum of 20.",
-                        "[PLACEHOLDER]. You gain proficiency in two of the following skills: Arcana, Religion, History or Medicine"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: PLACEHOLDER",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "[PLACEHOLDER]. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "[PLACEHOLDER]. You gain a +2 on skill checks related to bartering, selling and trading.",
-                        "[PLACEHOLDER]. Increase your Charisma or Wisdom by 1, to a maximum of 20.",
-                        "[PLACEHOLDER]. You gain proficiency in either Insight or Persuasion. If you already of proficiency in either one or both, you may choose to gain expertise instead."
+                        "Otherworldly spark. You learn a cantrip from the warlock spell list. You cast it at character level.",
+                        "Mystic mind. Increase your Intelligence or Charisma by 1, to a maximum of 20.",
+                        "Unusual research. You gain proficiency in two of the following skills: Arcana, Religion, History or Medicine"
                     ]
                 }
             ]
@@ -2083,7 +2066,7 @@
                     "items":
                     [
                         "You may use your Intelligence modifier in place of your Dexterity modifier when calculating your Armour Class, including while wearing armour but not when using alternate calculations to your Armour Class. Any maximum modifier bonus is still applied to the new ability modifier.",
-                        "When you are not surprised, before you roll initiative, you may take a -5 penalty to the roll to gain a +2 bonus to your Armor Class, as well as to all attack rolls adn saving throws you make, until the end of your first turn in combat."
+                        "When you are not surprised, before you roll initiative, you may take a -5 penalty to the roll to gain a +2 bonus to your Armor Class, as well as to all attack rolls and saving throws you make, until the end of your first turn in combat."
                     ]
                 }
             ]
@@ -2126,7 +2109,7 @@
             "entries":
             [
                 " As a bonus action, you can move up to your speed toward a hostile creature that you can see.",
-                "If you move at least 20 feet in a straight line immediately before taking the Attack action, you either gain a +5 bonus to your first attack’s damage roll (if it hits) or your target has disadvanptage on it's ability check if you choose to shove."
+                "If you move at least 20 feet in a straight line immediately before taking the Attack action, you either gain a +5 bonus to your first attack’s damage roll (if it hits) or your target has disadvantage on it's ability check if you choose to shove."
             ]
         },
         {
@@ -2257,7 +2240,7 @@
                     "type": "list",
                     "items":
                     [
-                        "You gain 1 sorcery point. You can only use this sorcery point on metamagic unless you have other features taht allows you to use sorcery points.",
+                        "You gain 1 sorcery point. You can only use this sorcery point on metamagic unless you have other features that allows you to use sorcery points.",
                         "You gain one sorcerer metamagic option."
                     ]
                 }
@@ -2445,7 +2428,168 @@
             "entries":
             [
                 "You have learned to  infuse your spells with some of the magical properties of your weapons, augmenting and enhancing your magical capabilities.",
-                "You may use a magical weapon you are proficient with as a spellcasting focus. When casting spells this way, you gain a bonus to your spell attack rolls, spell damage rolls, and spell save DC equal to the magic bonus of that weapon. "
+                "You may use a magical weapon you are proficient with as a spellcasting focus. When casting spells this way, you gain a bonus to your spell attack rolls, spell damage rolls, and spell save DC equal to the magic bonus of that weapon."
+            ]
+        },
+        {
+            "name": "Armoured Caster",
+            "source": "Ben's Brew",
+            "prerequisite":
+            [
+                {
+                    "spellcasting": true
+                }
+            ],
+            "entries":
+            [
+                "Your skill in magic allows you to weave some of your power into your armour. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "As long as you are wearing light or medium armour you are proficient in, you add half of your spellcasting modifier (rounded up) to your AC.",
+                        "As long as you are wearing heavy armour you are proficient in, all damage you take from non-magical sources are reduced by your spellcasting modifier (rounded up)."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Battlemage",
+            "source": "Ben's Brew",
+            "prerequisite":
+            [
+                {
+                    "spellcasting": true
+                }
+            ],
+            "entries":
+            [
+                "You've learned to empower your spells, drawing every bit of power you can from the Weave. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "Before you make a spell attack roll for a cantrip, you can choose to take a -5 penalty on the attack roll. If the attack hits, you add +10 damage to the spell's damage.",
+                        "Before you cast a spell that requires a saving throw to avoid damage, you can choose to lower the spell's saving throw DC by an amount up to your proficiency bonus. If a target fails the saving throw to avoid damage, they receive an additional 1 point of damage per damage dice of the spell for every 2 that the DC is lowered by.",
+                        "When you reduce a creature to 0 hit points with a spell attack, you can use your bonus action to redirect the remaining damage to another target within 5 feed of the spell effects initial target using the original attack roll result."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cantrip Caster",
+            "source": "Ben's Brew",
+            "prerequisite":
+            [
+                {
+                    "spellcasting": true
+                }
+            ],
+            "entries":
+            [
+                "Your intense study of the simplest of spells has granted you a degree of mastery envied by other spellcasters. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "When you cast a cantrip that requires you to make a ranged attack roll, the range is doubled.",
+                        "If a non-damaging cantrip has a range of touch, you can instead cast it with a range of 30 feet.",
+                        "If a cantrip you cast deals damage, it deals extra damage equal to your spellcasting modifier for that cantrip if it is not already being applied.",
+                        "When casting a cantrip with a casting time of one action, you can choose to cast it twice, instead of once, as a single action. You must finish a short or long rest before you can use this feature again." 
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Defensive Attacker",
+            "source": "Ben's Brew",
+            "prerequisite":
+            [
+                {
+                    "other": "Proficiency with shields "
+                }
+            ],
+            "entries":
+            [
+                "Sometimes the best  defense is an overwhelming aura of offense. You gain the following benefits: ",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "When you are struck by a melee attack, you may use your reaction to shove your attacker with your shield (Following the normal rules of shoving). If you successfully shove your attack in this way, they also take bludgeoning damage equal to your Strength modifier",
+                        "You may make a spell melee attack with your shield. This attack deals 1d6 + Strength modifier bludgeoning damage and you are considered proficient with this attack. If you use all your attacks provided by your attack action to strike with your shield, you may use your bonus action to take a defensive stance, increasing your AC by 1 until the beginning of your next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Divine Striker",
+            "source": "Ben's Brew",
+            "prerequisite":
+            [
+                {
+                    "other": "Cleric or Paladin "
+                }
+            ],
+            "ability":
+            [
+                {
+                    "choose":
+                    {
+                        "from":
+                        [
+                            "wis",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries":
+            [
+                "Your attack rolls score a critical hit on a roll of 19."
+            ]
+        },
+        {
+            "name": "Fiery Soul",
+            "source": "Ben's Brew",
+            "prerequisite":
+            [
+                {
+                    "spellcasting": true
+                }
+            ],
+            "entries":
+            [
+                "You have an inner fire, which you have learned to channel into an actual fire that empowers you. You gain the following benefits: ",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "You no longer suffer the effects of extreme cold",
+                        "As an action, you can magically ignite a flammable object you touch with your hand: an object such as a torch, a piece of tinder, or other flammable objects.",
+                        "Once on each of your turns, when you roll fire damage for a spell you cast, you can add your spellcasting ability modifier to the roll.",
+                        "Before you cast a spell that requires you to make an attack roll, you can choose to take a -5 penalty to the attack roll. If you do so, you deal an additional 10 fire damage to the target if the attack hits."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shillelagh Savant",
+            "source": "Ben's Brew",
+            "entries":
+            [
+                "Your attunement to nature allows you empower and use clubs and quarterstaves in unique ways. You gain the following benefits: ",
+                {
+                    "type": "list",
+                    "items":
+                    [
+                        "You learn the shillelagh cantrip.",
+                        "Once on each of your turns, when you hit a creature with a weapon affected by shillelagh, you can cause the weapon to deal an additional 1d8 damage",
+                        "When you take the Attack action and attack with a weapon affected by shillelagh, you can use a bonus action to make a melee attack with the weapon affected by shillelagh.",
+                        "When you make an attack with a club or quarterstaff, as a free action, you can cast shillelagh with the weapon. This affects the triggering attack. You must compete a long rest before you can use this feature again."
+                    ]
+                }
             ]
         }
     ]
