@@ -1,0 +1,225 @@
+{
+"_meta": {
+    "sources": [
+        {
+            "json": "Introduction to Irin",
+            "abbreviation": "II",
+            "full": "Introduction to Irin",
+            "authors": [
+                "Ben's Brew"],
+            "version": "2.0.0",
+            "color": "ffffff",
+            "url": "https://github.com/samaxor/5eHomebrew",
+            "dateReleased": "2023-06-01"}],
+    "status": "wip",
+    "dateAdded": 1685616852,
+    "dateLastModified": 1685616852 },
+    "race": [{
+            "name": "Dobutsu",
+            "source": "Ben's Brew",
+            "ability": [
+                {   "wis": 2    }
+            ],
+            "size": [   "M"   ],
+            "speed": 30,
+            "darkvision": 60,
+            "languageProficiencies": [   {
+                    "common": true,
+                    "sylvan": true   }   ],
+            "skillProficiencies": [   {
+                    "perception": true   }   ],
+            "entries": [   {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                    "Dobutsu come of age in their teens and rarely exceed one century."    ]    },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries": [
+                        "Being so closely aligned with the fey, dōbutsu take after them and their chaotic natures."    ]    },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Dōbutsu vary from below five feet to seven feet tall. Your size is Medium."    ]    },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 30 feet."    ]    },
+                {
+                    "type": "entries",
+                    "name": "Beast Senses",
+                    "entries":    [
+                        "You are proficient in the Perception skill."    ]    },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries":    [
+                        "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."    ]    },
+                {
+                    "type": "entries",
+                    "name": "Natural Weapons",
+                    "entries":    [
+                        "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."    ]    },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries":    [
+                        "You can speak, read and write Common and Sylvan."    ]    },
+                {
+                    "type": "entries",
+                    "name": "Subrace",
+                    "entries":    [
+                        "You may choose the type of dōbutsu you will be. There are four types: Neko, Kitsune, Okami or Usagi."    ]    }
+            ],
+            "subrace": [
+                {
+                    "name": "Neko",
+                    "source": "Ben's Brew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The neko have similarities to domesticated cats. People usually think of them as being weaker than the other dōbutsu. They often go adventuring having a super high chance of leaving home because of the curiosity inside them. The neko have tails and ears that are more glossy and often lick them. The nekos of the past often were seen with wild cats that seemed to be close companions."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "dex": 1
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "name": "Naturally Graceful",
+                            "type": "entries",
+                            "entries":
+                            [
+                                "Cats always land on their feet. You have resistance to fall damage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Elusive",
+                            "entries":
+                            [
+                                "Opportunity attacks against you have disadvantage."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Kitsune",
+                    "source": "Ben's Brew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The kitsune get traits resembling a fox yokai. They are more like tricksters than the other dōbutsu and have a higher chance of becoming chaotic. Kitsune fur has a large amount of magic made into it giving the appearance of glowing. The kitsune often tricks humans into falling in love with it then taking them out."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "cha": 1
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "name": "Fox Tails",
+                            "type": "entries",
+                            "entries":
+                            [
+                                "You have the tail of a fox and gain an additional tail every other level until you have 9 tails. You can use your tail as if it were a spellcasting focus."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Fox Illusion",
+                            "entries":
+                            [
+                                "You know the minor illusion cantrip. At 5th level, you can cast the alter self spell once, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Okami",
+                    "source": "Ben's Brew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The okami are the wolf of the dōbutsu world. They are super loyal and often are more lawful than chaotic. The okami fur is often wilder than the other subraces. In the past, they were the strongest warriors in the dōbutsu. They were as crazy as Norse berserkers but also had a strong scene of morals. They have mostly kept the same moral but some have twist law so that they may accomplish their goals."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "str": 1
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "name": "Keen Ears",
+                            "type": "entries",
+                            "entries":
+                            [
+                                "You have advantage on Wisdom (Perception) checks that rely on hearing."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Relentless Endurance",
+                            "entries":
+                            [
+                                "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Usagi",
+                    "source": "Ben's Brew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The Usagi have similarities to rabbits. People usually think of them as being weaker than the other dōbutsu. They often go adventuring having a super high chance of leaving home because of the curiosity inside them. The Usagi have tails and ears that are more glossy and often lick them. The Usagi of the past often were rarely seen unless to give aid to hurt or lost travelers."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "dex": 1
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "name": "Nimble Climber",
+                            "type": "entries",
+                            "entries":
+                            [
+                                "Your limbs are strengthened by your animal aspect. You have a climbing speed equal to your walking speed."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Rabbit's Agility",
+                            "entries":
+                            [
+                                "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
