@@ -74,7 +74,7 @@
                     "entries":    [
                         "You may choose the type of dōbutsu you will be. There are four types: Neko, Kitsune, Okami or Usagi."    ]    }
             ],
-            "subrace": [
+            "subraces": [
                 {
                     "name": "Neko",
                     "source": "Ben's Brew",
