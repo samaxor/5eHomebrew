@@ -72,8 +72,109 @@
                     "type": "entries",
                     "name": "Subrace",
                     "entries":    [
-                        "You may choose the type of dōbutsu you will be. There are four types: Neko, Kitsune, Okami or Usagi."    ]    }
-            ] } ],
+                        "You may choose the type of dōbutsu you will be. There are four types: Neko, Kitsune, Okami or Usagi."    ]    }    ],
+               "fluff":{
+                    "entries": [
+                        { "name": "Physical Description",
+                        "entries": ["The dōbutsu look similar to humans, the big difference is they have a feature of an animal. The fur of the tail and the ears of a dōbutsu are said to be the most beautiful fur ever seen and they are sometimes killed for it. This part of the dōbutsu came from the large amount of fey blood in the veins of the dōbutsu. Their wild nature before the domestication causes the animistic traits of the dōbutsu. Not all dōbutsu look the same. dōbutsu all have claws due to the type of animal that the dōbutsu often look like."]   },
+                        { "names": "History",
+                        "entries": [ "They have a fey heritage that can be traced back to ancient fey that decided to breed with humans. The Dōbutsu worshipped the fey that had granted them the power, and various ritual were held to give praise to the fey that they worshipped. They were hunted for a time before people got a bit scared and began the enslavement and domestication. They were great hunters and the legends compare them to the archers of the elves. In modern times dōbutsu spend most of the years as slaves or pets to other races. The number of revolts goes up by day but not all dōbutsu hate their masters. The loyal Dōbutsu are known to still worship the fey while most have grown a hatred of the beings that gave them the stupid ears and tail." ]   },
+                        { "names": "Society",
+                        "entries": [ "Dōbutsus often have to deal with the constant reminder by other races that they are not equals. This fact often leaves them in places of enslavement, or in rebellions. The dōbutsu fear of being a weaker race also make them hard worker and push them to achieve something. In the beliefs of the dōbutsu, when one does obtain a goal of note they might change their name to one of a god or demon. No matter how much the dōbutsu may obtain they will still have a constant feeling that they should not hold political power. In the exception to this rule, dōbutsu that do create their own nation will often be isolated. The people that leave an isolated village might be hunted down to keep the secrets and tradition a mystery. The tribal beliefs of the dōbutsu resemble the American Indians and like the isolated country do not believe that they are inferior." ]  }
+                    ]
+               }        
+           } ,
+        {    "name": "Oni",
+                "source": "Ben's Brew",
+                "size":    [    "M"    ],
+                "speed":    {   "walk": 30    },
+                "ability":
+                [
+                    {
+                        "str": 1,
+                        "con": 1
+                    }
+                ],
+                "darkvision": 60,
+                "languageProficiencies":
+                [
+                    {
+                        "common": true,
+                        "celestial": true
+                    }
+                ],
+                "resist":
+                [
+                    "poison"
+                ],
+                "entries":
+                [
+                    {
+                        "name": "Age",
+                        "type": "entries",
+                        "entries":
+                        [
+                            "Oni reach maturity about the same time as humans do, but their aging slows down drastically after that. Most live to about 1000 years old."
+                        ]
+                    },
+                    {
+                        "name": "Alignment",
+                        "type": "entries",
+                        "entries":
+                        [
+                            "Most oni are naturally evil. Their heightened sensitivity to the temptations of the Material Plane usually drives them to steal, fight and manipulate to get what they want."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Size",
+                        "entries":
+                        [
+                            "Oni are a sizeable people, reaching heights from 7 and 8 feet tall by maturity and weigh between 280 and 340 pounds. Your size is Medium."
+                        ]
+                    },
+                    {
+                        "name": "Darkvision",
+                        "entries":
+                        [
+                            "As a creature of the night, you are very good at seeing in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Yokai Resistance",
+                        "entries":
+                        [
+                            "Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Powerful Build",
+                        "entries":
+                        [
+                            "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Supernatural Strength",
+                        "entries":
+                        [
+                            "You can wield a weapon with the versatile property in one hand, but use the damage dice as if you were wielding it in two hands. In addition, Half-Oni's add their proficiency bonus to damage when making an unarmed attack."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Languages",
+                        "entries":
+                        [
+                            "You can speak, read and write, Common and Giant."
+                        ],
+                        "type": "entries"
+                    }
+            ] }
+        ],
             "subrace": [
                 {    "name": "Neko",
                     "source": "Ben's Brew",
@@ -149,7 +250,7 @@
                         }
                     ]
                 },
-                {   "name": "Okami",
+                {    "name": "Okami",
                     "source": "Ben's Brew",
                     "raceName": "Dobutsu",
                     "raceSource": "Ben's Brew",
@@ -220,6 +321,93 @@
                             [
                                 "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
                             ]
+                        }
+                    ]
+                },
+                {   "name": "Aka Oni (Red Oni)",
+                    "source": "Ben's Brew",
+                    "raceName": "Oni",
+                    "raceSource": "Ben's Brew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The most common out of the oni, red oni or aka oni are known for their large size and toughness. They are slightly bigger than the rest of their kin, with skin coloration in shades of dark red. They are violent, hot-headed, and unfocused, often pursuing immediate satisfaction and disregarding long-term plots and schemes."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "dex": 1
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "name": "The Revel Continues",
+                            "entries":
+                            [
+                                "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {    "name": "Ao Oni (Blue Oni)",
+                    "source": "Ben's Brew",
+                    "raceName": "Oni",
+                    "raceSource": "Ben's Brew",
+                    "ability":
+                    [
+                        {
+                            "int": 1
+                        }
+                    ],
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "Blue oni or ao oni are known for their unnatural cunning and aptitude for magic. They are smaller than their red kin, though larger than their pale kin, and with skin coloration of shades of dark blue. They are usually calculating and meticulous pursuing lofty goals such as of power and knowledge."
+                        ]
+                    },
+                    "entries":
+                    [
+                        {
+                            "name": "Oni Magic.",
+                            "entries":
+                            [
+                                "Blue oni can muster the innate magic within themselves which gets stronger as they grow in power. You know the dancing lights cantrip. When you reach 3rd level, you can cast the charm person spell once and need to finish a long rest before you can cast it again. Intelligence is your spellcasting ability for these spells."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {    "name": "Shiro Oni (White Oni)",
+                    "source": "Ben's Brew",
+                    "raceName": "Oni",
+                    "raceSource": "Ben's Brew",
+                    "ability":
+                    [
+                        {
+                            "wis": 1
+                        }
+                    ],
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "Pale oni or shiro oni are known for their aloofness and connections to the spiritual realm. They are the smallest of oni, and are the fewest. Their skin can vary from pale white to light grey. Unlike the other oni, pale oni wish only to keep the balance between the Spirit World and the Material Plane. They usually guard locations where the presence of the Spirit World but sometimes adventure to seek artifacts of the spirit world or mend imbalances."
+                        ]
+                    },
+                    "entries":
+                    [
+                        {
+                            "name": "Spirit Walk.",
+                            "entries":
+                            [
+                                "You teleport when you take the dash action."
+                            ],
+                            "type": "entries"
                         }
                     ]
                 }

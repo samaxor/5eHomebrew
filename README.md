@@ -1,10 +1,14 @@
 # 5eHomebrew
-## STATUS
-## DATE SINCE LAST UPDATED:  07/08/22
-- **Introduction to Irin** - *Feats and Subclasses*
-- **Manuscript of Modern Maleficarums** - *New Spells*
 
+## Table of Contents
+### 1. Introduction to Irin
+> A collection of races, feats and subclasses, with no overall theme.
+#### Races:
+- **Dobutsu.** A varied race with fey heritage that look similar to humans, but with a notable feature of an animal. 
+- **Oni.** Large and long living, often looking like demonic ogres. Those who decide to blend in still proudly display their horns.
 
+### 2. Manuscript of Modern Maleficarums
+> A complilation of various spells, mostly 6th level and under.
 
 
 #### Useful links
