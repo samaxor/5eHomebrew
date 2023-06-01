@@ -14,8 +14,8 @@
     "status": "wip",
     "dateAdded": 1685616852,
     "dateLastModified": 1685616852 },
-    "race": [{
-            "name": "Dobutsu",
+    "race": [
+        {    "name": "Dobutsu",
             "source": "Ben's Brew",
             "ability": [
                 {   "wis": 2    }
@@ -73,11 +73,12 @@
                     "name": "Subrace",
                     "entries":    [
                         "You may choose the type of dōbutsu you will be. There are four types: Neko, Kitsune, Okami or Usagi."    ]    }
-            ],
-            "subraces": [
-                {
-                    "name": "Neko",
+            ] } ],
+            "subrace": [
+                {    "name": "Neko",
                     "source": "Ben's Brew",
+                    "raceName": "Dobutsu",
+                    "raceSource": "Ben's Brew",
                     "fluff":
                     {
                         "entries":
@@ -111,9 +112,10 @@
                         }
                     ]
                 },
-                {
-                    "name": "Kitsune",
+                {    "name": "Kitsune",
                     "source": "Ben's Brew",
+                    "raceName": "Dobutsu",
+                    "raceSource": "Ben's Brew",
                     "fluff":
                     {
                         "entries":
@@ -147,9 +149,10 @@
                         }
                     ]
                 },
-                {
-                    "name": "Okami",
+                {   "name": "Okami",
                     "source": "Ben's Brew",
+                    "raceName": "Dobutsu",
+                    "raceSource": "Ben's Brew",
                     "fluff":
                     {
                         "entries":
@@ -183,9 +186,10 @@
                         }
                     ]
                 },
-                {
-                    "name": "Usagi",
+                {    "name": "Usagi",
                     "source": "Ben's Brew",
+                    "raceName": "Dobutsu",
+                    "raceSource": "Ben's Brew",
                     "fluff":
                     {
                         "entries":
@@ -221,5 +225,3 @@
                 }
             ]
         }
-    ]
-}
