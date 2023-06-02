@@ -88,92 +88,145 @@
                 "source": "Ben's Brew",
                 "size":    [    "M"    ],
                 "speed":    {   "walk": 30    },
-                "ability":
-                [
-                    {
+                "ability":    [    {
                         "str": 1,
-                        "con": 1
-                    }
+                        "con": 1    }
                 ],
                 "darkvision": 60,
-                "languageProficiencies":
-                [
-                    {
+                "languageProficiencies":    [    {
                         "common": true,
-                        "celestial": true
-                    }
+                        "celestial": true    }
                 ],
-                "resist":
-                [
-                    "poison"
-                ],
-                "entries":
-                [
-                    {
-                        "name": "Age",
+                "resist":    [    "poison"    ],
+                "entries":    [    {
+                    "name": "Age",
                         "type": "entries",
                         "entries":
                         [
-                            "Oni reach maturity about the same time as humans do, but their aging slows down drastically after that. Most live to about 1000 years old."
-                        ]
-                    },
+                            "Oni reach maturity about the same time as humans do, but their aging slows down drastically after that. Most live to about 1000 years old."    ]    },
                     {
                         "name": "Alignment",
                         "type": "entries",
-                        "entries":
-                        [
-                            "Most oni are naturally evil. Their heightened sensitivity to the temptations of the Material Plane usually drives them to steal, fight and manipulate to get what they want."
-                        ]
-                    },
+                        "entries":    [
+                            "Most oni are naturally evil. Their heightened sensitivity to the temptations of the Material Plane usually drives them to steal, fight and manipulate to get what they want."   ]    },
                     {
                         "type": "entries",
                         "name": "Size",
-                        "entries":
-                        [
-                            "Oni are a sizeable people, reaching heights from 7 and 8 feet tall by maturity and weigh between 280 and 340 pounds. Your size is Medium."
-                        ]
-                    },
+                        "entries":    [
+                            "Oni are a sizeable people, reaching heights from 7 and 8 feet tall by maturity and weigh between 280 and 340 pounds. Your size is Medium."   ]    },
                     {
                         "name": "Darkvision",
                         "entries":
                         [
-                            "As a creature of the night, you are very good at seeing in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                        ],
-                        "type": "entries"
-                    },
+                            "As a creature of the night, you are very good at seeing in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."    ],
+                        "type": "entries"    },
                     {
                         "name": "Yokai Resistance",
-                        "entries":
-                        [
-                            "Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned."
-                        ],
-                        "type": "entries"
-                    },
+                        "entries":   [
+                            "Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned."    ],
+                        "type": "entries"    },
                     {
                         "name": "Powerful Build",
-                        "entries":
-                        [
-                            "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-                        ],
-                        "type": "entries"
-                    },
+                        "entries":    [
+                            "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."    ],
+                        "type": "entries"    },
                     {
                         "name": "Supernatural Strength",
-                        "entries":
-                        [
-                            "You can wield a weapon with the versatile property in one hand, but use the damage dice as if you were wielding it in two hands. In addition, Half-Oni's add their proficiency bonus to damage when making an unarmed attack."
-                        ],
-                        "type": "entries"
-                    },
+                        "entries":    [
+                            "You can wield a weapon with the versatile property in one hand, but use the damage dice as if you were wielding it in two hands. In addition, Half-Oni's add their proficiency bonus to damage when making an unarmed attack."    ],
+                        "type": "entries"    },
                     {
                         "name": "Languages",
-                        "entries":
-                        [
-                            "You can speak, read and write, Common and Giant."
-                        ],
+                        "entries":    [
+                            "You can speak, read and write, Common and Giant."    ],
                         "type": "entries"
-                    }
-            ] }
+                    }    ],
+                "fluff":{
+                    "entries": [
+                        { "name": "Physical Description",
+                            "entries": ["In their natural form, Oni look like demonic Ogres though are slightly smaller in stature. They have skin that varies between hues of red, blue and white, and dark colored eyes with shining white pupils. They have long wild hair that is usually black or grey; however, pure white hair is not an uncommon sight, especially among the Pale Oni.",
+                            "They have a pair of short ivory horns protruding out of their forehead that grow longer as they age and their teeth and claws are jet black. The length of their horns is something Oni take pride in, to the point that even the most disheveled Oni are known to polish their horns on a daily basis.",
+                            "While Oni commonly take the form of other humanoid species to blend in, some Oni who live in harmony with other races, tend to take on hybrid forms, still appearing to be part of their host race, except with their horns protruding from their forehead, proudly visible to all."]   },
+                            { "names": "History",
+                            "entries": [ "At one time, the Oni guarded locations where the Spirit World overlapped with the Material Plane. Years on the Material Plane, however, corrupted some of the Oni splintering them into the three sub-races. The Oni corrupted by the material pleasures of the world became the Red Oni. The Oni corrupted by the power and knowledge of the world became the Blue Oni. The Oni that remained guard, resisting the temptations became the White Oni." ]   },
+                            { "names": "Society",
+                            "entries": [ "Most Oni live solitary lives in the wilderness, only interacting with other Oni in annual revels. These revels are massive in size, sometimes containing up to two hundred Oni and the Oni are drawn to them like moths to a candle, usually sensing the event weeks in advance. Violence is forbidden during these revels, and those that violate this rule have their horns sawed short and are cast out in exile.",
+                            "It is not uncommon for Oni to live among other races, whether secretly or not, due to their shapeshifting power, however, they are mostly shunned from all but the most accepting settlements in their true forms until they prove themselves to the inhabitants. Even after they are accepted, Oni rarely revert to their true form, preferring to take on their hybrid appearance to keep others at ease, out of kindness... or for their own personal benefit." ]  }    ]   }    
+            },
+        {    "name": "Starforged",
+            "source": "Ben's Brew",
+            "ability": [
+                {
+                    "con": 2,
+                    "choose": { "from": ["str", "dex", "int", "wis", "cha"], "count": 1}    }    ],
+            "size": [    "M"    ],
+            "speed": 30,
+            "darkvision": 0,
+            "traitTags": [
+                "Natural Armor"    ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1    }    ],
+            "resist": [ "cold" ],
+            "entries":   [    {
+                    "name": "Age",
+                    "entries":    [
+                        "After achieving sentience, starforged mature at the same age as humans. They can live until their core run out of energy, a process that can take up to 700 years."    ],
+                    "type": "entries"    },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries":    [
+                        "Most starforged take comfort in order and discipline, tending toward law and neutrality, but some have absorbed the morality—or lack thereof—of the beings they served with."    ]    },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries":    [
+                        "Most starforged stand between 5 and 6½ feet tall. Your size is Medium."   ]    },
+                {
+                    "type": "entries",
+                    "name": "Starforged Resilience",
+                    "entries":    [
+                        "Your constructed and cosmic nature grants you the following benefits:",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "You have resistance to cold damage",
+                                "You don't need to eat, drink, or breathe.",
+                                "You are immune to disease.",
+                                "You don't need to sleep and don't suffer the effects of exhaustion due to lack of rest, and magic can't put you to sleep."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Sentry's Rest",
+                    "entries":
+                    [
+                        "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious}, and you can see and hear as normal."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Integrated Protection",
+                    "entries":
+                    [
+                        "Your body is composed of metal, stone, and strands of starlight. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries":
+                    [
+                        "You can speak, read, and write Common and one other language of your choice."
+                    ]
+                }
+            ]
+        }
         ],
             "subrace": [
                 {    "name": "Neko",
