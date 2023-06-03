@@ -144,14 +144,11 @@
                 "fluff":{
                     "entries": [
                         { "name": "Physical Description",
-                            "entries": ["In their natural form, Oni look like demonic Ogres though are slightly smaller in stature. They have skin that varies between hues of red, blue and white, and dark colored eyes with shining white pupils. They have long wild hair that is usually black or grey; however, pure white hair is not an uncommon sight, especially among the Pale Oni.",
-                            "They have a pair of short ivory horns protruding out of their forehead that grow longer as they age and their teeth and claws are jet black. The length of their horns is something Oni take pride in, to the point that even the most disheveled Oni are known to polish their horns on a daily basis.",
-                            "While Oni commonly take the form of other humanoid species to blend in, some Oni who live in harmony with other races, tend to take on hybrid forms, still appearing to be part of their host race, except with their horns protruding from their forehead, proudly visible to all."]   },
-                            { "names": "History",
+                            "entries": ["Oni are supernatural beings resembling demonic Ogres, but smaller in size. They have red, blue, or white skin, dark eyes with white pupils, and long, wild hair usually black or grey, occasionally white. Their distinguishing feature is a pair of short ivory horns that grow longer with age, which they take pride in and diligently polish. While they often mimic other humanoid species, some harmonious Oni adopt hybrid forms, blending in with host races while proudly displaying their distinctive horns."]   },
+                        { "names": "History",
                             "entries": [ "At one time, the Oni guarded locations where the Spirit World overlapped with the Material Plane. Years on the Material Plane, however, corrupted some of the Oni splintering them into the three sub-races. The Oni corrupted by the material pleasures of the world became the Red Oni. The Oni corrupted by the power and knowledge of the world became the Blue Oni. The Oni that remained guard, resisting the temptations became the White Oni." ]   },
-                            { "names": "Society",
-                            "entries": [ "Most Oni live solitary lives in the wilderness, only interacting with other Oni in annual revels. These revels are massive in size, sometimes containing up to two hundred Oni and the Oni are drawn to them like moths to a candle, usually sensing the event weeks in advance. Violence is forbidden during these revels, and those that violate this rule have their horns sawed short and are cast out in exile.",
-                            "It is not uncommon for Oni to live among other races, whether secretly or not, due to their shapeshifting power, however, they are mostly shunned from all but the most accepting settlements in their true forms until they prove themselves to the inhabitants. Even after they are accepted, Oni rarely revert to their true form, preferring to take on their hybrid appearance to keep others at ease, out of kindness... or for their own personal benefit." ]  }    ]   }    
+                        { "names": "Society",
+                            "entries": [ "Oni primarily live solitary lives in the wilderness, only gathering with other Oni during annual revels. These gatherings, sometimes consisting of up to two hundred Oni, are highly anticipated and strictly forbid violence, with offenders having their horns sawed short and being exiled. Despite their shape-shifting abilities, Oni often face rejection and are shunned by settlements unless they prove themselves. Even when accepted, they rarely reveal their true form, opting for a hybrid appearance to ease others' discomfort or for personal gain." ]  }    ]   }    
             },
         {    "name": "Starforged",
             "source": "Ben's Brew",
@@ -226,9 +223,82 @@
                     ]
                 }
             ]
+            },
+        {   "name": "Automata",
+            "source": "Ben's Brew",
+            "ability": [    {
+                    "con": 1,
+                    "choose": {"from": ["str", "dex", "int", "wis", "cha"], 
+                    "count": 1}}],
+            "size": ["M"],
+            "speed": 30,
+            "darkvision": 0,
+            "resist": ["poison"],
+            "conditionImmune": ["disease"],
+            "languageProficiencies": [{
+                    "common": true,
+                    "anyStandard": 1}],
+            "entries": [
+                {
+                    "name": "Age",
+                    "entries":
+                    [
+                        "Automatas don't age in the same way as other races do, but their body slowly decays if not taken care of properly. Automata can survive only for 5 to 50 years, depending on what it is made of, if it doesn't have access to the proper materials or tools required for its maintenance. After that time, it will crumble, rust or rot away. Proper maintenance can make an Automata immortal.",
+                        "For the purpose of game mechanics, you're immune to biological aging, both magical and non-magical."
+                    ],
+                    "type": "entries"},
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries":
+                    [
+                        "Built as slaves or servants, most Automatas keep their 'rule - encased ' mentality even when free, and tend therefore towards lawful alignments. They don't seem to show a predilection for good or evil."
+                    ]},
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries":
+                    [
+                        "An Automata's size can vary greatly, ranging from as little as 3 feet to more than 8. Your size is either Medium or Small (your choice). "
+                    ]},
+                {
+                    "type": "entries",
+                    "name": "Artificial being",
+                    "entries":
+                    [
+                        "Even though you still count as a humanoid, your body doesn't work as the one of any other mortal race. You gain the following additional traits:",
+                        {
+                            "type": "list",
+                            "items":
+                            [
+                                "You have advantage on saving throws against being poisoned, and you have resistance to poison damage.",
+                                "You are immune to disease.",
+                                "You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.",
+                                "While you live, the armor incorporated into your body can't be removed against your will."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Not far from humanoids.",
+                    "entries":
+                    [
+                        "Even though you are not made of flesh and bone (at least in most cases), you still need to enter a 'sleeping ' state for 6 hours a day, like a normal person would, though it's more like a temporary shut-down to you. Most Automatas can't dream.','Also, you don't necessarily need to eat, but you do require to consume some kind of energy in order to keep yourself active: it could be sunlight, coal, or even food. The DM will decide whether your choice of power source is eligible or not. In order to keep all your systems functioning you also require air (be it for some kind of chemical/ magical/ photosynthetic reaction that happens inside you or something else) like a normal human would."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries":
+                    [
+                        "You can speak, read, and write Common and one other language of your choice."
+                    ]
+                }
+            ]
         }
         ],
-            "subrace": [
+    "subrace": [
                 {    "name": "Neko",
                     "source": "Ben's Brew",
                     "raceName": "Dobutsu",
@@ -377,7 +447,7 @@
                         }
                     ]
                 },
-                {   "name": "Aka Oni (Red Oni)",
+                {    "name": "Aka Oni (Red Oni)",
                     "source": "Ben's Brew",
                     "raceName": "Oni",
                     "raceSource": "Ben's Brew",
@@ -463,6 +533,328 @@
                             "type": "entries"
                         }
                     ]
+                },
+                {    "name": "Geo-Construct",
+                    "source": "Ben's Brew",
+                    "raceName": "Automata",
+                    "raceSource": "Ben's Brew",
+                    "entries":[{
+                            "name": "Geo-Construct",
+                            "type": "entries",
+                            "entries":[
+                                "You are composed of mostly inorganic matter, be it metal, stone or crystals. You gain the following traits:",{
+                                    "type": "list",
+                                    "items":[
+                                        "You gain immunity to poison damage and the poisoned condition.",
+                                        "You don't need to eat, drink, or breathe.",
+                                        "When you are reduced to 0 hit points but not killed outright, you can use your reaction to drop to 1 hit point instead. You cannot use this feature again until you finish a long rest."
+                                    ]
+                                }]}]
+                },
+                {    "name": "Dendro-Contruct",
+                    "source": "Ben's Brew",
+                    "raceName": "Automata",
+                    "raceSource": "Ben's Brew",
+                    "entries":[{
+                            "name": "Dendro-Construct",
+                            "type": "entries",
+                            "entries":[
+                                "You are made of wood and other plant-derived materials, causing your body to work similarly to a plant. You gain the following traits:",{
+                                    "type": "list",
+                                    "items":[
+                                        "You do not need to sleep. Instead, you can rest by doing light activity while remaining relative still (like keeping watch or reading a book).",
+                                        "You do not need to eat or drink as long as you have access to sunlight or a good amount of soil.",
+                                        "You can go 1 hour without breathing without suffering ill consequences.",
+                                        "You gain proficiency in the Nature or Survival skills."]
+                                }]}]
+                },
+                {    "name": "Necro-Construct",
+                    "source": "Ben's Brew",
+                    "raceName": "Automata",
+                    "raceSource": "Ben's Brew",
+                    "entries":[{
+                            "name": "Necro-Construct",
+                            "type": "entries",
+                            "entries":[
+                                "Your body is constructed using organic matter in the necromantic way, and thus share characteristics of an undead. You gain the following traits:",{
+                                    "type": "list",
+                                    "items":[
+                                        "You gain resistance to necrotic damage.",
+                                        "You have advantage on checks and saving throws to avoid exhaustion.",
+                                        "You can go 1 hour without breathing without suffering ill consequences.",
+                                        "You have some form of innate magic implanted into your system. You learn one cantrip. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+                                    ]
+                                }]}]
                 }
-            ]
-        }
+
+        ],
+        "background":
+        [
+            {
+                "name": "Improved Background: Villager",
+                "source": "Ben's Brew",
+                "ability": [{"choose":
+                    { "from":
+                        [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "count": 2}}],
+                "entries":
+                [
+                    "Improved Background. This feature replaces the background of your character. As a simple villager, you gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Hardy body. You gain a +2 bonus to all saving throws",
+                            "Untapped potential. Increase any chosen ability score by 2, up to a maximum of 20."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Noble",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You grew up around wealth and nobility, thus gaining the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Well fed. You gain a +5 to your maximum health.",
+                            "Noble blood. Increases any two different ability scores by 1, up to a maximum of 20. ",
+                            "Noble education. You learn two additional languages or proficiencies."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Student",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have spent most of your life dedicated to studying and acquiring knowledge. You start your adventure with the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Academic. You may select up to four skills, languages or tools to learn or be proficient in.",
+                            "Diligent. Increase any chosen ability score by 1, up to a maximum of 20.",
+                            "Knowledgeable. Choose a skill that you are already proficient in. Your proficiency bonus is  doubled for any ability check you make that uses that skill."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Soldier",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You received formal military training, improving your body and your discipline. You begin your adventure with the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Army training. You gain a +10 to your maximum health.",
+                            "Disciplined. Increase your Strength or Constitution by 1, to a maximum of 20.",
+                            "Military tactics. You gain proficiency in two of the following skills: Athletics, Intimation, Acrobatics, Survival. "
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Mercenary",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have completed many jobs and fought many battles for payment and wealth. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Fighting instinct. You gain a +2 bonus to saving throws against non-magical effects.",
+                            "Mercenary workout. Increase your Strength or Dexterity by 1, to a maximum of 20.",
+                            "Savvy travelled. Your walking speed increases by 5 feet."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Knight",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You are an honoured soldier, who fights with a purpose. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Swift reaction. You have advantage on all attacks of opportunity.",
+                            "Knight's training. Increase your Strength, Dexterity or Constitution by 1, to a maximum of 20.",
+                            "Supportive. When you take the help action, the creature you aid receives an additional +2 bonus to their ability check or attack roll."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Criminal",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have some knowledge in the larcenous arts and committed some crimes with them. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Nimble feet. You gain a +5 bonus to initial rolls.",
+                            "Criminal mind. Increase your Dexterity or Charisma by 1, to a maximum of 20.",
+                            "Tricks of the trade. You gain proficiency in either Sleight of hand or Deception. If you already of proficiency in either one or both, you may choose to gain expertise instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Merchant",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have experience in the world of trade and commerce. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Bang for your buck. You gain a +2 on skill checks related to bartering, selling and trading.",
+                            "Inside trader. Increase your Charisma or Wisdom by 1, to a maximum of 20.",
+                            "Its just business. You gain proficiency in either Insight or Persuasion. If you already of proficiency in either one or both, you may choose to gain expertise instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Artisan",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have a strong desire to create and have dedicated your life to it. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Creator. You gain a +5 on skill checks related to crafting.",
+                            "Skilled hands. Increase your Dexterity or Intelligence by 1, to a maximum of 20.",
+                            "Tools of the trade. You gain proficiency in any two skills or tools. If you already of proficiency in a set of Artisan's tools, you may choose to gain expertise instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Scholar",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have studied the arcane arts. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Researcher. You learn a cantrip from the wizard spell list. You cast it at character level",
+                            "Diligent study. Increase your Constitution or Intelligence by 1, to a maximum of 20.",
+                            "Verbose. You learn one additional language of your choice."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Nomad",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You are well acquainted with nature and animals. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Nature attuned. You learn a cantrip from the druid spell list. You cast it at character level.",
+                            "Wild one. Increase your Dexterity or Wisdom by 1, to a maximum of 20.",
+                            "Animal lover. You gain proficiency the Animal Handling skill. If you already have proficiency in Animal Handling, you may gain expertise in it instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Performer",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have talent in the arts and self expression. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Harmonic tune. You learn a cantrip from the bard spell list. You cast it at character level.",
+                            "Routine rehearsal. Increase your Constitution or Charisma by 1, to a maximum of 20.",
+                            "Show off. You gain proficiency the Performance skill. If you already of proficiency in Performance, you may gain expertise in it instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Sage",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have dedicated time to studying the Weave and all its magics. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Arcane analysis. You gain a +2 bonus to saving throws against spells.",
+                            "Talented mind. Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
+                            "Well studied. You gain proficiency in the Arcana skill. If you already have proficiency in Arcana, you may gain expertise in it instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Priest",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have practiced faith and a talent for divine power. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Minor divinity. You learn a cantrip from the cleric spell list. You cast it at character level.",
+                            "Blessed body. Increase your Wisdom or Charisma by 1, to a maximum of 20.",
+                            "Faithful. You gain proficiency the Religion skill. If you already of proficiency in Religion, you may gain expertise in it instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Cultist",
+                "source": "Ben's Brew",
+                "entries":
+                [
+                    "You have researched the arcane in unconventional ways. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Otherworldly spark. You learn a cantrip from the warlock spell list. You cast it at character level.",
+                            "Mystic mind. Increase your Intelligence or Charisma by 1, to a maximum of 20.",
+                            "Unusual research. You gain proficiency in two of the following skills: Arcana, Religion, History or Medicine"
+                        ]
+                    }
+                ]
+            }
+        ]
+    
+}

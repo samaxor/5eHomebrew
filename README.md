@@ -4,9 +4,20 @@
 ## 1. Introduction to Irin
 > A collection of races, feats and subclasses, with no overall theme.
 ### Races:
-- Dobutsu
-- Oni
+- Dobutsu subraces:
+    - Neko
+    - Kitsune
+    - Okami
+    - Usagi
+- Oni subraces:
+    - Aka Oni
+    - Ao Oni
+    - Shiro Oni
 - Starforged
+-Automata subraces:
+    - Geo-Construct
+    - Dendro-Construct
+    - Necro-Construct
 
 ## 2. Manuscript of Modern Maleficarums
 > A complilation of various spells, mostly 6th level and under.
