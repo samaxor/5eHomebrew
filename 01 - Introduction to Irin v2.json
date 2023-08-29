@@ -854,6 +854,292 @@
                     }
                 ]
             }
-        ]
-    
+        ],
+    "subclass": [
+            {
+                "name": "Protection Domain",
+                "shortName": "Protection",
+                "source": "Ben's Brew",
+                "className": "Cleric",
+                "classSource": "PHB",
+                "additionalSpells": [
+                    {
+                        "prepared": {
+                            "1": [
+                                "Sanctuary",
+                                "Shield of Faith"
+                            ],
+                            "3": [
+                                "Aid",
+                                "Warding Bond"
+                            ],
+                            "5": [
+                                "Beacon of Hope",
+                                "Glyph of Warding"
+                            ],
+                            "7": [
+                                "Aura of Purity",
+                                "Stoneskin"
+                            ],
+                            "9": [
+                                "Circle of Power",
+                                "Wall of Force"
+                            ]
+                        }
+                    }
+                ],
+                "subclassFeatures": [
+                "Protection Domain|Cleric||Protection|Ben's Brew|1",
+                "Channel Divinity: Safeguard|Cleric||Protection|Ben's Brew|2",
+                "Preservation|Cleric||Protection|Ben's Brew|6",
+                "Divine Strike|Cleric||Protection|Ben's Brew|8",
+                "Imposition of the Immortal|Cleric||Protection|Ben's Brew|17"
+            ]
+            },
+            {
+            "name": "Witchblade Sorcerous Origin",
+            "shortName": "Witchblade",
+            "source": "Ben's Brew",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassFeatures":
+            [
+                "Arcane Warrior|Sorcerer||Witchblade|Ben's Brew|1",
+                "War Witch|Sorcerer||Witchblade|Ben's Brew|6",
+                "Magical Armament|Sorcerer||Witchblade|Ben's Brew|6",
+                "Witch Walking|Sorcerer||Witchblade|Ben's Brew|14",
+                "Magical Flurry|Sorcerer||Witchblade|Ben's Brew|18"
+            ]
+            }
+        ],
+    "subclassFeature": [
+          {
+            "name": "Protection Domain",
+            "source": "Ben's Brew",
+            "page": 1,
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "Ben's Brew",
+            "level": 1,
+            "entries":
+            [
+                "Often manifested in clerics who worship Lord Ao or Chauntea, those under the protection domain try to heal the sick and prevent more harm. On account of this, they do not usually partake in causing even more harm, including to their enemies. They are pacifists who would prefer to talk things out, but still defend themselves when required. Very few will take arms against an enemy. Many will carry a simple dagger, but that can be used in a pinch to cut bandages. Others will stretch their calling into battle, bulking in armor and shields to not be hurt. Their way of thinking is that if they're unable to be hurt from a deadly blow, they can step in place of an attack to an ally.",
+                {
+                    "type": "table",
+                    "caption": "Protection Domain Spells",
+                    "colLabels":
+                    [
+                        "Cleric Level",
+                        "Spells"
+                    ],
+                    "colStyles":
+                    [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows":
+                    [
+                        [
+                            "1st",
+                            "{@spell sanctuary}, {@spell shield of faith }"
+                        ],
+                        [
+                            "3rd",
+                            "{@spell aid}, {@spell warding bond}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell beacon of hope}, {@spell glyph of warding}"
+                        ],
+                        [
+                            "7th",
+                            "{@spell aura of purity}, {@spell stoneskin}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell circle of power}, {@spell wall of force}"
+                        ]
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonus Proficiency|Cleric||Protection|Ben's Brew|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shield the Defenseless|Cleric||Protection|Ben's Brew|1"
+                }
+            ]
+        },
+        {
+            "type": "entries",
+            "name": "Bonus Proficiency",
+            "entries":
+            [
+                "At 1st level, you gain proficiency in heavy armor."
+            ],
+            "source": "Ben's Brew",
+            "page": 1,
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "Ben's Brew",
+            "level": 1,
+            "header": 1
+        },
+        {
+            "type": "entries",
+            "name": "Shield the Defenseless",
+            "entries":
+            [
+                "From 1st level, you have been trained to be in the thick of battle, curing the wounds of the knights and paladins. You gain the protection fighting style. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield. At 8th level, you no longer have to be within 5 feet of a creature to use this feature. Instead, a shield of radiance protects the creature. You must be within 30 feet of them, and must be able to see them."
+            ],
+            "source": "Ben's Brew",
+            "page": 1,
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "Ben's Brew",
+            "level": 1,
+            "header": 1
+        },
+        {
+            "name": "Channel Divinity: Safeguard",
+            "source": "Ben's Brew",
+            "page": 1,
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "Ben's Brew",
+            "level": 2,
+            "header": 2,
+            "entries":
+            [
+                "Starting at 2nd level, you can make it harder for your friends to be harmed in battle. As an action, you may touch one friendly creature within 5 feet of you. Attack rolls against the selected creature have disadvantage until end of your next turn."
+            ]
+        },
+        {
+            "name": "Preservation",
+            "source": "Ben's Brew",
+            "page": 1,
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "Ben's Brew",
+            "level": 6,
+            "header": 2,
+            "entries":
+            [
+                "At 6th level, you can help preserve your allies on the battlefield or in a dungeon, where danger is everywhere. Whenever a creature within 30’ of you makes a saving throw, you can use your reaction to grant them advantage."
+            ]
+        },
+        {
+            "name": "Divine Strike",
+            "source": "Ben's Brew",
+            "page": 1,
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "Ben's Brew",
+            "level": 8,
+            "header": 2,
+            "entries":
+            [
+                "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type of damage by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."
+            ]
+        },
+        {
+            "name": "Imposition of the Immortal",
+            "source": "Ben's Brew",
+            "page": 1,
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "Ben's Brew",
+            "level": 17,
+            "header": 2,
+            "entries":
+            [
+                "Finally, at 17th level, you can now protect all of your allies on the battlefield from hostile foes. Whenever you use the Safeguard channel divinity, it instead affects all friendly creatures within 30 feet of the creature you touch."
+            ]
+        },
+        {
+            "name": "Arcane Warrior",
+            "source": "Ben's Brew",
+            "page": 2,
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Witchblade",
+            "subclassSource": "Ben's Brew",
+            "level": 1,
+            "entries":
+            [
+                "At 1st level, you learn to ultilize simple magical effects as you fight:",
+                "Arcane Defense. You may cast Mage Armor on yourself at will without using a spell slot.",
+                "Martial Magics. You may use your Charisma modifier instead of Strength or Dexterity when you make an attack with a melee weapon.",
+                "You gain proficiency with all simple and martial melee weapons.",
+                "You may use a melee weapon as an arcane focus."
+            ]
+        },
+        {
+            "name": "War Witch",
+            "source": "Ben's Brew",
+            "page": 2,
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Witchblade",
+            "subclassSource": "Ben's Brew",
+            "level": 6,
+            "entries":
+            [
+                "When you use your action to cast a sorcerer spell, you may make a melee weapon attack as a bonus action."
+            ]
+        },
+        {
+            "name": "Magical Armament",
+            "source": "Ben's Brew",
+            "page": 2,
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Witchblade",
+            "subclassSource": "Ben's Brew",
+            "level": 6,
+            "entries":
+            [
+                "You may invoke magical weapons and armor at will as a bonus action. The magical armaments are often of an arcane appearance such as a whip of arcane energy or a cuirass of swirling shadows. The equipment vanishes if it leaves your immediate possession, if you die, or if you use this ability again.",
+                "Magical Arms. You may create any one melee weapon or any two melee weapons with the light property. Created weapons are magical, but otherwise use standard weapon profiles.",
+                "Magical Armor. You create and don a set of magical armor. While wearing the armor your base AC is 13 + your Charisma modifier. When you take damage, you may use your reaction and spend sorcery points to protect yourself. You may reduce the amount of damage taken by 5 for each sorcery point spent this way.",
+                "You are proficient in wearing this armor. You may unsummon the armor as a bonus action."
+            ]
+        },
+        {
+            "name": "Witch Walking",
+            "source": "Ben's Brew",
+            "page": 2,
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Witchblade",
+            "subclassSource": "Ben's Brew",
+            "level": 14,
+            "entries":
+            [
+                "You have the ability to blink around the battlefield. At either the beginning or the end of your turn, you may instantly teleport up to 15 feet to an unoccupied space that you can see. You may spend a sorcery point to blink at both the beginning and end of your turn."
+            ]
+        },
+        {
+            "name": "Magical Flurry",
+            "source": "Ben's Brew",
+            "page": 2,
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Witchblade",
+            "subclassSource": "Ben's Brew",
+            "level": 18,
+            "entries":
+            [
+                "When you make a melee weapon attack using the War Witch feature, you may spend up to 2 sorcery points to make an additional attack for each point spent."
+            ]
+        }
+        ]   
 }
