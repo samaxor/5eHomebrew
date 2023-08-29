@@ -588,8 +588,7 @@
                 }
 
         ],
-        "background":
-        [
+    "background": [
             {
                 "name": "Improved Background: Villager",
                 "source": "Ben's Brew",
@@ -611,8 +610,8 @@
                         "type": "list",
                         "items":
                         [
-                            "Hardy body. You gain a +2 bonus to all saving throws",
-                            "Untapped potential. Increase any chosen ability score by 2, up to a maximum of 20."
+                            "**Hardy body.** You gain a +2 bonus to all saving throws",
+                            "**Untapped potential.** Increase any chosen ability score by 2, up to a maximum of 20."
                         ]
                     }
                 ]
