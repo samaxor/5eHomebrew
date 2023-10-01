@@ -1,0 +1,114 @@
+{
+"_meta": {
+    "sources": [
+        {
+            "json": "SagasOfStarlight",
+            "abbreviation": "SoS",
+            "full": "Sagas of Starlight",
+            "authors": [
+                "Ben's Brew"
+            ],
+            "convertedBy": [
+                "Ben's Brew"
+            ],
+            "version": "1.0",
+            "targetSchema": "1.0"
+        }
+    ],
+    "dateAdded": 0,
+    "dateLastModified": 0
+},
+"race": [
+    {
+        "name": "Ravenfolk",
+        "source": "Ben's Brew",
+        "ability": [
+            {
+                "dex": 2,
+                "choose": {
+                    "from": [
+                        "str",
+                        "con",
+                        "int",
+                        "wis",
+                        "cha"
+                    ],
+                    "count": 1,
+                    "amount": 1
+                }
+            }
+        ],
+        "size": ["M"],
+        "speed": 30,
+        "darkvision": 60,
+        "skillProficiencies": [   {
+            "perception": true   }   ],
+        
+        "entries": [
+            {
+                "type": "entries",
+                "name": "Age",
+                "entries": [
+                    "Ravenfolk reach adulthood at around 15 years of age. They live around 80 years"
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Alignment",
+                "entries": [
+                    "The hunter culture is everything for a Ravenfolk. Meaning they respect their prey and enjoy pursuing it in nature. This respect for nature translates to a Neutral alignment, for as long as it is part of nature the Ravenfolk see it as correct and expected."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Size",
+                "entries": [
+                    "Ravenfolk usually range between 4.5 and 6.5 feet tall. Your size is Medium."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Speed",
+                "entries": [
+                    "Your base walking speed is 30 feet."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Hunting Heritage",
+                "entries": [
+                    " Thanks to the hunting culture, even a non dedicated Ravenfolk heard tales and stories about how to hunt and thrive in a forest. You have advantage on all Survival and Nature checks made on jungle, forests, or if it relates to hunting beasts."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Darkvision",
+                "entries": [
+                    "Accustomed to the jungle and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern colour in darkness,only shades of grey."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Keen Senses",
+                "entries": [
+                    "You have proficiency in the Perception skill."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "On the Hunt",
+                "entries": [
+                    "If you take the Attack action on your first turn in combat, the attack deals an extra 1d6 damage to it. On your next turn, you have Advantage with Attack Rolls against the original target. You can use this trait only once per combat."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Languages",
+                "entries": [
+                    "You can speak, read and write Common. The way you speak it among Ravenfolk has a musical cadence to it."
+                ]
+            }
+        ]
+    }
+]
+}
