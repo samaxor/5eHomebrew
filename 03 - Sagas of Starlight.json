@@ -109,6 +109,239 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Crimson Elves",
+        "source": "Ben's Brew",
+        "ability": [
+            {
+                "con": 2,
+                "choose": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "int",
+                        "wis",
+                        "cha"
+                    ],
+                    "count": 1,
+                    "amount": 1
+                }
+            }
+        ],
+        "size": ["M"],
+        "speed": 30,
+        "skillProficiencies": [   {
+            "perception": true   }   ],
+        
+        "entries": [
+            {
+                "type": "entries",
+                "name": "Age",
+                "entries": [
+                    "Crimson Elves reach adulthood at around 20 years of age and live for around 700 years."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Alignment",
+                "entries": [
+                    "The strange rituals and relationships with creatures and flesh might make the Crimson Elves society seem evil from the eyes of outsiders, but their intentions are of balance and perpetuation of the nature of the Blood Moon. This tends the scale to a neutral view of the world for most of the Crimson Elves. "
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Size",
+                "entries": [
+                    "Crimson Elves usually range between 4.5 and 6.5 feet tall. Your size is Medium."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Speed",
+                "entries": [
+                    "Your base walking speed is 30 feet."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Crimson Heritage",
+                "entries": [
+                    "The stories and myths around the Blood Moon elevate the crimson heritage into spirituality and a form of worship. Through tales and stories, you learned about the anatomy and functions of the body as well as how to study and learn more on your own. You have advantage on all Medicine checks as long as you use it on a creature in which you have killed and absorbed a Soul Sliver from another creature of the same species."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Fey Ancestry",
+                "entries": [
+                    " You have advantage on saving throws against being charmed, and magic cannot put you to sleep."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Keen Senses",
+                "entries": [
+                    "You have proficiency in the Perception skill."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Blood Ritual - Reaping of Souls.",
+                "entries": [
+                    "This basic Blood Ritual is taught to all young Crimson Elves as the beginning of their spiritual journey. Whenever you kill a creature, you may spend one minute performing a ritual to capture their blood and add it to your own body, obtaining power. Whenever you perform the ritual, you gain 1 Soul Sliver. You may spend 1 Soul Sliver as a Bonus Action to heal 1d4 Hit Points or add 1d4 Necrotic Damage to any damage roll you perform. You can hold up to 3 Soul Slivers within your blood."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Moon Trance",
+                "entries": [
+                    "Crimson Elves do not need to sleep; instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you dream of the Blood Moon; such dreams are a communion to the moon, a form of prayer and tribute."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Languages",
+                "entries": [
+                    "You can speak, read, and write Common as well the Crimson Language used to diffuse Blood Ritual."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Half-Estalar",
+        "source": "Ben's Brew",
+        "ability": [
+            {
+                "choose": {
+                    "from": [
+                        "str",
+                        "dex",
+                        "con",
+                        "int",
+                        "wis",
+                        "cha"
+                    ],
+                    "count": 3,
+                    "amount": 1
+                }
+            }
+        ],
+        "size": ["M"],
+        "speed": 30,
+        "skillProficiencies": [   {
+            "perception": true   }   ],
+        
+        "entries": [
+            {
+                "type": "entries",
+                "name": "Age",
+                "entries": [
+                    "Half-Estalar are considered adults around the age of 200 and can live to be a 1000 years old."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Alignment",
+                "entries": [
+                    "Due to their ancestry, the Half-Estalar usually prefer to watch over things than to be involved directly and, therefore take a neutral stance on most matters. There are those among them that have witnessed enough to know when it is the right time to intervene."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Size",
+                "entries": [
+                    "Crimson Elves usually range between 4.5 and 6.5 feet tall. Your size is Medium."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Speed",
+                "entries": [
+                    "Your base walking speed is 30 feet."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Ancient Heritage",
+                "entries": [
+                    "You have advantage on all History and Nature checks made on subjects that concern things that have been in place for more than a 100 years."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Advanced Darkvision",
+                "entries": [
+                    "Accustomed to the various amounts of light that can exist in various parts of the galaxy, the Half-Estalar can naturally see in dark and dim Conditions. You can see in both dim light and Darkness as if it were bright light. Also, your eyes faintly glow in the dark."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Observer of the Cosmos",
+                "entries": [
+                    "The Half-Estalar's unique anatomy, specifically the ornaments that are part of their head, allows them to perceive sound much easier than other creatures. They can hear at double the distances compared to a normal human. You have Proficiency in the Perception skill."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Always Watching",
+                "entries": [
+                    "You have advantage on saving throws against being Blinded, and magic can't make you Deafened."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Limited Telepathy",
+                "entries": [
+                    "You can telepathically communicate with a creature that is within 5 feet of you. You can use this feature a number of times equal to your proficiency. You regain all the charges for this trait after a Short or Long Rest."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Languages",
+                "entries": [
+                    "You can speak, read, and write Common, Celestial, and one more language of your choice. You can recognize a few words in Estalarian, but you cannot comprehend more than that due to how ancient and unknown the language is."
+                ]
+            }
+        ]
+    }
+],
+"subclass": [
+    {
+        "name": "Stalwart Defender",
+        "source": "Ben's Brew",
+        "className": "Fighter",
+        "classSource": "PHB",
+        "shortName": "Stalwart Defender",
+        "subclassFeatures": [
+            "Stalwart Shields - Sun and Moon|Fighter|PHB|Stalwart Defender|Ben's Brew|3",
+            "Eclipse Technique|Fighter|PHB|Stalwart Defender|Ben's Brew|7",
+            "Legendary Defender|Fighter|PHB|Stalwart Defender|Ben's Brew|10",
+            "Combat Presence|Fighter|PHB|Stalwart Defender|Ben's Brew|15",
+            "Ancient Survivor|Fighter|PHB|Stalwart Defender|Ben's Brew|18"
+        ]
+    }
+],
+"subclassFeature": [
+    {
+        "name": "Stalwart Defender",
+        "source": "Ben's Brew",
+        "className": "Fighter",
+        "classSource": "PHB",
+        "subclassShortName": "Stalwart Defender",
+        "subclassSource": "Ben's Brew",
+        "level": 3,
+        "entries": [
+            "Ancient paintings left behind showcase the movement, the posture, and the methods of how one should hold their shields high and protect those around the, Many schools of Stalwart Defenders can be found on the site of ancient ruins, trying to make sense of this fighting style of old. ",
+            {
+                "name": "**Stalwart Shields - Sun and Moon**",
+                "type": "entries",
+                "entries": [
+                    "Beginning when you choose this archetype at 3rd level you learn the secret of the paintings, the Stalwart Shield's martial art. You may dual wield shields and whenever you do, select one to be the Sun shield and the other becomes the Moon shield.",
+                    "• *Sun Shield.* You may attack using this shield as an improvised weapon that causes 1d8 Bludgeoning Damage and, if you do so, add your proficiency to the attack roll. Whenever you cause damage with the Sun Shield, you may push the target 5 feet away from you.",
+                    "• *Moon Shield.* You can use your reaction to make an enemy reroll an attack aimed at you or any friendly creature in a 5-foot radius around you. You can only receive the Shield AC Bonus from the Moon Shield that you are wielding, and you receive a +1 to your attacks as long as you wield a Sun Shield paired with the Moon Shield."
+                ]
+            }
+        ]
     }
 ]
 }
