@@ -11,10 +11,18 @@
             "convertedBy": [
                 "Ben's Brew"
             ],
+            "color": "ff80f4",
             "version": "1.0",
             "targetSchema": "1.0"
         }
     ],
+    "spellSchools": {
+        "SL": {
+            "full": "Starlight",
+            "short": "SL",
+            "color": "CCCCFF"
+        }
+    },
     "dateAdded": 0,
     "dateLastModified": 0
 },
@@ -389,6 +397,310 @@
         "level": 18,
         "entries": [
             "At 18th level, you embody the hope expected from an ancient Stalwart Defender. At the start of each of your turns, you and any friendly creature in a 10-foot radius around you are inspired to keep on fighting, regaining Hit Points equal to your Proficiency modifier if you have more than half of your Hit Points left."
+        ]
+    }
+],
+"spell": [
+    {
+        "name": "Aether",
+        "source": "BensBrew",
+        "level": 1,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 60
+            }
+        },
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "duration": [
+            {
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 1,
+                    "upTo": true
+                },
+                "concentration": true
+            }
+        ],
+        "entries": [
+            "You pull on the wispy stuff of the Sea of Star's essence and cause it to coalesce in a 5-foot cube within range. The wispy and fluctuating aether causes its area to be heavily obscured. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. The creature takes {@damage 1d6} Radiant Damage on a failed saving throw or half as much on a success."
+        ],
+        "entriesHigherLevel": [
+            {
+                "type": "entries",
+                "name": "At Higher Levels",
+                "entries": [
+                    "When you cast this spell at 2nd level or higher, the damage increases by {@dice 1d6} and the size of the cube increases by 5 feet on each side for every level above 1st."
+                ]
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "damageInflict": [
+            "radiant"
+        ],
+        "savingThrow": [
+            "constitution"
+        ],
+        "miscTags": [
+            "OBS"
+        ],
+        "areaTags": [
+            "C"
+        ]
+    },
+    {
+        "name": "Moonlight Orb",
+        "source": "BensBrew",
+        "level": 1,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 90
+            }
+        },
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "entries": [
+            "You hurl a 6-inch-diameter, shimmering bright white orb at a creature that you can see within range. Make a ranged spell attack against the target. If the attack hits, the target takes {@damage 2d8} Force Damage. "
+        ],
+        "entriesHigherLevel": [
+            {
+                "type": "entries",
+                "name": "At Higher Levels",
+                "entries": [
+                    "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
+                ]
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Starlight Guise",
+        "source": "BensBrew",
+        "level": 1,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "self"
+            }
+        },
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "duration": [
+            {
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 1,
+                    "upTo": true
+                },
+                "concentration": true
+            }
+        ],
+        "entries": [
+            "A cloak of pure starlight energy sprouts from your neck and adorns your body. You become resistant to Necrotic or Radiant Damage, chosen when you cast the spell."
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Ranger",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Paladin",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "areaTags": [
+            "ST"
+        ]
+    },
+    {
+        "name": "Sunlight Ray",
+        "source": "BensBrew",
+        "level": 0,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 50
+            }
+        },
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "entries": [
+            "A beam of bright energy shoots from your hand, moving in a straight 5-foot wide line. Every creature within that line must make a Dexterity Saving Throw. Those who fail take {@damage 1d6} Radiant Damage. ",
+            "Any target hit by the spell becomes a light source until the caster's next turn, emitting bright light in a 10-foot radius."
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Bard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "damageInflict": [
+            "radiant"
+        ],
+        "savingThrow": [
+            "dexterity"
+        ],
+        "miscTags": [
+            "LGT"
+        ],
+        "areaTags": [
+            "L"
+        ]
+    },
+    {
+        "name": "Tempest Strike",
+        "source": "BensBrew",
+        "level": 1,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 60
+            }
+        },
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "entries": [
+            "Using a pinch of Starlight energy, you change the electrical magnetic fields in the air, shooting a rail of pure lightning energy towards a target. The target must make a Dexterity saving throw. A creature takes {@damage 3d10} Lightning Damage on a failed save, or half as much damage on a successful one. "
+        ],
+        "entriesHigherLevel": [
+            {
+                "type": "entries",
+                "name": "At Higher Levels",
+                "entries": [
+                    "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d10} for each slot level above 1st."
+                ]
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "damageInflict": [
+            "lightning"
+        ],
+        "savingThrow": [
+            "dexterity"
+        ],
+        "areaTags": [
+            "ST"
         ]
     }
 ]
