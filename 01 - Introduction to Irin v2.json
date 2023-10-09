@@ -16,7 +16,7 @@
     "dateLastModified": 1685616852 },
     "race": [
         {    "name": "Dobutsu",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "ability": [
                 {   "wis": 2    }
             ],
@@ -85,7 +85,7 @@
                }        
            } ,
         {    "name": "Oni",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "size":    [    "M"    ],
                 "speed":    {   "walk": 30    },
                 "ability":    [    {
@@ -151,7 +151,7 @@
                             "entries": [ "Oni primarily live solitary lives in the wilderness, only gathering with other Oni during annual revels. These gatherings, sometimes consisting of up to two hundred Oni, are highly anticipated and strictly forbid violence, with offenders having their horns sawed short and being exiled. Despite their shape-shifting abilities, Oni often face rejection and are shunned by settlements unless they prove themselves. Even when accepted, they rarely reveal their true form, opting for a hybrid appearance to ease others' discomfort or for personal gain." ]  }    ]   }    
             },
         {    "name": "Starforged",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "ability": [
                 {
                     "con": 2,
@@ -225,7 +225,7 @@
             ]
             },
         {   "name": "Automata",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "ability": [    {
                     "con": 1,
                     "choose": {"from": ["str", "dex", "int", "wis", "cha"], 
@@ -300,9 +300,9 @@
         ],
     "subrace": [
                 {    "name": "Neko",
-                    "source": "Ben's Brew",
+                    "source": "BensBrew",
                     "raceName": "Dobutsu",
-                    "raceSource": "Ben's Brew",
+                    "raceSource": "BensBrew",
                     "fluff":
                     {
                         "entries":
@@ -337,9 +337,9 @@
                     ]
                 },
                 {    "name": "Kitsune",
-                    "source": "Ben's Brew",
+                    "source": "BensBrew",
                     "raceName": "Dobutsu",
-                    "raceSource": "Ben's Brew",
+                    "raceSource": "BensBrew",
                     "fluff":
                     {
                         "entries":
@@ -374,9 +374,9 @@
                     ]
                 },
                 {    "name": "Okami",
-                    "source": "Ben's Brew",
+                    "source": "BensBrew",
                     "raceName": "Dobutsu",
-                    "raceSource": "Ben's Brew",
+                    "raceSource": "BensBrew",
                     "fluff":
                     {
                         "entries":
@@ -411,9 +411,9 @@
                     ]
                 },
                 {    "name": "Usagi",
-                    "source": "Ben's Brew",
+                    "source": "BensBrew",
                     "raceName": "Dobutsu",
-                    "raceSource": "Ben's Brew",
+                    "raceSource": "BensBrew",
                     "fluff":
                     {
                         "entries":
@@ -448,9 +448,9 @@
                     ]
                 },
                 {    "name": "Aka Oni (Red Oni)",
-                    "source": "Ben's Brew",
+                    "source": "BensBrew",
                     "raceName": "Oni",
-                    "raceSource": "Ben's Brew",
+                    "raceSource": "BensBrew",
                     "fluff":
                     {
                         "entries":
@@ -477,9 +477,9 @@
                     ]
                 },
                 {    "name": "Ao Oni (Blue Oni)",
-                    "source": "Ben's Brew",
+                    "source": "BensBrew",
                     "raceName": "Oni",
-                    "raceSource": "Ben's Brew",
+                    "raceSource": "BensBrew",
                     "ability":
                     [
                         {
@@ -535,9 +535,9 @@
                     ]
                 },
                 {    "name": "Geo-Construct",
-                    "source": "Ben's Brew",
+                    "source": "BensBrew",
                     "raceName": "Automata",
-                    "raceSource": "Ben's Brew",
+                    "raceSource": "BensBrew",
                     "entries":[{
                             "name": "Geo-Construct",
                             "type": "entries",
@@ -552,9 +552,9 @@
                                 }]}]
                 },
                 {    "name": "Dendro-Contruct",
-                    "source": "Ben's Brew",
+                    "source": "BensBrew",
                     "raceName": "Automata",
-                    "raceSource": "Ben's Brew",
+                    "raceSource": "BensBrew",
                     "entries":[{
                             "name": "Dendro-Construct",
                             "type": "entries",
@@ -569,9 +569,9 @@
                                 }]}]
                 },
                 {    "name": "Necro-Construct",
-                    "source": "Ben's Brew",
+                    "source": "BensBrew",
                     "raceName": "Automata",
-                    "raceSource": "Ben's Brew",
+                    "raceSource": "BensBrew",
                     "entries":[{
                             "name": "Necro-Construct",
                             "type": "entries",
@@ -591,7 +591,7 @@
     "background": [
             {
                 "name": "Improved Background: Villager",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "ability": [{"choose":
                     { "from":
                         [
@@ -618,7 +618,7 @@
             },
             {
                 "name": "Improved Background: Noble",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You grew up around wealth and nobility, thus gaining the following benefits:",
@@ -635,7 +635,7 @@
             },
             {
                 "name": "Improved Background: Student",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have spent most of your life dedicated to studying and acquiring knowledge. You start your adventure with the following benefits:",
@@ -652,7 +652,7 @@
             },
             {
                 "name": "Improved Background: Soldier",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You received formal military training, improving your body and your discipline. You begin your adventure with the following benefits:",
@@ -669,7 +669,7 @@
             },
             {
                 "name": "Improved Background: Mercenary",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have completed many jobs and fought many battles for payment and wealth. You gain the following benefits:",
@@ -686,7 +686,7 @@
             },
             {
                 "name": "Improved Background: Knight",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You are an honoured soldier, who fights with a purpose. You gain the following benefits:",
@@ -703,7 +703,7 @@
             },
             {
                 "name": "Improved Background: Criminal",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have some knowledge in the larcenous arts and committed some crimes with them. You gain the following benefits:",
@@ -720,7 +720,7 @@
             },
             {
                 "name": "Improved Background: Merchant",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have experience in the world of trade and commerce. You gain the following benefits:",
@@ -737,7 +737,7 @@
             },
             {
                 "name": "Improved Background: Artisan",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have a strong desire to create and have dedicated your life to it. You gain the following benefits:",
@@ -754,7 +754,7 @@
             },
             {
                 "name": "Improved Background: Scholar",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have studied the arcane arts. You gain the following benefits:",
@@ -771,7 +771,7 @@
             },
             {
                 "name": "Improved Background: Nomad",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You are well acquainted with nature and animals. You gain the following benefits:",
@@ -788,7 +788,7 @@
             },
             {
                 "name": "Improved Background: Performer",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have talent in the arts and self expression. You gain the following benefits:",
@@ -805,7 +805,7 @@
             },
             {
                 "name": "Improved Background: Sage",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have dedicated time to studying the Weave and all its magics. You gain the following benefits:",
@@ -822,7 +822,7 @@
             },
             {
                 "name": "Improved Background: Priest",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have practiced faith and a talent for divine power. You gain the following benefits:",
@@ -839,7 +839,7 @@
             },
             {
                 "name": "Improved Background: Cultist",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "entries":
                 [
                     "You have researched the arcane in unconventional ways. You gain the following benefits:",
@@ -859,7 +859,7 @@
             {
                 "name": "Protection Domain",
                 "shortName": "Protection",
-                "source": "Ben's Brew",
+                "source": "BensBrew",
                 "className": "Cleric",
                 "classSource": "PHB",
                 "additionalSpells": [
@@ -899,7 +899,7 @@
             {
             "name": "Witchblade Sorcerous Origin",
             "shortName": "Witchblade",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassFeatures":
@@ -915,12 +915,12 @@
     "subclassFeature": [
           {
             "name": "Protection Domain",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 1,
             "entries":
             [
@@ -979,12 +979,12 @@
             [
                 "At 1st level, you gain proficiency in heavy armor."
             ],
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 1,
             "header": 1
         },
@@ -995,23 +995,23 @@
             [
                 "From 1st level, you have been trained to be in the thick of battle, curing the wounds of the knights and paladins. You gain the protection fighting style. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield. At 8th level, you no longer have to be within 5 feet of a creature to use this feature. Instead, a shield of radiance protects the creature. You must be within 30 feet of them, and must be able to see them."
             ],
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 1,
             "header": 1
         },
         {
             "name": "Channel Divinity: Safeguard",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 2,
             "header": 2,
             "entries":
@@ -1021,12 +1021,12 @@
         },
         {
             "name": "Preservation",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 6,
             "header": 2,
             "entries":
@@ -1036,12 +1036,12 @@
         },
         {
             "name": "Divine Strike",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 8,
             "header": 2,
             "entries":
@@ -1051,12 +1051,12 @@
         },
         {
             "name": "Imposition of the Immortal",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 17,
             "header": 2,
             "entries":
@@ -1066,12 +1066,12 @@
         },
         {
             "name": "Arcane Warrior",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 1,
             "entries":
             [
@@ -1084,12 +1084,12 @@
         },
         {
             "name": "War Witch",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 6,
             "entries":
             [
@@ -1098,12 +1098,12 @@
         },
         {
             "name": "Magical Armament",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 6,
             "entries":
             [
@@ -1115,12 +1115,12 @@
         },
         {
             "name": "Witch Walking",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 14,
             "entries":
             [
@@ -1129,12 +1129,12 @@
         },
         {
             "name": "Magical Flurry",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 18,
             "entries":
             [
