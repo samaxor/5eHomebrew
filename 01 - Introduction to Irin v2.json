@@ -889,11 +889,11 @@
                     }
                 ],
                 "subclassFeatures": [
-                "Protection Domain|Cleric||Protection|Ben's Brew|1",
-                "Channel Divinity: Safeguard|Cleric||Protection|Ben's Brew|2",
-                "Preservation|Cleric||Protection|Ben's Brew|6",
-                "Divine Strike|Cleric||Protection|Ben's Brew|8",
-                "Imposition of the Immortal|Cleric||Protection|Ben's Brew|17"
+                "Protection Domain|Cleric|PHB|Protection|BensBrew|1",
+                "Channel Divinity: Safeguard|Cleric|PHB|Protection|BensBrew|2",
+                "Preservation|Cleric|PHB|Protection|BensBrew|6",
+                "Divine Strike|Cleric|PHB|Protection|BensBrew|8",
+                "Imposition of the Immortal|Cleric|PHB|Protection|BensBrew|17"
             ]
             },
             {
@@ -904,11 +904,11 @@
             "classSource": "PHB",
             "subclassFeatures":
             [
-                "Arcane Warrior|Sorcerer||Witchblade|Ben's Brew|1",
-                "War Witch|Sorcerer||Witchblade|Ben's Brew|6",
-                "Magical Armament|Sorcerer||Witchblade|Ben's Brew|6",
-                "Witch Walking|Sorcerer||Witchblade|Ben's Brew|14",
-                "Magical Flurry|Sorcerer||Witchblade|Ben's Brew|18"
+                "Arcane Warrior|Sorcerer||Witchblade|BensBrew|1",
+                "War Witch|Sorcerer||Witchblade|BensBrew|6",
+                "Magical Armament|Sorcerer||Witchblade|BensBrew|6",
+                "Witch Walking|Sorcerer||Witchblade|BensBrew|14",
+                "Magical Flurry|Sorcerer||Witchblade|BensBrew|18"
             ]
             }
         ],
@@ -964,11 +964,11 @@
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Bonus Proficiency|Cleric||Protection|Ben's Brew|1"
+                    "subclassFeature": "Bonus Proficiency|Cleric||Protection|BensBrew|1"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Shield the Defenseless|Cleric||Protection|Ben's Brew|1"
+                    "subclassFeature": "Shield the Defenseless|Cleric||Protection|BensBrew|1"
                 }
             ]
         },
