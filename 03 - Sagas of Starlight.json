@@ -401,8 +401,7 @@
     }
 ],
 "spell": [
-    {
-        "name": "Aether",
+    {    "name": "Aether",
         "source": "BensBrew",
         "level": 1,
         "school": "SL",
@@ -471,8 +470,7 @@
             "C"
         ]
     },
-    {
-        "name": "Moonlight Orb",
+    {    "name": "Moonlight Orb",
         "source": "BensBrew",
         "level": 1,
         "school": "SL",
@@ -531,8 +529,7 @@
             ]
         }
     },
-    {
-        "name": "Starlight Guise",
+    {    "name": "Starlight Guise",
         "source": "BensBrew",
         "level": 1,
         "school": "SL",
@@ -582,8 +579,7 @@
             "ST"
         ]
     },
-    {
-        "name": "Sunlight Ray",
+    {    "name": "Sunlight Ray",
         "source": "BensBrew",
         "level": 0,
         "school": "SL",
@@ -642,8 +638,7 @@
             "L"
         ]
     },
-    {
-        "name": "Tempest Strike",
+    {   "name": "Tempest Strike",
         "source": "BensBrew",
         "level": 1,
         "school": "SL",
@@ -703,8 +698,7 @@
             "ST"
         ]
     },
-    {
-	"name": "Void Mend",
+    {	"name": "Void Mend",
 	"level": 2,
 	"school": "N",
 	"time": [
@@ -752,11 +746,198 @@
 	"miscTags": [
 		"HL"
 	]
-},
-{
-	"name": "Void Mend",
+    },
+    {	"name": "Void Trance",
+	"level": 1,
+	"school": "N",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "self"
+		}
+	},
+	"duration": [
+		{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 8
+			}
+		}
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Warlock",
+				"source": "PHB"
+			}
+		]
+	},
+	"entries": [
+		"As you cast this spell, your eyes turn completely black. The next spell that you cast from the necromancy school that does Necrotic Damage does double that damage instead and your targets have disadvantage on their next saving throw against any of your necromancy school spells."
+	],
+	"source": "BensBrew",
+	"components": {
+		"v": true,
+		"s": true
+	},
+	"damageInflict": [
+		"lightning"
+	],
+	"savingThrow": [
+		"dexterity"
+	],
+	"areaTags": [
+		"ST"
+	]
+    },
+    {	"name": "Whisper of Chains",
+	"level": 1,
+	"school": "N",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "feet",
+			"amount": 90
+		}
+	},
+	"duration": [
+		{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1,
+				"upTo": true
+			},
+			"concentration": true
+		}
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Warlock",
+				"source": "PHB"
+			}
+		]
+	},
+	"entries": [
+		"You whisper the name of Zas, that mere utterance manifesting the fate of your master into reality. Chains made of shadow and spite. A creature in the area when you cast the spell must succeed on a Strength saving throw or have their movement speed halved by the heavy void chain until the spell ends. At the end of a round, a creature chained in this manner takes {@dice 1d4}  necrotic Damage and then it can use its action to make a Strength check against your spell save DC. On a success, it frees itself."
+	],
+	"source": "BensBrew",
+	"components": {
+		"v": true,
+		"s": true
+	},
+	"damageInflict": [
+		"necrotic"
+	],
+	"savingThrow": [
+		"strength"
+	]
+    },
+    {	"name": "Whisper of Torment",
 	"level": 2,
 	"school": "N",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "feet",
+			"amount": 120
+		}
+	},
+	"duration": [
+		{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 10,
+				"upTo": true
+			},
+			"concentration": true
+		}
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Warlock",
+				"source": "PHB"
+			}
+		]
+	},
+	"entries": [
+		"You whisper something terrible and ominous and one creature in range of your choosing that can hear it. At the beginning of that creature’s turn, or every 1 minute whichever happens first and for as long the spell lasts, the creature takes {@damage 1d6} Psychic Damage."
+	],
+	"source": "BensBrew",
+	"components": {
+		"v": true,
+		"s": true
+	},
+	"damageInflict": [
+		"psychic"
+	]
+    },
+    {   "name": "Radiant Light",
+	"level": 1,
+	"school": "SL",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "feet",
+			"amount": 60
+		}
+	},
+	"duration": [
+		{
+			"type": "instant"
+		}
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Paladin",
+				"source": "PHB"
+			}
+		]
+	},
+	"entries": [
+		"Your very body pulsates with raw starlight energy, creating an intense flash of light. All creatures in range must succeed a Constitution saving throw or be Blinded for {@dice 1d6} turns."
+	],
+	"source": "BensBrew",
+	"components": {
+		"v": true,
+		"s": true
+	},
+	"savingThrow": [
+		"constitution"
+	]
+    },
+    {   "name": "Solar Benevolence",
+	"level": 1,
+	"school": "SL",
 	"time": [
 		{
 			"number": 1,
@@ -771,42 +952,79 @@
 	},
 	"duration": [
 		{
-			"type": "instant"
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 8
+			}
 		}
 	],
 	"classes": {
 		"fromClassList": [
 			{
-				"name": "Warlock",
+				"name": "Cleric",
 				"source": "PHB"
 			}
 		]
 	},
 	"entries": [
-		"You push into a creature a pure extract of void energy. Sustaining some, corrupting others. A creature you touch that has resistance to Necrotic Damage regains a number of Hit Points equal to {@dice 1d8} + your spellcasting ability modifier. Otherwise, the creature gains resistance to Necrotic Damage. This spell has no effect on constructs."
+		"As you cast this spell, your eyes begin emanating raw starlight power, pulsating with golden energy. The next spell from the Starlight school that you cast that does Radiant Damage does double that damage instead and the next healing spell you cast heals double the healing instead."
+	],
+	"source": "BensBrew",
+	"components": {
+		"v": true,
+		"s": true
+	}
+    },
+    {	"name": "Ultraviolet",
+	"level": 2,
+	"school": "SL",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "self"
+		}
+	},
+	"duration": [
+		{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 10,
+				"upTo": true
+			},
+			"concentration": true
+		}
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Paladin",
+				"source": "PHB"
+			}
+		]
+	},
+	"entries": [
+		"You raise a melee weapon towards Ukko’s sun. Your silent prayer is answered by the Astral Sibling, beaming from the sky ultraviolet energy that empowers that weapon. Whenever it hits, it causes an additional {@damage 3d6} Fire Damage. If it hits a creature that is vulnerable to Radiant Damage, that creature becomes vulnerable to Fire Damage as well until the spell ends."
 	],
 	"source": "BensBrew",
 	"components": {
 		"v": true,
 		"s": true
 	},
-	"entriesHigherLevel": [
-		{
-			"type": "entries",
-			"name": "At Higher Levels",
-			"entries": [
-				"When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d8} for each slot level above 1st."
-			]
-		}
-	],
-	"miscTags": [
-		"HL"
+	"damageInflict": [
+		"fire"
 	]
-},
-{
-	"name": "Void Mend",
+    },
+    {	"name": "Astral Barrier",
 	"level": 2,
-	"school": "N",
+	"school": "SL",
 	"time": [
 		{
 			"number": 1,
@@ -821,87 +1039,33 @@
 	},
 	"duration": [
 		{
-			"type": "instant"
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 8
+			}
 		}
 	],
 	"classes": {
 		"fromClassList": [
 			{
-				"name": "Warlock",
+				"name": "Cleric",
 				"source": "PHB"
-			}
-		]
-	},
-	"entries": [
-		"You push into a creature a pure extract of void energy. Sustaining some, corrupting others. A creature you touch that has resistance to Necrotic Damage regains a number of Hit Points equal to {@dice 1d8} + your spellcasting ability modifier. Otherwise, the creature gains resistance to Necrotic Damage. This spell has no effect on constructs."
-	],
-	"source": "BensBrew",
-	"components": {
-		"v": true,
-		"s": true
-	},
-	"entriesHigherLevel": [
-		{
-			"type": "entries",
-			"name": "At Higher Levels",
-			"entries": [
-				"When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d8} for each slot level above 1st."
-			]
-		}
-	],
-	"miscTags": [
-		"HL"
-	]
-},
-{
-	"name": "Void Mend",
-	"level": 2,
-	"school": "N",
-	"time": [
-		{
-			"number": 1,
-			"unit": "action"
-		}
-	],
-	"range": {
-		"type": "point",
-		"distance": {
-			"type": "touch"
-		}
-	},
-	"duration": [
-		{
-			"type": "instant"
-		}
-	],
-	"classes": {
-		"fromClassList": [
+			},
 			{
-				"name": "Warlock",
+				"name": "Wizard",
 				"source": "PHB"
 			}
 		]
 	},
 	"entries": [
-		"You push into a creature a pure extract of void energy. Sustaining some, corrupting others. A creature you touch that has resistance to Necrotic Damage regains a number of Hit Points equal to {@dice 1d8} + your spellcasting ability modifier. Otherwise, the creature gains resistance to Necrotic Damage. This spell has no effect on constructs."
+		"You touch a willing creature who isn't wearing armor, and a protective starlight force surrounds it until the spell ends. The target's base AC becomes 14 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action. The affected creature shines with a starlight glow when hit by any projectile. The light emitted shines up to 15 feet away."
 	],
 	"source": "BensBrew",
 	"components": {
 		"v": true,
 		"s": true
-	},
-	"entriesHigherLevel": [
-		{
-			"type": "entries",
-			"name": "At Higher Levels",
-			"entries": [
-				"When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d8} for each slot level above 1st."
-			]
-		}
-	],
-	"miscTags": [
-		"HL"
-	]
+	}
 }
 ]
 }
