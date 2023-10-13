@@ -1066,6 +1066,691 @@
 		"v": true,
 		"s": true
 	}
-}
+    },
+    {    "name": "Coronal Impact",
+        "level": 3,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 150
+            }
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "A tiny Starlight flicker occurs from your pointing finger to a point you choose within range. Gravity around that point swirls and becomes heavy, reacting with the flicker of Starlight and creating an explosion that resembles those of a star. Each creature in a 5-foot radius sphere centered around the flickering Starlight energy must make a Dexterity saving throw. A target takes {@damage 4d6} Radiant Damage on a failed save, or half as much damage on a successful one. The gravitational pull of this tiny star creates difficult terrain for the same sphere area centered around the Starlight energy that remains in existence for one minute"
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "damageInflict": [
+            "radiant"
+        ],
+        "savingThrow": [
+            "dexterity"
+        ],
+        "miscTags": [
+            "DFT"
+        ],
+        "entriesHigherLevel": [
+            {
+                "type": "entries",
+                "name": "At Higher Levels",
+                "entries": [
+                    "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level above 3rd."
+                ]
+            }
+        ]
+    },
+    {    "name": "Whisper of Shards",
+        "level": 3,
+        "school": "N",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 60
+            }
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "Whispering half remembered utterances said by Zas itself, you manifest void shards around you, that then fly towards a target in range who must make a Dexterity saving throw. A creature takes {@damage 3d10} Necrotic Damage and {@damage 3d10} force damage on a failed save, or half as much damage on a successful one."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "entriesHigherLevel": [
+            {
+                "type": "entries",
+                "name": "At Higher Levels",
+                "entries": [
+                    "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@damage 1d10} Necrotic Damage for each slot level above 1st. "
+                ]
+            }
+        ],
+        "damageInflict": [
+            "force",
+            "necrotic"
+        ],
+        "savingThrow": [
+            "dexterity"
+        ]
+    },
+    {    "name": "Phoenix Dive",
+        "level": 3,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "self"
+            }
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Paladin",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Ranger",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "Wings of pure light form around your back, then you fly forth, jubilation and whimsy being the wind blowing at your back. As soon as you cast this spell, you may Fly up to 120 feet in any direction. Once you arrive at your destination, you regain {@dice 1d4} Hit Points equal to every 30 feet you moved in this manner"
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "miscTags": [
+            "HL"
+        ]
+    },
+    {    "name": "Astral Barrage",
+        "level": 3,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 140
+            }
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "You create four glowing bolts of magical force that leave a trail of stardust behind them. Each bolt can hit a different creature of your choice that you can see within range. Each bolt deals {@damage 3d4 + 2} force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several. Any target hit by one of the bolts becomes highlighted until the end of its next turn with a starlight glow and is easy to see in the dark."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "entriesHigherLevel": [
+            {
+                "type": "entries",
+                "name": "At Higher Levels",
+                "entries": [
+                    "When you cast this spell using a spell slot of 4th level or higher, the spell creates one more bolt for each slot above 3rd."
+                ]
+            }
+        ],
+        "damageInflict": [
+            "force"
+        ],
+        "spellAttack": [
+            "R"
+        ]
+    },
+    {    "name": "Whisper of Finality",
+        "level": 3,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 120
+            }
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "You whisper the name of one creature in range of your choosing that can hear it. If the creature fails a Wisdom save, they are {@condition charmed} which causes them to spend their next turn attacking themselves with their strongest spell or attack in terms of damage potential. No rolls are necessary, they are successful in their attack action or spellcasting."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "savingThrow": [
+            "wisdom"
+        ],
+        "areaTags": [
+            "ST"
+        ]
+    },
+    {    "name": "Whisper of Hunger",
+        "level": 4,
+        "school": "N",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 120
+            }
+        },
+        "duration": [
+            {
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 10,
+                    "upTo": true
+                },
+                "concentration": true
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "You whisper something terrible and ominous and one creature in range of your choosing can hear it. If the creature fails a Wisdom save, an unnatural hunger takes hold. For as long as the spell duration, they suffer 1 level of {@condition exhaustion} every minute they do not eat something."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "savingThrow": [
+            "wisdom"
+        ]
+    },
+    {    "name": "Whisper of Madness",
+        "level": 4,
+        "school": "N",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 120
+            }
+        },
+        "duration": [
+            {
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 10,
+                    "upTo": true
+                },
+                "concentration": true
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "You whisper something utterly bizarre and nonsensical, and one creature in range of your choosing that can hear it. If the creature fails a Wisdom save,it becomes {@condition incapacitated} and spends the duration screaming, laughing, or weeping."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "savingThrow": [
+            "wisdom"
+        ]
+    },
+    {    "name": "Void Siphon",
+        "level": 5,
+        "school": "N",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "touch"
+            }
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "You touch a creature and your hand pierces their flesh, touching their live essence directly. The creature must succeed a Constitution saving throw, if they fail, the void siphons them in a manner chosen by the caster as following:",
+            "• Blood Siphon: The target takes {@damage 6d8} Necrotic Damage. You regain that much Hit Points.",
+            "• Mind Siphon: You consume a spell slot lower than 5th-level of your choosing from the target, regaining yours and spending theirs.",
+            "• Soul Siphon: The target gets {@condition paralyzed} for {@dice 1d4} turns. The caster may act before the creature in the turn order, replacing their original position in the initiative if the target acted before the caster."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "damageInflict": [
+            "necrotic"
+        ],
+        "savingThrow": [
+            "constitution"
+        ],
+        "areaTags": [
+            "ST"
+        ],
+        "miscTags": [
+            "HL"
+        ]
+    },
+    {    "name": "Whisper of Decay",
+        "level": 5,
+        "school": "N",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 120
+            }
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "You whisper about the end of all things and one creature in range of your choosing hears it. If the creature fails a Wisdom save, they begin suffering a curse that springs from the void. At the start of every day, for one year, the creature loses 1 hit point permanently. If the creature kills a sentient being before a day is through, they fight off the curse   omentarily, receiving {@dice 1d4} days where they do not lose 1 hit point permanently."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "savingThrow": [
+            "wisdom"
+        ]
+    },
+    {    "name": "Echo of Dilatation",
+        "level": 4,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "sphere",
+            "distance": {
+                "type": "feet",
+                "amount": 150
+            }
+        },
+        "duration": [
+            {
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 1,
+                    "upTo": true
+                },
+                "concentration": true
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Paladin",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "Clapping your hands together, you produce the sound of an exploding star. In a sphere of 150 feet centered around you, every creature that hears the sound must succeed in a Constitution save or things start moving slowly for them, while you move at regular speed. Every creature affected can only move half their speed, and they have disadvantage on attack rolls against you or unaffected creatures. You and creatures unaffected by the spell have advantage in all attack rolls against creatures affected by the spell. To the creatures affected, they perceive your movement leaving afterimages as you walk by"
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "savingThrow": [
+            "constitution"
+        ]
+    },
+    {    "name": "Incinerating Snap",
+        "level": 4,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 30
+            }
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Paladin",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "You snap your fingers, from it a flicker of energy is produced and cast forward. Once it travels exactly 30 feet, it explodes in a 30-foot sphere and any creatures in range must make a Dexterity saving throw. A target takes {@damage 6d6} Radiant Damage and {@damage 6d6} Fire Damage on a failed save, or half as much damage on a successful one"
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "damageInflict": [
+            "fire",
+            "radiant"
+        ],
+        "savingThrow": [
+            "dexterity"
+        ],
+        "areaTags": [
+            "S"
+        ]
+    },
+    {    "name": "Far Sight",
+        "level": 4,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "self"
+            }
+        },
+        "duration": [
+            {
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 1,
+                    "upTo": true
+                },
+                "concentration": true
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "You peer across the flow of time to glimpse fragments of possibility moments before they occur. When you cast this spell and as a Bonus Action so long as you maintain {@status concentration}, you may roll {@dice 1d6} and peer into the very near future of that many creatures within sight. When you do so, the GM shares the most immediate course of action that creature will attempt in the next few seconds based on the current situation. In combat, this means the GM will reveal the actions the creature will take on its next turn. This information is played out in a burst of visions. These are only glimpses of possibilities. As such, unforseen events may change the creature's actions before it acts."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        }
+    },
+    {    "name": "Child of the siblings",
+        "level": 5,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "self"
+            }
+        },
+        "duration": [
+            {
+                "type": "timed",
+                "duration": {
+                    "type": "minute",
+                    "amount": 1,
+                    "upTo": true
+                },
+                "concentration": true
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Cleric",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Paladin",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "The light of Ukko and Umi guide your quest for justice. After casting the spell, choose an Astral Sibling to assist you:",
+            "Ukko: You project a golden aura centered around you with a 60-foot radius. Hostile creatures that start their rounds inside of the aura take {@damage 2d6} Fire Damage. Your melee weapon attacks cause an extra {@damage 1d8} Radiant Damage.",
+            "Umi: You project a silvered aura centered around you with a 60-foot radius. Friendly creatures that start their rounds within the aura regain {@dice 1d8} Hit Points. Your melee weapon attacks cause an extra {@damage 1d8} Radiant Damage."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "damageInflict": [
+            "fire",
+            "radiant"
+        ],
+        "miscTags": [
+            "HL"
+        ]
+    }
+
 ]
 }
