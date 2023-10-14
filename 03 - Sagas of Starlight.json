@@ -314,8 +314,7 @@
     }
 ],
 "subclass": [
-    {
-        "name": "Stalwart Defender",
+    {   "name": "Stalwart Defender",
         "source": "BensBrew",
         "className": "Fighter",
         "classSource": "PHB",
@@ -327,11 +326,48 @@
             "Combat Presence|Fighter|PHB|Stalwart Defender|BensBrew|15",
             "Ancient Survivor|Fighter|PHB|Stalwart Defender|BensBrew|18"
         ]
+    },
+    {   "name": "Oath of the Stars",
+        "source": "BensBrew",
+        "className": "Paladin",
+        "classSource": "PHB",
+        "shortName": "Stars",
+        "additionalSpells": [
+            {
+                "prepared": {
+                    "3": [
+                        "starlight guise",
+                        "radiant light"
+                    ],
+                    "5": [
+                        "ultraviolet",
+                        "stardust"
+                    ],
+                    "9": [
+                        "phoenix dive",
+                        "fly"
+                    ],
+                    "13": [
+                        "far sight",
+                        "greater invisibility"
+                    ],
+                    "17": [
+                        "child of the siblings",
+                        "planar binding"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Oath of the Stars|Paladin|PHB|Stars|BensBrew|3",
+            "Aura of Starlight|Paladin|PHB|Stars|BensBrew|7",
+            "The Cosmos Endures|Paladin|PHB|Stars|BensBrew|15",
+            "Champion of the Stars|Paladin|PHB|Stars|BensBrew|20"
+        ]
     }
 ],
 "subclassFeature": [
-    {
-        "name": "Stalwart Defender",
+    {   "name": "Stalwart Defender",
         "source": "BensBrew",
         "className": "Fighter",
         "classSource": "PHB",
@@ -351,8 +387,7 @@
             }
         ]
     },
-    {
-        "name": "Eclipse Technique",
+    {   "name": "Eclipse Technique",
         "source": "BensBrew",
         "className": "Fighter",
         "classSource": "PHB",
@@ -363,8 +398,7 @@
             "Starting at 7th level, you learn to position the Moon Shield in front of the Sun shield, hiding its approach before you attack with it. As long as you are holding the Sun Shield and the Moon Shield, you can add your shield AC bonus to any damage roll caused by your Melee Attacks using the Sun Shield. You may use your Sun Shield attack as a Bonus Action."
         ]
     },
-    {
-        "name": "Legendary Defender",
+    {   "name": "Legendary Defender",
         "source": "BensBrew",
         "className": "Fighter",
         "classSource": "PHB",
@@ -375,8 +409,7 @@
             "At 10th level, you have embodied the heroes depicted in the legends, inspiring those around you. As long as you are holding the sun and moon shield pair, any friendly creature in a 10-foot radius around you shares the Armour Class bonus provided by your shield. If you or any friendly creature in this radius is hit by a melee attack, the target of that attack may spend a reaction to shove a creature 5 feet away from them as long as they are in range of their melee attacks. Finally, each friendly creature within range (this includes you) has advantage on Wisdom saving throws and death saving throws."
         ]
     },
-    {
-        "name": "Combat Presence",
+    {   "name": "Combat Presence",
         "source": "BensBrew",
         "className": "Fighter",
         "classSource": "PHB",
@@ -387,8 +420,7 @@
             "Starting at 15th level, your presence in the battlefield can be felt by all. You may spend a reaction to reposition yourself, moving your full speed in the direction of a friendly creature, then if any hostile creatures are in range of your melee attacks, you may immediately make a melee attack against that hostile creature."
         ]
     },
-    {
-        "name": "Ancient Survivor",
+    {   "name": "Ancient Survivor",
         "source": "BensBrew",
         "className": "Fighter",
         "classSource": "PHB",
@@ -397,6 +429,33 @@
         "level": 18,
         "entries": [
             "At 18th level, you embody the hope expected from an ancient Stalwart Defender. At the start of each of your turns, you and any friendly creature in a 10-foot radius around you are inspired to keep on fighting, regaining Hit Points equal to your Proficiency modifier if you have more than half of your Hit Points left."
+        ]
+    },
+    {   "name": "Oath of the Stars",
+        "source": "BensBrew",
+        "className": "Paladin",
+        "classSource": "PHB",
+        "subclassShortName": "Stars",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "entries": [
+            "The Oath of Stars binds a paladin to a life of absolute dedication towards the Astral Siblings. Ukko and Umi never reveal themselves to mortals unless it is necessary, so when it comes to a paladin being contacted by one of the two deities, it is considered a huge blessing and honor.",
+            {
+                "type": "refSubclassFeature",
+                "subclassFeature": "Tenets of the Stars|Paladin|PHB|Stars|BensBrew|3"
+            },
+            {
+                "type": "refSubclassFeature",
+                "subclassFeature": "Oath Spells|Paladin|PHB|Stars|BensBrew|3"
+            },
+            {
+                "type": "refSubclassFeature",
+                "subclassFeature": "Channel Divinity: Starlight Infusion|Paladin|PHB|Stars|BensBrew|3"
+            },
+            {
+                "type": "refSubclassFeature",
+                "subclassFeature": "Channel Divinity: Fury of Ukko|Paladin|PHB|Stars|BensBrew|3"
+            }
         ]
     }
 ],
