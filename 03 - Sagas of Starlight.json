@@ -27,8 +27,7 @@
     "dateLastModified": 0
 },
 "race": [
-    {
-        "name": "Ravenfolk",
+    {   "name": "Ravenfolk",
         "source": "BensBrew",
         "ability": [
             {
@@ -118,8 +117,7 @@
             }
         ]
     },
-    {
-        "name": "Crimson Elves",
+    {   "name": "Crimson Elves",
         "source": "BensBrew",
         "ability": [
             {
@@ -215,8 +213,7 @@
             }
         ]
     },
-    {
-        "name": "Half-Estalar",
+    {   "name": "Half-Estalar",
         "source": "BensBrew",
         "ability": [
             {
