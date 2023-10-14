@@ -1,542 +1,190 @@
 {
-    "_meta":
-    {
-        "sources":
-        [
-            {
-                "json": "Introduction to Irin",
-                "abbreviation": "II",
-                "full": "Introduction to Irin",
-                "authors":
-                [
-                    "Ben's Brew"
-                ],
-                "version": "1.0.0",
-                "url": "https://github.com/samaxor/5eHomebrew",
-                "targetSchema": "1.0.0"
-            }
-        ],
-        "dateAdded": 0,
-        "dateLastModified": 0
-    },
-    "race":
-    [
+"_meta": {
+    "sources": [
         {
-            "name": "Dobutsu",
-            "source": "Ben's Brew",
-            "size": "M",
-            "speed":
-            {
-                "walk": 30
-            },
+            "json": "BensBrew",
+            "abbreviation": "II",
+            "full": "Introduction to Irin",
+            "authors": [
+                "Ben's Brew"],
+            "version": "2.0.0",
+            "color": "ffffff",
+            "url": "https://github.com/samaxor/5eHomebrew",
+            "dateReleased": "2023-06-01"}],
+    "status": "wip",
+    "dateAdded": 1685616852,
+    "dateLastModified": 1685616852 },
+    "race": [
+        {    "name": "Dobutsu",
+            "source": "BensBrew",
+            "ability": [
+                {   "wis": 2    }
+            ],
+            "size": [   "M"   ],
+            "speed": 30,
             "darkvision": 60,
-            "ability":
-            [
-                {
-                    "wis": 2
-                }
-            ],
-            "languageProficiencies":
-            [
-                {
+            "languageProficiencies": [   {
                     "common": true,
-                    "sylvan": true
-                }
-            ],
-            "skillProficiencies":
-            [
-                {
-                    "perception": true
-                }
-            ],
-            "entries":
-            [
-                {
+                    "sylvan": true   }   ],
+            "skillProficiencies": [   {
+                    "perception": true   }   ],
+            "entries": [   {
+                    "type": "entries",
                     "name": "Age",
-                    "type": "entries",
-                    "entries":
-                    [
-                        "Dōbutsu come of age in their teens and rarely exceed one century."
-                    ]
-                },
+                    "entries": [
+                    "Dobutsu come of age in their teens and rarely exceed one century."    ]    },
                 {
-                    "name": "Alignment",
                     "type": "entries",
-                    "entries":
-                    [
-                        "Being so closely aligned with the fey, dōbutsu take after them and their chaotic natures."
-                    ]
-                },
+                    "name": "Alignment",
+                    "entries": [
+                        "Being so closely aligned with the fey, dōbutsu take after them and their chaotic natures."    ]    },
                 {
                     "type": "entries",
                     "name": "Size",
-                    "entries":
-                    [
-                        "Dōbutsu vary from below five feet to seven feet tall. Your size is Medium."
-                    ]
-                },
+                    "entries": [
+                        "Dōbutsu vary from below five feet to seven feet tall. Your size is Medium."    ]    },
                 {
                     "type": "entries",
                     "name": "Speed",
-                    "entries":
-                    [
-                        "Your base walking speed is 30 feet."
-                    ]
-                },
+                    "entries": [
+                        "Your base walking speed is 30 feet."    ]    },
                 {
                     "type": "entries",
                     "name": "Beast Senses",
-                    "entries":
-                    [
-                        "You are proficient in the Perception skill."
-                    ]
-                },
+                    "entries":    [
+                        "You are proficient in the Perception skill."    ]    },
                 {
                     "type": "entries",
                     "name": "Darkvision",
-                    "entries":
-                    [
-                        "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ]
-                },
+                    "entries":    [
+                        "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."    ]    },
                 {
                     "type": "entries",
                     "name": "Natural Weapons",
-                    "entries":
-                    [
-                        "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-                    ]
-                },
+                    "entries":    [
+                        "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."    ]    },
                 {
                     "type": "entries",
                     "name": "Languages",
-                    "entries":
-                    [
-                        "You can speak, read and write Common and Sylvan."
-                    ]
-                },
+                    "entries":    [
+                        "You can speak, read and write Common and Sylvan."    ]    },
                 {
                     "type": "entries",
                     "name": "Subrace",
-                    "entries":
-                    [
-                        "You may choose the type of dōbutsu you will be. There are four types: Neko, Kitsune, Okami or Usagi."
+                    "entries":    [
+                        "You may choose the type of dōbutsu you will be. There are four types: Neko, Kitsune, Okami or Usagi."    ]    }    ],
+               "fluff":{
+                    "entries": [
+                        { "name": "Physical Description",
+                        "entries": ["The dōbutsu look similar to humans, the big difference is they have a feature of an animal. The fur of the tail and the ears of a dōbutsu are said to be the most beautiful fur ever seen and they are sometimes killed for it. This part of the dōbutsu came from the large amount of fey blood in the veins of the dōbutsu. Their wild nature before the domestication causes the animistic traits of the dōbutsu. Not all dōbutsu look the same. dōbutsu all have claws due to the type of animal that the dōbutsu often look like."]   },
+                        { "names": "History",
+                        "entries": [ "They have a fey heritage that can be traced back to ancient fey that decided to breed with humans. The Dōbutsu worshipped the fey that had granted them the power, and various ritual were held to give praise to the fey that they worshipped. They were hunted for a time before people got a bit scared and began the enslavement and domestication. They were great hunters and the legends compare them to the archers of the elves. In modern times dōbutsu spend most of the years as slaves or pets to other races. The number of revolts goes up by day but not all dōbutsu hate their masters. The loyal Dōbutsu are known to still worship the fey while most have grown a hatred of the beings that gave them the stupid ears and tail." ]   },
+                        { "names": "Society",
+                        "entries": [ "Dōbutsus often have to deal with the constant reminder by other races that they are not equals. This fact often leaves them in places of enslavement, or in rebellions. The dōbutsu fear of being a weaker race also make them hard worker and push them to achieve something. In the beliefs of the dōbutsu, when one does obtain a goal of note they might change their name to one of a god or demon. No matter how much the dōbutsu may obtain they will still have a constant feeling that they should not hold political power. In the exception to this rule, dōbutsu that do create their own nation will often be isolated. The people that leave an isolated village might be hunted down to keep the secrets and tradition a mystery. The tribal beliefs of the dōbutsu resemble the American Indians and like the isolated country do not believe that they are inferior." ]  }
                     ]
-                }
-            ],
-            "subraces":
-            [
-                {
-                    "name": "Neko",
-                    "source": "Ben's Brew",
-                    "fluff":
-                    {
-                        "entries":
-                        [
-                            "The neko have similarities to domesticated cats. People usually think of them as being weaker than the other dōbutsu. They often go adventuring having a super high chance of leaving home because of the curiosity inside them. The neko have tails and ears that are more glossy and often lick them. The nekos of the past often were seen with wild cats that seemed to be close companions."
-                        ]
-                    },
-                    "ability":
-                    [
-                        {
-                            "dex": 1
-                        }
-                    ],
-                    "entries":
-                    [
-                        {
-                            "name": "Naturally Graceful",
-                            "type": "entries",
-                            "entries":
-                            [
-                                "Cats always land on their feet. You have resistance to fall damage."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Elusive",
-                            "entries":
-                            [
-                                "Opportunity attacks against you have disadvantage."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Kitsune",
-                    "source": "Ben's Brew",
-                    "fluff":
-                    {
-                        "entries":
-                        [
-                            "The kitsune get traits resembling a fox yokai. They are more like tricksters than the other dōbutsu and have a higher chance of becoming chaotic. Kitsune fur has a large amount of magic made into it giving the appearance of glowing. The kitsune often tricks humans into falling in love with it then taking them out."
-                        ]
-                    },
-                    "ability":
-                    [
-                        {
-                            "cha": 1
-                        }
-                    ],
-                    "entries":
-                    [
-                        {
-                            "name": "Fox Tails",
-                            "type": "entries",
-                            "entries":
-                            [
-                                "You have the tail of a fox and gain an additional tail every other level until you have 9 tails. You can use your tail as if it were a spellcasting focus."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Fox Illusion",
-                            "entries":
-                            [
-                                "You know the minor illusion cantrip. At 5th level, you can cast the alter self spell once, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Okami",
-                    "source": "Ben's Brew",
-                    "fluff":
-                    {
-                        "entries":
-                        [
-                            "The okami are the wolf of the dōbutsu world. They are super loyal and often are more lawful than chaotic. The okami fur is often wilder than the other subraces. In the past, they were the strongest warriors in the dōbutsu. They were as crazy as Norse berserkers but also had a strong scene of morals. They have mostly kept the same moral but some have twist law so that they may accomplish their goals."
-                        ]
-                    },
-                    "ability":
-                    [
-                        {
-                            "str": 1
-                        }
-                    ],
-                    "entries":
-                    [
-                        {
-                            "name": "Keen Ears",
-                            "type": "entries",
-                            "entries":
-                            [
-                                "You have advantage on Wisdom (Perception) checks that rely on hearing."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Relentless Endurance",
-                            "entries":
-                            [
-                                "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Usagi",
-                    "source": "Ben's Brew",
-                    "fluff":
-                    {
-                        "entries":
-                        [
-                            "The Usagi have similarities to rabbits. People usually think of them as being weaker than the other dōbutsu. They often go adventuring having a super high chance of leaving home because of the curiosity inside them. The Usagi have tails and ears that are more glossy and often lick them. The Usagi of the past often were rarely seen unless to give aid to hurt or lost travelers."
-                        ]
-                    },
-                    "ability":
-                    [
-                        {
-                            "dex": 1
-                        }
-                    ],
-                    "entries":
-                    [
-                        {
-                            "name": "Nimble Climber",
-                            "type": "entries",
-                            "entries":
-                            [
-                                "Your limbs are strengthened by your animal aspect. You have a climbing speed equal to your walking speed."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Rabbit's Agility",
-                            "entries":
-                            [
-                                "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Oni",
-            "source": "Ben's Brew",
-            "size":
-            [
-                "M"
-            ],
-            "speed":
-            {
-                "walk": 30
-            },
-            "ability":
-            [
-                {
-                    "str": 1,
-                    "con": 1
-                }
-            ],
-            "darkvision": 60,
-            "languageProficiencies":
-            [
-                {
-                    "common": true,
-                    "celestial": true
-                }
-            ],
-            "resist":
-            [
-                "poison"
-            ],
-            "entries":
-            [
-                {
+               }        
+           } ,
+        {    "name": "Oni",
+                "source": "BensBrew",
+                "size":    [    "M"    ],
+                "speed":    {   "walk": 30    },
+                "ability":    [    {
+                        "str": 1,
+                        "con": 1    }
+                ],
+                "darkvision": 60,
+                "languageProficiencies":    [    {
+                        "common": true,
+                        "celestial": true    }
+                ],
+                "resist":    [    "poison"    ],
+                "entries":    [    {
                     "name": "Age",
-                    "type": "entries",
-                    "entries":
-                    [
-                        "Oni reach maturity about the same time as humans do, but their aging slows down drastically after that. Most live to about 1000 years old."
-                    ]
-                },
-                {
-                    "name": "Alignment",
-                    "type": "entries",
-                    "entries":
-                    [
-                        "Most oni are naturally evil. Their heightened sensitivity to the temptations of the Material Plane usually drives them to steal, fight and manipulate to get what they want."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries":
-                    [
-                        "Oni are a sizeable people, reaching heights from 7 and 8 feet tall by maturity and weigh between 280 and 340 pounds. Your size is Medium."
-                    ]
-                },
-                {
-                    "name": "Darkvision",
-                    "entries":
-                    [
-                        "As a creature of the night, you are very good at seeing in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Yokai Resistance",
-                    "entries":
-                    [
-                        "Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Powerful Build",
-                    "entries":
-                    [
-                        "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Supernatural Strength",
-                    "entries":
-                    [
-                        "You can wield a weapon with the versatile property in one hand, but use the damage dice as if you were wielding it in two hands. In addition, Half-Oni's add their proficiency bonus to damage when making an unarmed attack."
-                    ],
-                    "type": "entries"
-                },
-                {
-                    "name": "Languages",
-                    "entries":
-                    [
-                        "You can speak, read and write, Common and Giant."
-                    ],
-                    "type": "entries"
-                }
-            ],
-            "subraces":
-            [
-                {
-                    "name": "Aka Oni (Red Oni)",
-                    "source": "Ben's Brew",
-                    "fluff":
-                    {
+                        "type": "entries",
                         "entries":
                         [
-                            "The most common out of the oni, red oni or aka oni are known for their large size and toughness. They are slightly bigger than the rest of their kin, with skin coloration in shades of dark red. They are violent, hot-headed, and unfocused, often pursuing immediate satisfaction and disregarding long-term plots and schemes."
-                        ]
-                    },
-                    "ability":
-                    [
-                        {
-                            "dex": 1
-                        }
-                    ],
-                    "entries":
-                    [
-                        {
-                            "name": "The Revel Continues",
-                            "entries":
-                            [
-                                "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
-                            ],
-                            "type": "entries"
-                        }
-                    ]
-                },
-                {
-                    "name": "Ao Oni (Blue Oni)",
-                    "source": "Ben's Brew",
-                    "ability":
-                    [
-                        {
-                            "int": 1
-                        }
-                    ],
-                    "fluff":
+                            "Oni reach maturity about the same time as humans do, but their aging slows down drastically after that. Most live to about 1000 years old."    ]    },
                     {
+                        "name": "Alignment",
+                        "type": "entries",
+                        "entries":    [
+                            "Most oni are naturally evil. Their heightened sensitivity to the temptations of the Material Plane usually drives them to steal, fight and manipulate to get what they want."   ]    },
+                    {
+                        "type": "entries",
+                        "name": "Size",
+                        "entries":    [
+                            "Oni are a sizeable people, reaching heights from 7 and 8 feet tall by maturity and weigh between 280 and 340 pounds. Your size is Medium."   ]    },
+                    {
+                        "name": "Darkvision",
                         "entries":
                         [
-                            "Blue oni or ao oni are known for their unnatural cunning and aptitude for magic. They are smaller than their red kin, though larger than their pale kin, and with skin coloration of shades of dark blue. They are usually calculating and meticulous pursuing lofty goals such as of power and knowledge."
-                        ]
-                    },
-                    "entries":
-                    [
-                        {
-                            "name": "Oni Magic.",
-                            "entries":
-                            [
-                                "Blue oni can muster the innate magic within themselves which gets stronger as they grow in power. You know the dancing lights cantrip. When you reach 3rd level, you can cast the charm person spell once and need to finish a long rest before you can cast it again. Intelligence is your spellcasting ability for these spells."
-                            ],
-                            "type": "entries"
-                        }
-                    ]
-                },
-                {
-                    "name": "Shiro Oni (White Oni)",
-                    "source": "Ben's Brew",
-                    "ability":
-                    [
-                        {
-                            "wis": 1
-                        }
-                    ],
-                    "fluff":
+                            "As a creature of the night, you are very good at seeing in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."    ],
+                        "type": "entries"    },
                     {
-                        "entries":
-                        [
-                            "Pale oni or shiro oni are known for their aloofness and connections to the spiritual realm. They are the smallest of oni, and are the fewest. Their skin can vary from pale white to light grey. Unlike the other oni, pale oni wish only to keep the balance between the Spirit World and the Material Plane. They usually guard locations where the presence of the Spirit World but sometimes adventure to seek artifacts of the spirit world or mend imbalances."
-                        ]
-                    },
-                    "entries":
-                    [
-                        {
-                            "name": "Spirit Walk.",
-                            "entries":
-                            [
-                                "You teleport when you take the dash action."
-                            ],
-                            "type": "entries"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Starforged",
-            "source": "Ben's Brew",
-            "size":
-            [
-                "M"
-            ],
-            "speed":
-            {
-                "walk": 30
+                        "name": "Yokai Resistance",
+                        "entries":   [
+                            "Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned."    ],
+                        "type": "entries"    },
+                    {
+                        "name": "Powerful Build",
+                        "entries":    [
+                            "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."    ],
+                        "type": "entries"    },
+                    {
+                        "name": "Supernatural Strength",
+                        "entries":    [
+                            "You can wield a weapon with the versatile property in one hand, but use the damage dice as if you were wielding it in two hands. In addition, Half-Oni's add their proficiency bonus to damage when making an unarmed attack."    ],
+                        "type": "entries"    },
+                    {
+                        "name": "Languages",
+                        "entries":    [
+                            "You can speak, read and write, Common and Giant."    ],
+                        "type": "entries"
+                    }    ],
+                "fluff":{
+                    "entries": [
+                        { "name": "Physical Description",
+                            "entries": ["Oni are supernatural beings resembling demonic Ogres, but smaller in size. They have red, blue, or white skin, dark eyes with white pupils, and long, wild hair usually black or grey, occasionally white. Their distinguishing feature is a pair of short ivory horns that grow longer with age, which they take pride in and diligently polish. While they often mimic other humanoid species, some harmonious Oni adopt hybrid forms, blending in with host races while proudly displaying their distinctive horns."]   },
+                        { "names": "History",
+                            "entries": [ "At one time, the Oni guarded locations where the Spirit World overlapped with the Material Plane. Years on the Material Plane, however, corrupted some of the Oni splintering them into the three sub-races. The Oni corrupted by the material pleasures of the world became the Red Oni. The Oni corrupted by the power and knowledge of the world became the Blue Oni. The Oni that remained guard, resisting the temptations became the White Oni." ]   },
+                        { "names": "Society",
+                            "entries": [ "Oni primarily live solitary lives in the wilderness, only gathering with other Oni during annual revels. These gatherings, sometimes consisting of up to two hundred Oni, are highly anticipated and strictly forbid violence, with offenders having their horns sawed short and being exiled. Despite their shape-shifting abilities, Oni often face rejection and are shunned by settlements unless they prove themselves. Even when accepted, they rarely reveal their true form, opting for a hybrid appearance to ease others' discomfort or for personal gain." ]  }    ]   }    
             },
-            "ability":
-            [
+        {    "name": "Starforged",
+            "source": "BensBrew",
+            "ability": [
                 {
                     "con": 2,
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "dex",
-                            "int",
-                            "wis",
-                            "cha"
-                        ],
-                        "count": 1
-                    }
-                }
-            ],
-            "traitTags":
-            [
-                "Starforged Resilience",
-                "Natural Armor"
-            ],
-            "languageProficiencies":
-            [
+                    "choose": { "from": ["str", "dex", "int", "wis", "cha"], "count": 1}    }    ],
+            "size": [    "M"    ],
+            "speed": 30,
+            "darkvision": 0,
+            "traitTags": [
+                "Natural Armor"    ],
+            "languageProficiencies": [
                 {
                     "common": true,
-                    "anyStandard": 1
-                }
-            ],
-            "resist":
-            [
-                "cold"
-            ],
-            "conditionImmune":
-            [
-                "disease"
-            ],
-            "entries":
-            [
-                {
+                    "anyStandard": 1    }    ],
+            "resist": [ "cold" ],
+            "entries":   [    {
                     "name": "Age",
-                    "entries":
-                    [
-                        "After achieving sentience, starforged mature at the same age as humans. They can live until their core run out of energy, a process that can take up to 700 years."
-                    ],
-                    "type": "entries"
-                },
+                    "entries":    [
+                        "After achieving sentience, starforged mature at the same age as humans. They can live until their core run out of energy, a process that can take up to 700 years."    ],
+                    "type": "entries"    },
                 {
                     "type": "entries",
                     "name": "Alignment",
-                    "entries":
-                    [
-                        "Most starforged take comfort in order and discipline, tending toward law and neutrality, but some have absorbed the morality—or lack thereof—of the beings they served with."
-                    ]
-                },
+                    "entries":    [
+                        "Most starforged take comfort in order and discipline, tending toward law and neutrality, but some have absorbed the morality—or lack thereof—of the beings they served with."    ]    },
                 {
                     "type": "entries",
                     "name": "Size",
-                    "entries":
-                    [
-                        "Most starforged stand between 5 and 6½ feet tall. Your size is Medium."
-                    ]
-                },
+                    "entries":    [
+                        "Most starforged stand between 5 and 6½ feet tall. Your size is Medium."   ]    },
                 {
                     "type": "entries",
                     "name": "Starforged Resilience",
-                    "entries":
-                    [
+                    "entries":    [
                         "Your constructed and cosmic nature grants you the following benefits:",
                         {
                             "type": "list",
@@ -575,53 +223,22 @@
                     ]
                 }
             ]
-        },
-        {
-            "name": "Automata",
-            "source": "Ben's Brew",
-            "size":
-            [
-                "M"
-            ],
-            "speed":
-            {
-                "walk": 30
             },
-            "ability":
-            [
-                {
+        {   "name": "Automata",
+            "source": "BensBrew",
+            "ability": [    {
                     "con": 1,
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "dex",
-                            "int",
-                            "wis",
-                            "cha"
-                        ],
-                        "count": 1
-                    }
-                }
-            ],
-            "languageProficiencies":
-            [
-                {
+                    "choose": {"from": ["str", "dex", "int", "wis", "cha"], 
+                    "count": 1}}],
+            "size": ["M"],
+            "speed": 30,
+            "darkvision": 0,
+            "resist": ["poison"],
+            "conditionImmune": ["disease"],
+            "languageProficiencies": [{
                     "common": true,
-                    "anyStandard": 1
-                }
-            ],
-            "resist":
-            [
-                "poison"
-            ],
-            "conditionImmune":
-            [
-                "disease"
-            ],
-            "entries":
-            [
+                    "anyStandard": 1}],
+            "entries": [
                 {
                     "name": "Age",
                     "entries":
@@ -629,24 +246,21 @@
                         "Automatas don't age in the same way as other races do, but their body slowly decays if not taken care of properly. Automata can survive only for 5 to 50 years, depending on what it is made of, if it doesn't have access to the proper materials or tools required for its maintenance. After that time, it will crumble, rust or rot away. Proper maintenance can make an Automata immortal.",
                         "For the purpose of game mechanics, you're immune to biological aging, both magical and non-magical."
                     ],
-                    "type": "entries"
-                },
+                    "type": "entries"},
                 {
                     "type": "entries",
                     "name": "Alignment",
                     "entries":
                     [
                         "Built as slaves or servants, most Automatas keep their 'rule - encased ' mentality even when free, and tend therefore towards lawful alignments. They don't seem to show a predilection for good or evil."
-                    ]
-                },
+                    ]},
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries":
                     [
                         "An Automata's size can vary greatly, ranging from as little as 3 feet to more than 8. Your size is either Medium or Small (your choice). "
-                    ]
-                },
+                    ]},
                 {
                     "type": "entries",
                     "name": "Artificial being",
@@ -681,472 +295,631 @@
                         "You can speak, read, and write Common and one other language of your choice."
                     ]
                 }
-            ],
-            "subraces":
-            [
-                {
-                    "name": "Geo-Construct",
-                    "source": "Ben's Brew",
+            ]
+        }
+        ],
+    "subrace": [
+                {    "name": "Neko",
+                    "source": "BensBrew",
+                    "raceName": "Dobutsu",
+                    "raceSource": "BensBrew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The neko have similarities to domesticated cats. People usually think of them as being weaker than the other dōbutsu. They often go adventuring having a super high chance of leaving home because of the curiosity inside them. The neko have tails and ears that are more glossy and often lick them. The nekos of the past often were seen with wild cats that seemed to be close companions."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "dex": 1
+                        }
+                    ],
                     "entries":
                     [
                         {
-                            "name": "Geo-Construct",
+                            "name": "Naturally Graceful",
                             "type": "entries",
                             "entries":
                             [
-                                "You are composed of mostly inorganic matter, be it metal, stone or crystals. You gain the following traits:",
-                                {
+                                "Cats always land on their feet. You have resistance to fall damage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Elusive",
+                            "entries":
+                            [
+                                "Opportunity attacks against you have disadvantage."
+                            ]
+                        }
+                    ]
+                },
+                {    "name": "Kitsune",
+                    "source": "BensBrew",
+                    "raceName": "Dobutsu",
+                    "raceSource": "BensBrew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The kitsune get traits resembling a fox yokai. They are more like tricksters than the other dōbutsu and have a higher chance of becoming chaotic. Kitsune fur has a large amount of magic made into it giving the appearance of glowing. The kitsune often tricks humans into falling in love with it then taking them out."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "cha": 1
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "name": "Fox Tails",
+                            "type": "entries",
+                            "entries":
+                            [
+                                "You have the tail of a fox and gain an additional tail every other level until you have 9 tails. You can use your tail as if it were a spellcasting focus."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Fox Illusion",
+                            "entries":
+                            [
+                                "You know the minor illusion cantrip. At 5th level, you can cast the alter self spell once, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Charisma is your spellcasting ability for this spell."
+                            ]
+                        }
+                    ]
+                },
+                {    "name": "Okami",
+                    "source": "BensBrew",
+                    "raceName": "Dobutsu",
+                    "raceSource": "BensBrew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The okami are the wolf of the dōbutsu world. They are super loyal and often are more lawful than chaotic. The okami fur is often wilder than the other subraces. In the past, they were the strongest warriors in the dōbutsu. They were as crazy as Norse berserkers but also had a strong scene of morals. They have mostly kept the same moral but some have twist law so that they may accomplish their goals."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "str": 1
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "name": "Keen Ears",
+                            "type": "entries",
+                            "entries":
+                            [
+                                "You have advantage on Wisdom (Perception) checks that rely on hearing."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Relentless Endurance",
+                            "entries":
+                            [
+                                "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
+                            ]
+                        }
+                    ]
+                },
+                {    "name": "Usagi",
+                    "source": "BensBrew",
+                    "raceName": "Dobutsu",
+                    "raceSource": "BensBrew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The Usagi have similarities to rabbits. People usually think of them as being weaker than the other dōbutsu. They often go adventuring having a super high chance of leaving home because of the curiosity inside them. The Usagi have tails and ears that are more glossy and often lick them. The Usagi of the past often were rarely seen unless to give aid to hurt or lost travelers."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "dex": 1
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "name": "Nimble Climber",
+                            "type": "entries",
+                            "entries":
+                            [
+                                "Your limbs are strengthened by your animal aspect. You have a climbing speed equal to your walking speed."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Rabbit's Agility",
+                            "entries":
+                            [
+                                "Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+                            ]
+                        }
+                    ]
+                },
+                {    "name": "Aka Oni (Red Oni)",
+                    "source": "BensBrew",
+                    "raceName": "Oni",
+                    "raceSource": "BensBrew",
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "The most common out of the oni, red oni or aka oni are known for their large size and toughness. They are slightly bigger than the rest of their kin, with skin coloration in shades of dark red. They are violent, hot-headed, and unfocused, often pursuing immediate satisfaction and disregarding long-term plots and schemes."
+                        ]
+                    },
+                    "ability":
+                    [
+                        {
+                            "dex": 1
+                        }
+                    ],
+                    "entries":
+                    [
+                        {
+                            "name": "The Revel Continues",
+                            "entries":
+                            [
+                                "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {    "name": "Ao Oni (Blue Oni)",
+                    "source": "BensBrew",
+                    "raceName": "Oni",
+                    "raceSource": "BensBrew",
+                    "ability":
+                    [
+                        {
+                            "int": 1
+                        }
+                    ],
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "Blue oni or ao oni are known for their unnatural cunning and aptitude for magic. They are smaller than their red kin, though larger than their pale kin, and with skin coloration of shades of dark blue. They are usually calculating and meticulous pursuing lofty goals such as of power and knowledge."
+                        ]
+                    },
+                    "entries":
+                    [
+                        {
+                            "name": "Oni Magic.",
+                            "entries":
+                            [
+                                "Blue oni can muster the innate magic within themselves which gets stronger as they grow in power. You know the dancing lights cantrip. When you reach 3rd level, you can cast the charm person spell once and need to finish a long rest before you can cast it again. Intelligence is your spellcasting ability for these spells."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {    "name": "Shiro Oni (White Oni)",
+                    "source": "BensBrew",
+                    "raceName": "Oni",
+                    "raceSource": "BensBrew",
+                    "ability":
+                    [
+                        {
+                            "wis": 1
+                        }
+                    ],
+                    "fluff":
+                    {
+                        "entries":
+                        [
+                            "Pale oni or shiro oni are known for their aloofness and connections to the spiritual realm. They are the smallest of oni, and are the fewest. Their skin can vary from pale white to light grey. Unlike the other oni, pale oni wish only to keep the balance between the Spirit World and the Material Plane. They usually guard locations where the presence of the Spirit World but sometimes adventure to seek artifacts of the spirit world or mend imbalances."
+                        ]
+                    },
+                    "entries":
+                    [
+                        {
+                            "name": "Spirit Walk.",
+                            "entries":
+                            [
+                                "You teleport when you take the dash action."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {    "name": "Geo-Construct",
+                    "source": "BensBrew",
+                    "raceName": "Automata",
+                    "raceSource": "BensBrew",
+                    "entries":[{
+                            "name": "Geo-Construct",
+                            "type": "entries",
+                            "entries":[
+                                "You are composed of mostly inorganic matter, be it metal, stone or crystals. You gain the following traits:",{
                                     "type": "list",
-                                    "items":
-                                    [
+                                    "items":[
                                         "You gain immunity to poison damage and the poisoned condition.",
                                         "You don't need to eat, drink, or breathe.",
                                         "When you are reduced to 0 hit points but not killed outright, you can use your reaction to drop to 1 hit point instead. You cannot use this feature again until you finish a long rest."
                                     ]
-                                }
-                            ]
-                        }
-                    ]
+                                }]}]
                 },
-                {
-                    "name": "Dendro-Contruct",
-                    "source": "Ben's Brew",
-                    "entries":
-                    [
-                        {
-                            "name": "Dendro-Contruct",
+                {    "name": "Dendro-Contruct",
+                    "source": "BensBrew",
+                    "raceName": "Automata",
+                    "raceSource": "BensBrew",
+                    "entries":[{
+                            "name": "Dendro-Construct",
                             "type": "entries",
-                            "entries":
-                            [
-                                "You are made of wood and other plant-derived materials, causing your body to work similarly to a plant. You gain the following traits:",
-                                {
+                            "entries":[
+                                "You are made of wood and other plant-derived materials, causing your body to work similarly to a plant. You gain the following traits:",{
                                     "type": "list",
-                                    "items":
-                                    [
+                                    "items":[
                                         "You do not need to sleep. Instead, you can rest by doing light activity while remaining relative still (like keeping watch or reading a book).",
                                         "You do not need to eat or drink as long as you have access to sunlight or a good amount of soil.",
                                         "You can go 1 hour without breathing without suffering ill consequences.",
-                                        "You gain proficiency in the Nature or Survival skills."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                                        "You gain proficiency in the Nature or Survival skills."]
+                                }]}]
                 },
-                {
-                    "name": "Necro-Construct",
-                    "source": "Ben's Brew",
-                    "entries":
-                    [
-                        {
-                            "name": "Geo-Construct",
+                {    "name": "Necro-Construct",
+                    "source": "BensBrew",
+                    "raceName": "Automata",
+                    "raceSource": "BensBrew",
+                    "entries":[{
+                            "name": "Necro-Construct",
                             "type": "entries",
-                            "entries":
-                            [
-                                "Your body is constructed using organic matter in the necromantic way, and thus share characteristics of an undead. You gain the following traits:",
-                                {
+                            "entries":[
+                                "Your body is constructed using organic matter in the necromantic way, and thus share characteristics of an undead. You gain the following traits:",{
                                     "type": "list",
-                                    "items":
-                                    [
+                                    "items":[
                                         "You gain resistance to necrotic damage.",
                                         "You have advantage on checks and saving throws to avoid exhaustion.",
                                         "You can go 1 hour without breathing without suffering ill consequences.",
                                         "You have some form of innate magic implanted into your system. You learn one cantrip. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
                                     ]
-                                }
-                            ]
-                        }
-                    ]
+                                }]}]
                 }
-            ]
-        }
-    ],
-    "background":
-    [
-        {
-            "name": "Improved Background: Villager",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "Improved Background. This feature replaces the background of your character. As a simple villager, you gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Hardy body. You gain a +2 bonus to all saving throws",
-                        "Untapped potential. Increase any chosen ability score by 2, up to a maximum of 20."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Noble",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You grew up around wealth and nobility, thus gaining the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Well fed. You gain a +5 to your maximum health.",
-                        "Noble blood. Increases any two different ability scores by 1, up to a maximum of 20. ",
-                        "Noble education. You learn two additional languages or proficiencies."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Student",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have spent most of your life dedicated to studying and acquiring knowledge. You start your adventure with the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Academic. You may select up to four skills, languages or tools to learn or be proficient in.",
-                        "Diligent. Increase any chosen ability score by 1, up to a maximum of 20.",
-                        "Knowledgeable. Choose a skill that you are already proficient in. Your proficiency bonus is  doubled for any ability check you make that uses that skill."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Soldier",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You received formal military training, improving your body and your discipline. You begin your adventure with the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Army training. You gain a +10 to your maximum health.",
-                        "Disciplined. Increase your Strength or Constitution by 1, to a maximum of 20.",
-                        "Military tactics. You gain proficiency in two of the following skills: Athletics, Intimation, Acrobatics, Survival. "
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Mercenary",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have completed many jobs and fought many battles for payment and wealth. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Fighting instinct. You gain a +2 bonus to saving throws against non-magical effects.",
-                        "Mercenary workout. Increase your Strength or Dexterity by 1, to a maximum of 20.",
-                        "Savvy travelled. Your walking speed increases by 5 feet."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Knight",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You are an honoured soldier, who fights with a purpose. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Swift reaction. You have advantage on all attacks of opportunity.",
-                        "Knight's training. Increase your Strength, Dexterity or Constitution by 1, to a maximum of 20.",
-                        "Supportive. When you take the help action, the creature you aid receives an additional +2 bonus to their ability check or attack roll."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Criminal",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have some knowledge in the larcenous arts and committed some crimes with them. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Nimble feet. You gain a +5 bonus to initial rolls.",
-                        "Criminal mind. Increase your Dexterity or Charisma by 1, to a maximum of 20.",
-                        "Tricks of the trade. You gain proficiency in either Sleight of hand or Deception. If you already of proficiency in either one or both, you may choose to gain expertise instead."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Merchant",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have experience in the world of trade and commerce. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Bang for your buck. You gain a +2 on skill checks related to bartering, selling and trading.",
-                        "Inside trader. Increase your Charisma or Wisdom by 1, to a maximum of 20.",
-                        "Its just business. You gain proficiency in either Insight or Persuasion. If you already of proficiency in either one or both, you may choose to gain expertise instead."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Artisan",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have a strong desire to create and have dedicated your life to it. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Creator. You gain a +5 on skill checks related to crafting.",
-                        "Skilled hands. Increase your Dexterity or Intelligence by 1, to a maximum of 20.",
-                        "Tools of the trade. You gain proficiency in any two skills or tools. If you already of proficiency in a set of Artisan's tools, you may choose to gain expertise instead."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Scholar",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have studied the arcane arts. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Researcher. You learn a cantrip from the wizard spell list. You cast it at character level",
-                        "Diligent study. Increase your Constitution or Intelligence by 1, to a maximum of 20.",
-                        "Verbose. You learn one additional language of your choice."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Nomad",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You are well acquainted with nature and animals. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Nature attuned. You learn a cantrip from the druid spell list. You cast it at character level.",
-                        "Wild one. Increase your Dexterity or Wisdom by 1, to a maximum of 20.",
-                        "Animal lover. You gain proficiency the Animal Handling skill. If you already have proficiency in Animal Handling, you may gain expertise in it instead."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Performer",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have talent in the arts and self expression. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Harmonic tune. You learn a cantrip from the bard spell list. You cast it at character level.",
-                        "Routine rehearsal. Increase your Constitution or Charisma by 1, to a maximum of 20.",
-                        "Show off. You gain proficiency the Performance skill. If you already of proficiency in Performance, you may gain expertise in it instead."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Sage",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have dedicated time to studying the Weave and all its magics. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Arcane analysis. You gain a +2 bonus to saving throws against spells.",
-                        "Talented mind. Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
-                        "Well studied. You gain proficiency in the Arcana skill. If you already have proficiency in Arcana, you may gain expertise in it instead."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Priest",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have practiced faith and a talent for divine power. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Minor divinity. You learn a cantrip from the cleric spell list. You cast it at character level.",
-                        "Blessed body. Increase your Wisdom or Charisma by 1, to a maximum of 20.",
-                        "Faithful. You gain proficiency the Religion skill. If you already of proficiency in Religion, you may gain expertise in it instead."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improved Background: Cultist",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You have researched the arcane in unconventional ways. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Otherworldly spark. You learn a cantrip from the warlock spell list. You cast it at character level.",
-                        "Mystic mind. Increase your Intelligence or Charisma by 1, to a maximum of 20.",
-                        "Unusual research. You gain proficiency in two of the following skills: Arcana, Religion, History or Medicine"
-                    ]
-                }
-            ]
-        }
-    ],
-    "subclass":
-    [
-        {
-            "name": "Protection Domain",
-            "shortName": "Protection",
-            "source": "Ben's Brew",
-            "subclassSpells":
-            [
-                {
-                    "name": "Sanctuary",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Shield of Faith",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Aid",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Warding Bond",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Beacon of Hope",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Glyph of Warding",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Aura of Purity",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Stoneskin",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Circle of Power",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Wall of Force",
-                    "source": "PHB"
-                }
-            ],
-            "subclassFeatures":
-            [
-                "Protection Domain|Cleric||Protection|Ben's Brew|1",
-                "Channel Divinity: Safeguard|Cleric||Protection|Ben's Brew|2",
-                "Preservation|Cleric||Protection|Ben's Brew|6",
-                "Divine Strike|Cleric||Protection|Ben's Brew|8",
-                "Imposition of the Immortal|Cleric||Protection|Ben's Brew|17"
-            ],
-            "className": "Cleric",
-            "classSource": "PHB"
-        },
-        {
-            "name": "Witchblade Sorcerous Origin",
-            "shortName": "Witchblade",
-            "source": "Ben's Brew",
-            "subclassFeatures":
-            [
-                "Arcane Warrior|Sorcerer||Witchblade|Ben's Brew|1",
-                "War Witch|Sorcerer||Witchblade|Ben's Brew|6",
-                "Magical Armament|Sorcerer||Witchblade|Ben's Brew|6",
-                "Witch Walking|Sorcerer||Witchblade|Ben's Brew|14",
-                "Magical Flurry|Sorcerer||Witchblade|Ben's Brew|18"
-            ],
-            "className": "Sorcerer",
-            "classSource": "PHB"
-        },
-        {
-            "name": "Circle of Steel",
-            "source": "Ben's Brew",
-            "additionalSpells":
-            [
-                {
-                    "prepared":
+
+        ],
+    "background": [
+            {
+                "name": "Improved Background: Villager",
+                "source": "BensBrew",
+                "ability": [{"choose":
+                    { "from":
+                        [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "count": 2}}],
+                "entries":
+                [
+                    "Improved Background. This feature replaces the background of your character. As a simple villager, you gain the following benefits:",
                     {
-                        "3":
+                        "type": "list",
+                        "items":
                         [
-                            "enhance ability",
-                            "summon beast"
-                        ],
-                        "5":
-                        [
-                            "aura of vitality",
-                            "conjure animals"
-                        ],
-                        "7":
-                        [
-                            "freedom of movement",
-                            "summon construct"
-                        ],
-                        "9":
-                        [
-                            "animate objects",
-                            "skill empowerment"
+                            "**Hardy body.** You gain a +2 bonus to all saving throws",
+                            "**Untapped potential.** Increase any chosen ability score by 2, up to a maximum of 20."
                         ]
                     }
-                }
-            ],
+                ]
+            },
+            {
+                "name": "Improved Background: Noble",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You grew up around wealth and nobility, thus gaining the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Well fed. You gain a +5 to your maximum health.",
+                            "Noble blood. Increases any two different ability scores by 1, up to a maximum of 20. ",
+                            "Noble education. You learn two additional languages or proficiencies."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Student",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have spent most of your life dedicated to studying and acquiring knowledge. You start your adventure with the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Academic. You may select up to four skills, languages or tools to learn or be proficient in.",
+                            "Diligent. Increase any chosen ability score by 1, up to a maximum of 20.",
+                            "Knowledgeable. Choose a skill that you are already proficient in. Your proficiency bonus is  doubled for any ability check you make that uses that skill."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Soldier",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You received formal military training, improving your body and your discipline. You begin your adventure with the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Army training. You gain a +10 to your maximum health.",
+                            "Disciplined. Increase your Strength or Constitution by 1, to a maximum of 20.",
+                            "Military tactics. You gain proficiency in two of the following skills: Athletics, Intimation, Acrobatics, Survival. "
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Mercenary",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have completed many jobs and fought many battles for payment and wealth. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Fighting instinct. You gain a +2 bonus to saving throws against non-magical effects.",
+                            "Mercenary workout. Increase your Strength or Dexterity by 1, to a maximum of 20.",
+                            "Savvy travelled. Your walking speed increases by 5 feet."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Knight",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You are an honoured soldier, who fights with a purpose. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Swift reaction. You have advantage on all attacks of opportunity.",
+                            "Knight's training. Increase your Strength, Dexterity or Constitution by 1, to a maximum of 20.",
+                            "Supportive. When you take the help action, the creature you aid receives an additional +2 bonus to their ability check or attack roll."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Criminal",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have some knowledge in the larcenous arts and committed some crimes with them. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Nimble feet. You gain a +5 bonus to initial rolls.",
+                            "Criminal mind. Increase your Dexterity or Charisma by 1, to a maximum of 20.",
+                            "Tricks of the trade. You gain proficiency in either Sleight of hand or Deception. If you already of proficiency in either one or both, you may choose to gain expertise instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Merchant",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have experience in the world of trade and commerce. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Bang for your buck. You gain a +2 on skill checks related to bartering, selling and trading.",
+                            "Inside trader. Increase your Charisma or Wisdom by 1, to a maximum of 20.",
+                            "Its just business. You gain proficiency in either Insight or Persuasion. If you already of proficiency in either one or both, you may choose to gain expertise instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Artisan",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have a strong desire to create and have dedicated your life to it. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Creator. You gain a +5 on skill checks related to crafting.",
+                            "Skilled hands. Increase your Dexterity or Intelligence by 1, to a maximum of 20.",
+                            "Tools of the trade. You gain proficiency in any two skills or tools. If you already of proficiency in a set of Artisan's tools, you may choose to gain expertise instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Scholar",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have studied the arcane arts. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Researcher. You learn a cantrip from the wizard spell list. You cast it at character level",
+                            "Diligent study. Increase your Constitution or Intelligence by 1, to a maximum of 20.",
+                            "Verbose. You learn one additional language of your choice."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Nomad",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You are well acquainted with nature and animals. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Nature attuned. You learn a cantrip from the druid spell list. You cast it at character level.",
+                            "Wild one. Increase your Dexterity or Wisdom by 1, to a maximum of 20.",
+                            "Animal lover. You gain proficiency the Animal Handling skill. If you already have proficiency in Animal Handling, you may gain expertise in it instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Performer",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have talent in the arts and self expression. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Harmonic tune. You learn a cantrip from the bard spell list. You cast it at character level.",
+                            "Routine rehearsal. Increase your Constitution or Charisma by 1, to a maximum of 20.",
+                            "Show off. You gain proficiency the Performance skill. If you already of proficiency in Performance, you may gain expertise in it instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Sage",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have dedicated time to studying the Weave and all its magics. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Arcane analysis. You gain a +2 bonus to saving throws against spells.",
+                            "Talented mind. Increase your Intelligence, Wisdom or Charisma by 1, to a maximum of 20.",
+                            "Well studied. You gain proficiency in the Arcana skill. If you already have proficiency in Arcana, you may gain expertise in it instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Priest",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have practiced faith and a talent for divine power. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Minor divinity. You learn a cantrip from the cleric spell list. You cast it at character level.",
+                            "Blessed body. Increase your Wisdom or Charisma by 1, to a maximum of 20.",
+                            "Faithful. You gain proficiency the Religion skill. If you already of proficiency in Religion, you may gain expertise in it instead."
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Improved Background: Cultist",
+                "source": "BensBrew",
+                "entries":
+                [
+                    "You have researched the arcane in unconventional ways. You gain the following benefits:",
+                    {
+                        "type": "list",
+                        "items":
+                        [
+                            "Otherworldly spark. You learn a cantrip from the warlock spell list. You cast it at character level.",
+                            "Mystic mind. Increase your Intelligence or Charisma by 1, to a maximum of 20.",
+                            "Unusual research. You gain proficiency in two of the following skills: Arcana, Religion, History or Medicine"
+                        ]
+                    }
+                ]
+            }
+        ],
+    "subclass": [
+            {    "name": "Protection Domain",
+                "shortName": "Protection",
+                "source": "BensBrew",
+                "className": "Cleric",
+                "classSource": "PHB",
+                "additionalSpells": [
+                    {
+                        "prepared": {
+                            "1": [
+                                "Sanctuary",
+                                "Shield of Faith"
+                            ],
+                            "3": [
+                                "Aid",
+                                "Warding Bond"
+                            ],
+                            "5": [
+                                "Beacon of Hope",
+                                "Glyph of Warding"
+                            ],
+                            "7": [
+                                "Aura of Purity",
+                                "Stoneskin"
+                            ],
+                            "9": [
+                                "Circle of Power",
+                                "Wall of Force"
+                            ]
+                        }
+                    }
+                ],
+                "subclassFeatures": [
+                "Protection Domain|Cleric|PHB|Protection|BensBrew|1",
+                "Channel Divinity: Safeguard|Cleric|PHB|Protection|BensBrew|2",
+                "Preservation|Cleric|PHB|Protection|BensBrew|6",
+                "Divine Strike|Cleric|PHB|Protection|BensBrew|8",
+                "Imposition of the Immortal|Cleric|PHB|Protection|BensBrew|17"
+            ]
+            },
+            {
+            "name": "Witchblade Sorcerous Origin",
+            "shortName": "Witchblade",
+            "source": "BensBrew",
+            "className": "Sorcerer",
+            "classSource": "PHB",
             "subclassFeatures":
             [
-                "Circle of Steel|Druid||Steel|Ben's Brew|2",
-                "Steel Companion|Druid||Steel|Ben's Brew|6",
-                "Steel Bond|Druid||Steel|Ben's Brew|6",
-                "Iron Protector|Druid||Steel|Ben's Brew|10",
-                "Improved Steel Bond|Druid||Steel|Ben's Brew|14"
-            ],
-            "shortName": "Steel",
-            "className": "Druid",
-            "classSource": "PHB"
-        }
-    ],
-    "subclassFeature":
-    [
-        {
+                "Arcane Warrior|Sorcerer||Witchblade|BensBrew|1",
+                "War Witch|Sorcerer||Witchblade|BensBrew|6",
+                "Magical Armament|Sorcerer||Witchblade|BensBrew|6",
+                "Witch Walking|Sorcerer||Witchblade|BensBrew|14",
+                "Magical Flurry|Sorcerer||Witchblade|BensBrew|18"
+            ]
+            }
+        ],
+    "subclassFeature": [
+          {
             "name": "Protection Domain",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 1,
             "entries":
             [
@@ -1190,11 +963,11 @@
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Bonus Proficiency|Cleric||Protection|Ben's Brew|1"
+                    "subclassFeature": "Bonus Proficiency|Cleric||Protection|BensBrew|1"
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Shield the Defenseless|Cleric||Protection|Ben's Brew|1"
+                    "subclassFeature": "Shield the Defenseless|Cleric||Protection|BensBrew|1"
                 }
             ]
         },
@@ -1205,12 +978,12 @@
             [
                 "At 1st level, you gain proficiency in heavy armor."
             ],
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 1,
             "header": 1
         },
@@ -1221,23 +994,23 @@
             [
                 "From 1st level, you have been trained to be in the thick of battle, curing the wounds of the knights and paladins. You gain the protection fighting style. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield. At 8th level, you no longer have to be within 5 feet of a creature to use this feature. Instead, a shield of radiance protects the creature. You must be within 30 feet of them, and must be able to see them."
             ],
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 1,
             "header": 1
         },
         {
             "name": "Channel Divinity: Safeguard",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 2,
             "header": 2,
             "entries":
@@ -1247,12 +1020,12 @@
         },
         {
             "name": "Preservation",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 6,
             "header": 2,
             "entries":
@@ -1262,12 +1035,12 @@
         },
         {
             "name": "Divine Strike",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 8,
             "header": 2,
             "entries":
@@ -1277,27 +1050,27 @@
         },
         {
             "name": "Imposition of the Immortal",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 1,
             "className": "Cleric",
             "classSource": "PHB",
             "subclassShortName": "Protection",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 17,
             "header": 2,
             "entries":
             [
-                "Finally at 17th level, you can now protect all of your allies on the battlefield from hostile foes. Whenever you use the Safeguard channel divinity, it instead affects all friendly creatures within 30’ of the creature you touch."
+                "Finally, at 17th level, you can now protect all of your allies on the battlefield from hostile foes. Whenever you use the Safeguard channel divinity, it instead affects all friendly creatures within 30 feet of the creature you touch."
             ]
         },
         {
             "name": "Arcane Warrior",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 1,
             "entries":
             [
@@ -1310,12 +1083,12 @@
         },
         {
             "name": "War Witch",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 6,
             "entries":
             [
@@ -1324,12 +1097,12 @@
         },
         {
             "name": "Magical Armament",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 6,
             "entries":
             [
@@ -1341,12 +1114,12 @@
         },
         {
             "name": "Witch Walking",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 14,
             "entries":
             [
@@ -1355,1242 +1128,17 @@
         },
         {
             "name": "Magical Flurry",
-            "source": "Ben's Brew",
+            "source": "BensBrew",
             "page": 2,
             "className": "Sorcerer",
             "classSource": "PHB",
             "subclassShortName": "Witchblade",
-            "subclassSource": "Ben's Brew",
+            "subclassSource": "BensBrew",
             "level": 18,
             "entries":
             [
                 "When you make a melee weapon attack using the War Witch feature, you may spend up to 2 sorcery points to make an additional attack for each point spent."
             ]
-        },
-        {
-            "name": "Circle of Steel",
-            "source": "Ben's Brew",
-            "page": 3,
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Steel",
-            "subclassSource": "Ben's Brew",
-            "level": 2,
-            "entries":
-            [
-                "Druids who are members of the Circle of Steel hail from heavily industrialized areas, often living amongst disused constructs and mountains of discarded techology. Circle of Steel druids believe that to protect the world they call home and guide cultural advancements towards a better future , they must embrace the world as it is, embracing the machine as simply an extension of nature’s grandeur. Melding the mechanical might of the machine with the purity and adaptable evolution of nature, these fierce warriors draw upon mechanical magic to aid them in battle, amassing companions of steel and adopting the form of menacing constructs to combat the unnatural threats of the world.",
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Bonus Proficiency|Druid||Steel|Ben's Brew|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Machine Shape|Druid||Steel|Ben's Brew|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Circle Spells|Druid||Steel|Ben's Brew|2"
-                }
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Bonus Proficiency",
-            "entries":
-            [
-                "When you join the Circle of Steel at 2nd level, you gain proficiency with martial weapons (firearms), and can wear armour or wield a shield made of metal if you so choose."
-            ],
-            "source": "Ben's Brew",
-            "page": 3,
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Steel",
-            "subclassSource": "Ben's Brew",
-            "level": 2,
-            "header": 1
-        },
-        {
-            "type": "entries",
-            "name": "Machine Shape",
-            "entries":
-            [
-                "The rites of your circle grant you the ability to transform into organic construct versions of animal forms. Starting at 2nd level, when you use your Wild Shape feature, your type becomes construct instead of beast, and you gain a +1 bonus to your AC when in construct form. This increases to + 2 at 14th."
-            ],
-            "source": "Ben's Brew",
-            "page": 3,
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Steel",
-            "subclassSource": "Ben's Brew",
-            "level": 2,
-            "header": 1
-        },
-        {
-            "name": "Circle Spells",
-            "source": "Ben's Brew",
-            "page": 3,
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Steel",
-            "subclassSource": "Ben's Brew",
-            "level": 2,
-            "header": 1,
-            "entries":
-            [
-                "Your magical connection to machinery infuses you with the ability to cast certain spells. At 3rd, 5th, 7th and 9th level you gain access to certain spells from the table below. Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.",
-                {
-                    "type": "table",
-                    "caption": "Arctic",
-                    "colLabels":
-                    [
-                        "Druid Level",
-                        "Circle Spells"
-                    ],
-                    "colStyles":
-                    [
-                        "col-2 text-center",
-                        "col-10"
-                    ],
-                    "rows":
-                    [
-                        [
-                            "3rd",
-                            "{@spell enhance ability}, {@spell summon beast}"
-                        ],
-                        [
-                            "5th",
-                            "{@spell aura of vitality}, {@spell conjure animals}"
-                        ],
-                        [
-                            "7th",
-                            "{@spell freedom of movement}, {@spell summon construct}"
-                        ],
-                        [
-                            "9th",
-                            "{@spell animate objects}, {@spell skill empowerment}"
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Steel Companion",
-            "source": "Ben's Brew",
-            "page": 3,
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Steel",
-            "subclassSource": "Ben's Brew",
-            "level": 6,
-            "header": 2,
-            "entries":
-            [
-                "By 6th level, the natural mechanical magic you eminate draws to your side a mechanical companion, fabricated from the discarded scrap around you. You form a powerful bond with the creature, which assumes the form of a beast of your choice that has a challenge rating of 1/4 or lower. The creature has the statistics of the chosen form, but its type becomes construct, it becomes immune to disease, poison, and the poisoned condition, and does not need to eat, sleep or breathe."
-            ]
-        },
-        {
-            "name": "Steel Bond",
-            "source": "Ben's Brew",
-            "page": 3,
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Steel",
-            "subclassSource": "Ben's Brew",
-            "level": 6,
-            "header": 2,
-            "entries":
-            [
-                "Your magical bond grants you and your companion a variety of features:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Your companion can make a single weapon attack as an action on its turn.",
-                        "It obeys your commands as best it can, and takes its turn on your inititative, but you determine its actions, decisions, and so forth. If you become incapacitated, your companion guards your body, remaining within 5 feet of you at all times until you are no longer incapacitated.",
-                        "It adds your proficiency bonus to its AC, attack rolls and saving throws.",
-                        "Whenever you gain a level in this class, it gains an additional hit die, increasing its hit points accordingly.",
-                        "Whenever you gain the Ability Score Improvement class feature, it can also improve one ability score of your choice by 2 or two ability scores by 1. As normal, you can’t increase an ability score above 20 using this feature.",
-                        "It shares your alignment and has a similar personality trait to you.",
-                        "As a bonus action on your turn, you can expend one spell slot to have your companion regain 1d8 hit points per level of the spell slot expended.",
-                        "If your companion is killed and you are still alive, its spirit reforms after one week; fabricating a new body for itself within 10 feet of you if enough scrap metal is available for it to do so."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Iron Protector",
-            "source": "Ben's Brew",
-            "page": 3,
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Steel",
-            "subclassSource": "Ben's Brew",
-            "level": 10,
-            "header": 2,
-            "entries":
-            [
-                "When you reach 10th level, your companion becomes resistant to nonmagical bludgeoning, piercing and slashing damage from ranged weapon attacks. It extends this feature to you while you remain within 10 feet of it."
-            ]
-        },
-        {
-            "name": "Improved Steel Bond",
-            "source": "Ben's Brew",
-            "page": 3,
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Steel",
-            "subclassSource": "Ben's Brew",
-            "level": 14,
-            "header": 2,
-            "entries":
-            [
-                "At 14th level, your companion gains the Shield Guardian’s Shield and Spell Storing features. You can use both features only once per long rest (see page 271 of the Monster Manual for more details). Your companion always treats you as its master, though you require no amulet in order for you or it to perform either ability. If your companion is knocked unconcious, it immediately loses its stored spell."
-            ]
         }
-    ],
-    "feat":
-    [
-        {
-            "name": "Arcane Armour",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "You manifest magic around you, granting you additional protection. While you are not wearing any armour, your base AC equals 10 + your Dexterity modifier + your spellcasting ability modifier."
-            ]
-        },
-        {
-            "name": "Corpsman",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "wis": 1
-                }
-            ],
-            "entries":
-            [
-                "You master the physician’s arts, gaining the following benefits: ",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You gain proficiency in the {@skill medicine} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-                        "During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom ({@skill medicine}) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends."
-                    ]
-                }
-            ],
-            "skillProficiencies":
-            [
-                {
-                    "medicine": true
-                }
-            ]
-        },
-        {
-            "name": "Counter Strike",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "ability":
-                    [
-                        {
-                            "str": 13
-                        },
-                        {
-                            "dex": 13
-                        }
-                    ]
-                }
-            ],
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "dex"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "You can react to immediate danger with lethal force. You gain the following benefits: ",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Whenever a creature attacks you, you can use your reaction to make one melee attack towards that creature."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Dual Caster",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "You have mastered the ability to cast multiple spells at once. Whenever you use your action to cast a cantrip that deals damage as an action, you can cast an additional cantrip as a bonus action. The additional cantrip cannot cause damage in this way."
-            ]
-        },
-        {
-            "name": "Dual Wield Master",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "ability":
-                    [
-                        {
-                            "dex": 13
-                        }
-                    ]
-                }
-            ],
-            "entries":
-            [
-                "You are well practiced with making rapid strikes with a weapon in your off-hand, and gain the following benefits. However, your second off-hand attack can not add special optional attacks like a paladin's smite.",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "If you use two-weapon fighting to use a bonus action to attack with a light weapon, you can attack twice with it instead of once. This can be done with a non-light weapon if used in conjunction with the feat Dual Wielder.",
-                        "If you throw a light weapon, you can draw another light weapon as part of the action. This can be done with a non-light weapon if used in conjunction with the feat Dual Wielder."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Magus",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "int",
-                            "wis"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "You study the arcane arts, gaining the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You gain proficiency in the {@skill arcana} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-                        "You learn the prestidigitation and detect magic spells. You can cast detect magic once without expending a spell slot, and you regain the ability to do so when you finish a long rest."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Weapon Artist",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "other": "Proficiency in the weapon type chosen "
-                }
-            ],
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "dex"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "You have become an artist with your preferred type of weapon. You gain the following benefits: ",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Choose a particular weapon type (i.e. long swords, spear, quarterstaff, short bow, etc). When you attack with your chosen weapon type, your critical range extends by 1, and you score a critical hit on a 19 or 20."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Zookeeper",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "wis": 1
-                }
-            ],
-            "entries":
-            [
-                "You master the techniques needed to train and handle animals. You gain the following benefits.",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You gain proficiency in the {@skill animal handling} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it. ",
-                        "You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn’t currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Surface Dweller",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "other": "Sunlight Sensitivity"
-                }
-            ],
-            "ability":
-            [
-                {
-                    "wis": 1
-                }
-            ],
-            "entries":
-            [
-                "You have spent enough time in the sun that you have grown accustomed to it. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You lose the Sunlight Sensitivity trait",
-                        "You gain proficiency with the {@skill perception} skill",
-                        "Once you take this feat, you learn the light cantrip if you do not already know it. Once you reach 5th level, you can also cast the spell daylight once per long rest. Wisdom is your spell casting ability modifier for these spells."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Improbable Strength",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "other": "Small sized race"
-                }
-            ],
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "dex"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "You're unnaturally strong for your size. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You gain advantage on ability checks to escape from a grapple or the restrained condition",
-                        "You are considered one size larger for the purposes of grappling, shoving, carry weight, and wielding weapons. If you already have this benefit from a different source, or if you are under the 'enlarge' effect of the enlarge/reduce spell, you deal an extra 1d4 damage once per turn when you with a heavy and/or two-handed weapon."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Adapted to Darkness",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "wis": 1
-                }
-            ],
-            "entries":
-            [
-                "You have learned to cope with the darkness to the extreme, honing your senses to supernatural levels and gaining the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You gain Darkvision out to 30 feet. If you already have Darkvision, or gain it later from another source, increase the range of that Darkvision by 30 feet instead."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Bully",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You’ve mastered the brutal art of kicking your opponent while they’re down and taking advantage of any and every opening you can find, gaining the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You have advantage on opportunity attacks.",
-                        "You are granted an opportunity attack when a creature within your reach attempts to stand up from being prone.",
-                        "When you are granted an opportunity attack against a creature, instead of a melee attack you may choose to perform a shove attempt against that creature, with advantage on your roll."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Deadeye",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "ability":
-                    [
-                        {
-                            "str": 13
-                        },
-                        {
-                            "dex": 13
-                        }
-                    ]
-                }
-            ],
-            "entries":
-            [
-                "Knives, darts, and javelins are play toys to you, and you make it apparent with how easily and mind-boggling well you use them. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "The normal range of your thrown weapon attacks is increased by 10, and the maximum range is increased by 30.",
-                        "You may draw a weapon with the thrown property with a free hand after each attack you make with a weapon.",
-                        "You may choose to treat a ranged attack you make with a thrown weapon as a ranged weapon attack, applying the benefits of any racial, class, or feat abilities you have which affect your ranged attacks.",
-                        "Once on each of your turns when you hit with an attack made with a weapon with the thrown property, you may choose to make it a special ricochet attack, bouncing your weapon off the first target to hit another. Select another creature within the weapon’s normal throwing range of the original target of your attack, and if the original attack roll would have also hit that target, deal damage to it equal to the damage dice of the weapon, of its type. You must release the weapon from your hand if the triggering attack was a melee attack."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Element-Touched",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You’ve become innately attuned to a certain elemental force, perhaps by distant blood, or perhaps due to a supernatural pact or event. Select acid, cold, fire, thunder, lightning, poison, radiant, or necrotic damage, and gain the following benefits based on your choice:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You have resistance to the chosen type of damage.",
-                        "When you score a critical hit with an attack roll, you deal an additional 1d4 damage of the chosen type."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Learned Caster",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "other": "The ability to learn spells or elemental disciplines from a list"
-                }
-            ],
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "int",
-                            "wis",
-                            "cha"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "You’ve toiled more than the average caster to perfect your magics, tapping into previously unknown powers and gaining the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You learn an additional 2 level 5 or lower spells from one of your class spell lists of levels which you can cast for that class, or gain an additional 2 elemental disciplines for which you meet the requirements for.",
-                        "When you gain a level, you may choose to replace 1 of your known spells or elemental disciplines for a new one you meet the requirements for in that class."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "One With the Sea",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "con"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "Swimming and diving are sport to you, having expanded your lung capacity, perfected your stroke technique, and honed your senses to underwater dangers. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You may swim at your normal movement speed in any body of water with a current weaker than that of strong rapids.",
-                        "You may hold your breath twice as long as normal.",
-                        "You have advantage on all Constitution checks made to hold your breath, or to swim for an extended period of time.",
-                        "While actively searching, you have advantage on Wisdom (Perception) checks made to notice objects or creatures which are submerged in water."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Point Blank Shot",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "con"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "You have adapted to fighting in close quarters, using smaller ranged weapons to angle effectively and fire rapidly. You gain the following benefits when using a ranged weapon without the Heavy property:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "When attacking a creature within 30 feet of you with a ranged attack, neither being within 5 feet of a hostile creature, nor the target being prone, imposes the normal disadvantage to the attack roll.",
-                        "When a hostile creature’s movement would provoke an opportunity attack from you by leaving a space within 5 feet of you, you can use your reaction to make a ranged attack against that creature with a -5 penalty to the attack roll."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Second Skin",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "dex"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "You’ve become so accustomed to wearing your armor that it no longer feels like it’s there to you, granting the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You don and doff armor in half the normal time, or ¼ the time if assisted.",
-                        "You can don or doff a shield using your free item interaction for the turn, instead of as an action.",
-                        "While moving at half your normal speed or resting, you do not take any penalties or disadvantages to your ability checks normally imposed by wearing medium or heavy armor."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Tactician",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "ability":
-                    [
-                        {
-                            "int": 13
-                        }
-                    ]
-                }
-            ],
-            "entries":
-            [
-                "You have a mind for battle, using your superior intellect to predict your opponent’s moves before they make them, and prepare yourself for attack, gaining the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You may use your Intelligence modifier in place of your Dexterity modifier when calculating your Armour Class, including while wearing armour but not when using alternate calculations to your Armour Class. Any maximum modifier bonus is still applied to the new ability modifier.",
-                        "When you are not surprised, before you roll initiative, you may take a -5 penalty to the roll to gain a +2 bonus to your Armor Class, as well as to all attack rolls and saving throws you make, until the end of your first turn in combat."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Athlete (Improved)",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "dex"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "You have undergone extensive physical training to gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You gain proficiency in the Strength ({@skill Athletics}) skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-                        "When you are {@condition prone}, standing up uses only 5 feet of your movement.",
-                        "Climbing doesn't cost you extra movement.",
-                        "You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Charger (Improved)",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                " As a bonus action, you can move up to your speed toward a hostile creature that you can see.",
-                "If you move at least 20 feet in a straight line immediately before taking the Attack action, you either gain a +5 bonus to your first attack’s damage roll (if it hits) or your target has disadvantage on it's ability check if you choose to shove."
-            ]
-        },
-        {
-            "name": "Dungeon Delver (Improved)",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You have advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors.",
-                        "You have advantage on {@skill Investigation} and {@skill Arcana} checks made to identify particular traps and dungeons.",
-                        "You have advantage on saving throws made to avoid or resist traps.",
-                        "You have resistance to the damage dealt by traps.",
-                        "Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom ({@skill Perception}) score."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Healer (Improved)",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "When you use a {@item healer's kit|phb} to stabilize a dying creature, that creature also regains hit points equal to your level.",
-                        "As an action, you can spend one use of a {@item healer's kit|phb} to tend to a creature and restore {@dice 1d6 + 4} hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Heavy Armor Master (Improved)",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "proficiency":
-                    [
-                        {
-                            "armor": "heavy"
-                        }
-                    ]
-                }
-            ],
-            "ability":
-            [
-                {
-                    "str": 1
-                }
-            ],
-            "entries":
-            [
-                "You can use your armor to deflect strikes that would kill others. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "While you are wearing heavy armor, all damage that you take is reduced by 3."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Linguist (Improved)",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "int": 1
-                }
-            ],
-            "languageProficiencies":
-            [
-                {
-                    "any": 3
-                }
-            ],
-            "entries":
-            [
-                "You have studied languages and codes, gaining the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You learn three languages of your choice.",
-                        "You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it.",
-                        "Your mastery of language has afforded you a way with words. Once per long rest, when you make a Charisma ability check, you may choose to roll 1d6 and add it to the result. You must make this choice after seeing the roll, but before you know the results."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Savage Attacker (Improved)",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total. Additionally, once per long rest, when you score a critical hit with an attack, you may choose to add a single additional weapon die of damage. You must make this decision after you see the attack roll, but before damage is rolled."
-            ]
-        },
-        {
-            "name": "Tough (Improved)",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points. Additionally, once per long rest, you may choose to reroll a single death saving throw and use the higher result."
-            ]
-        },
-        {
-            "name": "Metamagician",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "You gain a deeper understanding of the functions of metamagic.",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You gain 1 sorcery point. You can only use this sorcery point on metamagic unless you have other features that allows you to use sorcery points.",
-                        "You gain one sorcerer metamagic option."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Metamagic Reservoir",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "Your metamagic pool increases in size. Your maximum  sorcery points increase by 2."
-            ]
-        },
-        {
-            "name": "Shield Bearer",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "con"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "Sometimes, others can benefit from your skill with a shield more than you could.",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You can choose to impose disadvantage on any attack of opportunity made against a creature within 5 feet of you."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Sniper",
-            "source": "Ben's Brew",
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "str",
-                            "dex"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "Given the time to line up your shot, you inflict grievous wounds.",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Attack at long range with a ranged weapon does not impose disadvantage on the attack roll.",
-                        "At the start of your turn, you can reduce your speed to zero and deal additional damage equal to your proficiency bonus with your next ranged weapon attack made before the start of your next turn."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Bow Mastery",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "Bows are used by many, but you have trained to make the most of them. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "When you use the Attack action with a short bow on your turn, you can make one additional ranged weapon attack as a bonus action.",
-                        "When you use a longbow, its damage die increases from a d8 to a d10.",
-                        "You can use Strength instead of Dexterity for the attack and damage rolls you make with longbows."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Might of the Magus",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "int",
-                            "wis",
-                            "cha"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "When a creature rolls a 1 on the d20 roll of a saving throw against a spell you cast that deals damage, they take the maximum possible damage from the dice, instead of the result you rolled."
-            ]
-        },
-        {
-            "name": "Gish's Aftermagic",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "When you cast a spell of 1st level or higher that does damage, the next successful weapon attack you make before the end of your turn deals an additional 1d10 damage, the same type as the spell you cast."
-            ]
-        },
-        {
-            "name": "Arcane Assault",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "int",
-                            "wis",
-                            "cha"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "You are a specialist in combat magic. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "When you cast a spell of 1st-level or higher that requires an attack roll and you miss the attack, you can choose choose to deal half damage instead. You must complete a short or long rest before using this feature again.",
-                        "When you cast a cantrip that requires an attack roll and that requires you to roll multiple dice for the damage roll, instead of making only one spell attack, you can split the dice, making one spell attack for each die instead."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Arcane Weapon Master",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "You have learned to  infuse your spells with some of the magical properties of your weapons, augmenting and enhancing your magical capabilities.",
-                "You may use a magical weapon you are proficient with as a spellcasting focus. When casting spells this way, you gain a bonus to your spell attack rolls, spell damage rolls, and spell save DC equal to the magic bonus of that weapon."
-            ]
-        },
-        {
-            "name": "Armoured Caster",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "Your skill in magic allows you to weave some of your power into your armour. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "As long as you are wearing light or medium armour you are proficient in, you add half of your spellcasting modifier (rounded up) to your AC.",
-                        "As long as you are wearing heavy armour you are proficient in, all damage you take from non-magical sources are reduced by your spellcasting modifier (rounded up)."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Battlemage",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "You've learned to empower your spells, drawing every bit of power you can from the Weave. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "Before you make a spell attack roll for a cantrip, you can choose to take a -5 penalty on the attack roll. If the attack hits, you add +10 damage to the spell's damage.",
-                        "Before you cast a spell that requires a saving throw to avoid damage, you can choose to lower the spell's saving throw DC by an amount up to your proficiency bonus. If a target fails the saving throw to avoid damage, they receive an additional 1 point of damage per damage dice of the spell for every 2 that the DC is lowered by.",
-                        "When you reduce a creature to 0 hit points with a spell attack, you can use your bonus action to redirect the remaining damage to another target within 5 feed of the spell effects initial target using the original attack roll result."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Cantrip Caster",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "Your intense study of the simplest of spells has granted you a degree of mastery envied by other spellcasters. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "When you cast a cantrip that requires you to make a ranged attack roll, the range is doubled.",
-                        "If a non-damaging cantrip has a range of touch, you can instead cast it with a range of 30 feet.",
-                        "If a cantrip you cast deals damage, it deals extra damage equal to your spellcasting modifier for that cantrip if it is not already being applied.",
-                        "When casting a cantrip with a casting time of one action, you can choose to cast it twice, instead of once, as a single action. You must finish a short or long rest before you can use this feature again." 
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Defensive Attacker",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "other": "Proficiency with shields "
-                }
-            ],
-            "entries":
-            [
-                "Sometimes the best  defense is an overwhelming aura of offense. You gain the following benefits: ",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "When you are struck by a melee attack, you may use your reaction to shove your attacker with your shield (Following the normal rules of shoving). If you successfully shove your attack in this way, they also take bludgeoning damage equal to your Strength modifier",
-                        "You may make a spell melee attack with your shield. This attack deals 1d6 + Strength modifier bludgeoning damage and you are considered proficient with this attack. If you use all your attacks provided by your attack action to strike with your shield, you may use your bonus action to take a defensive stance, increasing your AC by 1 until the beginning of your next turn."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Divine Striker",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "other": "Cleric or Paladin "
-                }
-            ],
-            "ability":
-            [
-                {
-                    "choose":
-                    {
-                        "from":
-                        [
-                            "wis",
-                            "cha"
-                        ],
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries":
-            [
-                "Your attack rolls score a critical hit on a roll of 19."
-            ]
-        },
-        {
-            "name": "Fiery Soul",
-            "source": "Ben's Brew",
-            "prerequisite":
-            [
-                {
-                    "spellcasting": true
-                }
-            ],
-            "entries":
-            [
-                "You have an inner fire, which you have learned to channel into an actual fire that empowers you. You gain the following benefits: ",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You no longer suffer the effects of extreme cold",
-                        "As an action, you can magically ignite a flammable object you touch with your hand: an object such as a torch, a piece of tinder, or other flammable objects.",
-                        "Once on each of your turns, when you roll fire damage for a spell you cast, you can add your spellcasting ability modifier to the roll.",
-                        "Before you cast a spell that requires you to make an attack roll, you can choose to take a -5 penalty to the attack roll. If you do so, you deal an additional 10 fire damage to the target if the attack hits."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Shillelagh Savant",
-            "source": "Ben's Brew",
-            "entries":
-            [
-                "Your attunement to nature allows you empower and use clubs and quarterstaves in unique ways. You gain the following benefits: ",
-                {
-                    "type": "list",
-                    "items":
-                    [
-                        "You learn the shillelagh cantrip.",
-                        "Once on each of your turns, when you hit a creature with a weapon affected by shillelagh, you can cause the weapon to deal an additional 1d8 damage",
-                        "When you take the Attack action and attack with a weapon affected by shillelagh, you can use a bonus action to make a melee attack with the weapon affected by shillelagh.",
-                        "When you make an attack with a club or quarterstaff, as a free action, you can cast shillelagh with the weapon. This affects the triggering attack. You must compete a long rest before you can use this feature again."
-                    ]
-                }
-            ]
-        }
-    ]
+        ]   
 }
