@@ -1,28 +1,13 @@
 # 5eHomebrew
-> {Description goes here}
-# Table of Contents
+
+
 ## 1. Introduction to Irin
 > A collection of races, feats and subclasses, with no overall theme.
-### Races:
-- Dobutsu subraces:
-    - Neko
-    - Kitsune
-    - Okami
-    - Usagi
-- Oni subraces:
-    - Aka Oni
-    - Ao Oni
-    - Shiro Oni
-- Starforged
--Automata subraces:
-    - Geo-Construct
-    - Dendro-Construct
-    - Necro-Construct
-
 ## 2. Manuscript of Modern Maleficarums
 > A complilation of various spells, mostly 6th level and under.
-
-## 3. Prophecies of the Primordial Punk
+## 3. Sagas of Starlight
+> A collection of homebrew used for the Sagas of Starlight campaign. 
+## 4. Prophecies of the Primordial Punk
 > WIP.
 
 # Useful links
