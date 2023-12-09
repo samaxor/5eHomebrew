@@ -371,6 +371,7 @@
         "subclassShortName": "Stalwart Defender",
         "subclassSource": "BensBrew",
         "level": 3,
+        "header": 2,
         "entries": [
             "Ancient paintings left behind showcase the movement, the posture, and the methods of how one should hold their shields high and protect those around the, Many schools of Stalwart Defenders can be found on the site of ancient ruins, trying to make sense of this fighting style of old. ",
             {
@@ -391,6 +392,7 @@
         "subclassShortName": "Stalwart Defender",
         "subclassSource": "BensBrew",
         "level": 7,
+        "header": 2,
         "entries": [
             "Starting at 7th level, you learn to position the Moon Shield in front of the Sun shield, hiding its approach before you attack with it. As long as you are holding the Sun Shield and the Moon Shield, you can add your shield AC bonus to any damage roll caused by your Melee Attacks using the Sun Shield. You may use your Sun Shield attack as a Bonus Action."
         ]
@@ -402,6 +404,7 @@
         "subclassShortName": "Stalwart Defender",
         "subclassSource": "BensBrew",
         "level": 10,
+        "header": 2,
         "entries": [
             "At 10th level, you have embodied the heroes depicted in the legends, inspiring those around you. As long as you are holding the sun and moon shield pair, any friendly creature in a 10-foot radius around you shares the Armour Class bonus provided by your shield. If you or any friendly creature in this radius is hit by a melee attack, the target of that attack may spend a reaction to shove a creature 5 feet away from them as long as they are in range of their melee attacks. Finally, each friendly creature within range (this includes you) has advantage on Wisdom saving throws and death saving throws."
         ]
@@ -413,6 +416,7 @@
         "subclassShortName": "Stalwart Defender",
         "subclassSource": "BensBrew",
         "level": 15,
+        "header": 2,
         "entries": [
             "Starting at 15th level, your presence in the battlefield can be felt by all. You may spend a reaction to reposition yourself, moving your full speed in the direction of a friendly creature, then if any hostile creatures are in range of your melee attacks, you may immediately make a melee attack against that hostile creature."
         ]
@@ -424,6 +428,7 @@
         "subclassShortName": "Stalwart Defender",
         "subclassSource": "BensBrew",
         "level": 18,
+        "header": 2,
         "entries": [
             "At 18th level, you embody the hope expected from an ancient Stalwart Defender. At the start of each of your turns, you and any friendly creature in a 10-foot radius around you are inspired to keep on fighting, regaining Hit Points equal to your Proficiency modifier if you have more than half of your Hit Points left."
         ]
@@ -435,6 +440,7 @@
         "subclassShortName": "Stars",
         "subclassSource": "BensBrew",
         "level": 3,
+        "header": 2,
         "entries": [
             "The Oath of Stars binds a paladin to a life of absolute dedication towards the Astral Siblings. Ukko and Umi never reveal themselves to mortals unless it is necessary, so when it comes to a paladin being contacted by one of the two deities, it is considered a huge blessing and honor.",
             {
@@ -453,6 +459,198 @@
                 "type": "refSubclassFeature",
                 "subclassFeature": "Channel Divinity: Fury of Ukko|Paladin|PHB|Stars|BensBrew|3"
             }
+        ]
+    },
+    {   "name": "Channel Divinity: Starlight Infusion",
+        "source": "BensBrew",
+        "className": "Paladin",
+        "classSource": "PHB",
+        "subclassShortName": "Stars",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "header": 2,
+        "entries": [
+                {
+                    "type": "entries",
+                    "name": "1/Day",
+                    "page": 0,
+                    "entries": [
+                        "As an action, you can imbue one weapon you are holding with Starlight Magic using your Channel Divinity. This effect lasts for 2 minutes or until you are no longer wielding the weapon. The effects of this infusion vary based on various conditions:",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Sun/Moon Condition",
+                                "Effect"
+                            ],
+                            "colStyles": [
+                                "col-2 text-center",
+                                "col-10"
+                            ],
+                            "rows": [
+                                [
+                                    "Sunlight",
+                                    "Your weapon emits a bright yellow light in a 30-foot radius and dim light 10 feet beyond that. You gain a +2 to all of your attack rolls."
+                                ],
+                                [
+                                    "Moonlight",
+                                    "You weapon emits a dim white light in a 20-foot radius. You gain +2 to all of your saving throws while wielding this weapon."
+                                ],
+                                [
+                                    "Darkness",
+                                    "Your weapon takes the colour of the nightsky, with stars shining dimly on it. You gain a +1 to your AC."
+                                ]
+                            ]
+                        }
+                    ]
+                }
+        ]
+    },
+    {   "name": "Channel Divinity: Fury of Ukko",
+        "source": "BensBrew",
+        "className": "Paladin",
+        "classSource": "PHB",
+        "subclassShortName": "Stars",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "header": 2,
+        "entries": [
+            {
+                "type": "entries",
+                "name": "3/Day",
+                "entries": [
+                    "As a Bonus Action, you may focus on harnessing the powers of Starlight Magic all around you to empower your next spell, attack, or action. The effect can vary based on your level. It is up to the GM's discretion when it comes to various actions, though Advantage is suggested if a roll is needed for the success of said actions. For attacks and spells, a bonus to hit equal to the proficiency and a number d6 Radiant damage dice equal to the proficiency is suggested."
+                ]
+            }
+            
+        ]
+    },
+    {   "name": "Oath Spells",
+        "source": "BensBrew",
+        "className": "Paladin",
+        "classSource": "PHB",
+        "subclassShortName": "Stars",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "header": 2,
+        "entries": [
+            "You gain oath spells at the paladin levels listed.",
+            {
+                "type": "table",
+                "caption": "Oath of the Stars Spells",
+                "colLabels": [
+                    "Paladin Level",
+                    "Spells"
+                ],
+                "colStyles": [
+                    "col-2 text-center",
+                    "col-10"
+                ],
+                "rows": [
+                    [
+                        "3rd",
+                        "{@spell Starlight Guise|BensBrew}, {@spell Radiant Light|BensBrew}"
+                    ],
+                    [
+                        "5th",
+                        "{@spell Ultraviolet|BensBrew}, {@spell Stardust|BensBrew}"
+                    ],
+                    [
+                        "9th",
+                        "{@spell Phoenix Dive|BensBrew}, {@spell Fly}"
+                    ],
+                    [
+                        "13th",
+                        "{@spell Far Sight|BensBrew}, {@spell Greater Invisibility}"
+                    ],
+                    [
+                        "17th",
+                        "{@spell Child of the Siblings|BensBrew}, {@spell Planar Binding}"
+                    ]
+                ]
+            }
+        ]
+    },
+    {   "name": "Tenets of the Stars",
+        "source": "BensBrew",
+        "className": "Paladin",
+        "classSource": "PHB",
+        "subclassShortName": "Stars",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "header": 2,
+        "entries":[
+            "A paladin who wishes to become a Starlight Knight must dedicate themselves to a life of righteousness and justice. In many cases, this can be translated in different ways; not every Starlight Knight has the same understanding of justice, but all of them are of a good alignment.",
+            "Unlike other Oaths, the Oath of Stars allows the paladin to empower themselves with Starlight magic, so they may not only face danger, but also avoid it. The most important thing that the deities expected from a Starlight Knight is complete faith in them and their will to be followed whenever they have a task for the starlight-blessed paladin. It is quite rare for Umi or Ukko to ask something of a Starlight Knight, though it is usually Ukko that will visit an oath-bound paladin for a request."
+        ]
+    },
+    {   "name": "Aura of Starlight",
+        "source": "BensBrew",
+        "className": "Paladin",
+        "classSource": "PHB",
+        "subclassShortName": "Stars",
+        "subclassSource": "BensBrew",
+        "level": 7,
+        "header": 2,
+        "entries":[
+            "Starting at 7th level, you have proven worthy of being one of the few blessed Starlight Knights and for that, Ukko blesses you with an aura of protection.",
+            "You may cast Disguise Self at will, without expending a spell slot and without having to move or speak. You magically make yourself shift form as the stars disguise you and give you a new appearance.",
+            "You also emanate an aura while you are not incapacitated. You and any creatures within 10 feet of you are granted resistance to the first radiant and Necrotic Damage they will take in combat. This effect refreshes after a short rest",
+            "At 18th level, the range of this aura increases to 30 feet."
+        ]
+    },
+    {   "name": "The Cosmos Endures",
+        "source": "BensBrew",
+        "className": "Paladin",
+        "classSource": "PHB",
+        "subclassShortName": "Stars",
+        "subclassSource": "BensBrew",
+        "level": 15,
+        "header": 2,
+        "entries": [
+            "Starting at 15th level, you understand that the only thing that is eternal are the cosmic bodies that the Astral Siblings created themselves. You understand what it means to be one with the essence of Starlight Magic around you.",
+            "You gain a permanent +1 to your AC and the following effects:",
+            {
+                "type": "table",
+                "colLabels": [
+                    "Sun/Moon Condition",
+                    "Effect"
+                ],
+                "colStyles": [
+                    "col-2 text-center",
+                    "col-10"
+                ],
+                "rows": [
+                    [
+                        "Sunlight",
+                        "As a reaction, you may strike a creature that enters or exits your melee range with 1d6 Radiant Damage."
+                    ],
+                    [
+                        "Moonlight",
+                        "As a reaction, you may strike a creature that enters or exits your melee range with 1d6 Force Damage."
+                    ],
+                    [
+                        "Darkness",
+                        "As a reaction, you may strike a creature that enters or exits your melee range with 1d4 Force Damage."
+                    ]
+                ]
+            }
+        ]
+    },
+    {   "name": "Champion of the Stars",
+        "source": "BensBrew",
+        "className": "Paladin",
+        "classSource": "PHB",
+        "subclassShortName": "Stars",
+        "subclassSource": "BensBrew",
+        "level": 20,
+        "header": 2,
+        "entries":[
+            "Starting at 20th level, you have proven yourself as the true champion of Ukko, the Sun God. Ukko and Umi see you as one of their main champions in the realm of the living and empower you as such.",
+            "You understand the deep secrets of Starlight Magic around you, allowing you to learn one new Starlight Wizard spell every month. You may cast that spell with the same requirements a wizard would but only once a week per spell learned.",
+            "In addtion to that, you also gain the following bonuses:",
+            "• You may cast Invisibility as a reaction after being hit by an attack or a spell. This ability recharges the next dawn.",
+            "• As a Bonus Action, you may make your Aura of Starlight radiate intensely once a day, harming any targets of your choice that are within its radius. The aura deals 3d6 points of Radiant Damage to anyone who enters its radius or starts their turn in it.",
+            "• At the start of your turn, you may force any targets of your choice that are in your Aura's radius to roll a Wisdom saving throw and be blinded on a failed roll."
         ]
     }
 ],
@@ -1805,6 +2003,51 @@
         ],
         "miscTags": [
             "HL"
+        ]
+    },
+    {   "name": "Stardust",
+        "level": 2,
+        "school": "SL",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "sphere",
+            "distance": {
+                "type": "feet",
+                "amount": 10
+            }
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                }
+            ]
+        },
+        "entries": [
+            "You sprinkle magical dust around you in a 10-foot radius forcing any creature caught in the spell to become {@condition deafened} until the end of their next turn. This spell does not affect the spellcaster itself."
+        ],
+        "source": "BensBrew",
+        "components": {
+            "v": true,
+            "s": true
+        },
+        "areaTags": [
+            "S"
         ]
     }
 
