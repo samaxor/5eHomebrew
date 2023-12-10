@@ -361,6 +361,83 @@
             "The Cosmos Endures|Paladin|PHB|Stars|BensBrew|15",
             "Champion of the Stars|Paladin|PHB|Stars|BensBrew|20"
         ]
+    },
+    {   "name": "Za'Strasz",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "shortName": "Za'Strasz",
+        "additionalSpells": [
+            {
+                "expanded": {
+                    "s1": [
+                        "void trance",
+                        "whisper of chains"
+                    ],
+                    "s2": [
+                        "void mend",
+                        "whisper or torment"
+                    ],
+                    "s3": [
+                        "whisper of shards",
+                        "whisper of finality"
+                    ],
+                    "s4": [
+                        "whisper of hunger",
+                        "whisper of madness"
+                    ],
+                    "s5": [
+                        "void siphon",
+                        "whisper of decay"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Gaze of the Abyss|Warlock||Za'Strasz|BensBrew|1",
+            "Engulfing Darkness|Warlock||Za'Strasz|BensBrew|6",
+            "Assimilation|Warlock||Za'Strasz|BensBrew|10",
+            "Void Form|Warlock||Za'Strasz|BensBrew|14"   
+        ]
+    },
+    {   "name": "The Worldbreaker",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "shortName": "Worldbreaker",
+        "additionalSpells": [
+            {
+                "expanded": {
+                    "s1": [
+                        "catapult",
+                        "earth tremor"
+                    ],
+                    "s2": [
+                        "flaming sphere",
+                        "spike growth"
+                    ],
+                    "s3": [
+                        "erupting earth",
+                        "tidal wave"
+                    ],
+                    "s4": [
+                        "storm sphere",
+                        "wall of fire"
+                    ],
+                    "s5": [
+                        "maelstrom",
+                        "immolation"
+                    ]
+                }
+            }
+        ],
+        "subclassFeatures": [
+            "Emissary of the Apocalypse|Warlock||Worldbreaker|BensBrew|1",
+            "Fall to Ruin|Warlock||Worldbreaker|BensBrew|1",
+            "Elavated Destrction|Warlock||Worldbreaker|BensBrew|6",
+            "Desecration|Warlock||Worldbreaker|BensBrew|10",
+            "End of Days|Warlock||Worldbreaker|BensBrew|14"    
+        ]
     }
 ],
 "subclassFeature": [
@@ -892,7 +969,7 @@
             "L"
         ]
     },
-    {   "name": "Tempest Strike",
+    {    "name": "Tempest Strike",
         "source": "BensBrew",
         "level": 1,
         "school": "SL",
@@ -952,7 +1029,7 @@
             "ST"
         ]
     },
-    {	"name": "Void Mend",
+    {	 "name": "Void Mend",
 	"level": 2,
 	"school": "N",
 	"time": [
@@ -1001,7 +1078,7 @@
 		"HL"
 	]
     },
-    {	"name": "Void Trance",
+    {	 "name": "Void Trance",
 	"level": 1,
 	"school": "N",
 	"time": [
@@ -1051,7 +1128,7 @@
 		"ST"
 	]
     },
-    {	"name": "Whisper of Chains",
+    {	 "name": "Whisper of Chains",
 	"level": 1,
 	"school": "N",
 	"time": [
@@ -1101,7 +1178,7 @@
 		"strength"
 	]
     },
-    {	"name": "Whisper of Torment",
+    {	 "name": "Whisper of Torment",
 	"level": 2,
 	"school": "N",
 	"time": [
@@ -1148,7 +1225,7 @@
 		"psychic"
 	]
     },
-    {   "name": "Radiant Light",
+    {    "name": "Radiant Light",
 	"level": 1,
 	"school": "SL",
 	"time": [
@@ -1189,7 +1266,7 @@
 		"constitution"
 	]
     },
-    {   "name": "Solar Benevolence",
+    {    "name": "Solar Benevolence",
 	"level": 1,
 	"school": "SL",
 	"time": [
@@ -1230,7 +1307,7 @@
 		"s": true
 	}
     },
-    {	"name": "Ultraviolet",
+    {	 "name": "Ultraviolet",
 	"level": 2,
 	"school": "SL",
 	"time": [
@@ -1276,7 +1353,7 @@
 		"fire"
 	]
     },
-    {	"name": "Astral Barrier",
+    {	 "name": "Astral Barrier",
 	"level": 2,
 	"school": "SL",
 	"time": [
@@ -2005,7 +2082,7 @@
             "HL"
         ]
     },
-    {   "name": "Stardust",
+    {    "name": "Stardust",
         "level": 2,
         "school": "SL",
         "time": [
@@ -2050,6 +2127,111 @@
             "S"
         ]
     }
+],
+"optionalfeature": [
+    {   "name": "Destructive Destabilization",
+        "source": "BensBrew",
+        "featureType": [
+            "EI"
+        ],
+        "prerequisite": [
+            {   "pact": "Chain",
+                "patron": "The Worldbreaker"
+           }
+        ],
+        "entries": [
+            "When a creature you've created or summoned using a warlock spell or feature is reduced to 0 hit points, creatures of your choice within 5 feet radius of it take 2d6 force damage."
+        ]
+    },
+    {   "name": "Unmake Reality",
+        "source": "BensBrew",
+        "featureType": [
+            "EI"
+        ],
+        "prerequisite": [
+            {   "patron": "The Worldbreaker"}
+        ],
+        "entries": [
+            "Spells you cast that deal damage and can target or effect creatures can also target and effect objects and structures. Your spells deal twice as much damage to objects and structures."
+        ]
+    },
+    {   "name": "Weight of the Apocalypse",
+        "source": "BensBrew",
+        "featureType": [
+            "EI"
+        ],
+        "prerequisite": [
+            {   "pact": "Blade",
+                "patron": "The Worldbreaker"
+           }
+        ],
+        "entries": [
+            "Whenever you score a critical hit against a creature or reduce a creature to 0 hit points with your pact weapon, you can have any number of creatures of your choice within 10 feet of the target, including the target, reduce their speed to 0 until the end of your next turn."
+        ]
+    },
+    {   "name": "Arcana Unlocked",
+        "source": "BensBrew",
+        "featureType": [
+            "EI"
+        ],
+        "prerequisite": [
+            {   "pact": "Tome"
+           }
+        ],
+        "entries": [
+            "Spells previously forbidden now appear in your Book of Shadows. Choose one spell of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Warlock table, or a cantrip. If the spell is not a cantrip, you gain the ability to cast the chosen spell once using a warlock spell slot. You can't cast the spell again in this way until you finish a long rest. If the spell is a cantrip, you can cast it at will.",
+            "You can select this invocation multiple times. Each time you do so, you must choose a different spell. If you later replace this invocation with a different one, you lose access to the chosen spell."
+        ]
+    },
+    {   "name": "Calamitous Strike",
+        "source": "BensBrew",
+        "featureType": [
+            "EI"
+        ],
+        "prerequisite": [
+            {   "pact": "Blade"
+           }
+        ],
+        "entries": [
+            "Once per turn, when you hit a creature with your pact weapon, you can have each other creature of your choice within 5 feet of you take force damage equal to your Charisma modifier."
+        ]
+    },
+    {   "name": "Guided Blade",
+        "source": "BensBrew",
+        "featureType": [
+            "EI"
+        ],
+        "prerequisite": [
+            {   "pact": "Blade"
+           }
+        ],
+        "entries": [
+            "When you attack with your pact weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls."
+        ]
+    },
 
+    {
+        "name": "Divine Marksman",
+        "source": "BensBrew",
+        "isClassFeatureVariant": true,
+        "featureType": [
+            "FS:P"
+        ],
+        "entries": [
+            "Whenever you use a paladin spell or feature that requires you to hit a creature with a melee weapon attack, you can hit that creature with a ranged weapon attack instead."
+        ]
+    },
+    {
+        "name": "Sacred Brawler",
+        "source": "BensBrew",
+        "isClassFeatureVariant": true,
+        "featureType": [
+            "FS:P"
+        ],
+        "entries": [
+            "You can roll a d4 in place of the normal damage if your unarmed strikes. If you are not wielding any weapons or shields, you may roll a d6 instead.",
+            "If you are holding a holy symbol in one hand, you can use that hand as a melee weapon for any paladin spell or feature that requires you to either touch a weapon or hit a creature with a melee weapon attack. When you roll for damage for any such spell or feature using that hand, you can treat any 1 on a damage die as a 2 instead."
+        ]
+    }
 ]
 }
