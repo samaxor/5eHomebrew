@@ -394,7 +394,7 @@
             }
         ],
         "subclassFeatures": [
-            "Gaze of the Abyss|Warlock||Za'Strasz|BensBrew|1",
+            "Za'Strasz|Warlock||Za'Strasz|BensBrew|1",
             "Engulfing Darkness|Warlock||Za'Strasz|BensBrew|6",
             "Assimilation|Warlock||Za'Strasz|BensBrew|10",
             "Void Form|Warlock||Za'Strasz|BensBrew|14"   
@@ -432,9 +432,8 @@
             }
         ],
         "subclassFeatures": [
-            "Emissary of the Apocalypse|Warlock||Worldbreaker|BensBrew|1",
-            "Fall to Ruin|Warlock||Worldbreaker|BensBrew|1",
-            "Elavated Destrction|Warlock||Worldbreaker|BensBrew|6",
+            "The Worldbreaker|Warlock||Worldbreaker|BensBrew|1",
+            "Elevated Destruction|Warlock||Worldbreaker|BensBrew|6",
             "Desecration|Warlock||Worldbreaker|BensBrew|10",
             "End of Days|Warlock||Worldbreaker|BensBrew|14"    
         ]
@@ -510,6 +509,7 @@
             "At 18th level, you embody the hope expected from an ancient Stalwart Defender. At the start of each of your turns, you and any friendly creature in a 10-foot radius around you are inspired to keep on fighting, regaining Hit Points equal to your Proficiency modifier if you have more than half of your Hit Points left."
         ]
     },
+
     {   "name": "Oath of the Stars",
         "source": "BensBrew",
         "className": "Paladin",
@@ -728,6 +728,240 @@
             "• You may cast Invisibility as a reaction after being hit by an attack or a spell. This ability recharges the next dawn.",
             "• As a Bonus Action, you may make your Aura of Starlight radiate intensely once a day, harming any targets of your choice that are within its radius. The aura deals 3d6 points of Radiant Damage to anyone who enters its radius or starts their turn in it.",
             "• At the start of your turn, you may force any targets of your choice that are in your Aura's radius to roll a Wisdom saving throw and be blinded on a failed roll."
+        ]
+    },
+
+    {   "name": "Za'Strasz",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Za'Strasz",
+        "subclassSource": "BensBrew",
+        "level": 1,
+        "entries": [
+            "Your patron is the bringer of void himself: Za'strasz. Your contact and pact with Zas came from a pang of despair and the realization of the Void, becoming one of their vessels. Inside of you lies a great hunger and faded memories of the words once uttered by Za'strasz himself. Za'strasz isn't even aware of your existence, for the pact you made was between you and the lingering hunger of the Void.", 
+            "All shall be destroyed in due time, and all you can do is buy some time for you and your loved ones. All you have to do is let the will of Za'strasz flow through you.",
+            {
+                "type": "entries",
+                "name": "Expanded Spell List",
+                "entries": [
+                    "Za'strasz lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you:",
+                    {
+                        "type": "table",
+                        "caption": "Archfey Expanded Spells",
+                        "colLabels": [
+                            "Spell Level",
+                            "Spells"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1st",
+                                "{@spell Void Trance|BensBrew}, {@spell Whisper of Chains|BensBrew}"
+                            ],
+                            [
+                                "2nd",
+                                "{@spell Void Mend|BensBrew}, {@spell Whisper of Torment|BensBrew}"
+                            ],
+                            [
+                                "3rd",
+                                "{@spell Whisper of Shards|BensBrew}, {@spell Whisper of Finality|BensBrew}"
+                            ],
+                            [
+                                "4th",
+                                "{@spell Whisper of Hunger|BensBrew}, {@spell Whisper of Madness|BensBrew}"
+                            ],
+                            [
+                                "5th",
+                                "{@spell Void Siphon|BensBrew}, {@spell Whisper of Decay|BensBrew}"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "refSubclassFeature",
+                "subclassFeature": "Gaze of the Abyss|Warlock||Za'Strasz|BensBrew|1"
+            }
+        ]
+    },
+    {   "name": "Gaze of the Abyss",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Za'Strasz",
+        "subclassSource": "BensBrew",
+        "level": 1,
+        "entries": [
+            "Starting at 1st level, your Patron entrusts you with the ability to see who else is touched by the Void and beyond. You gain darkvision up to 60 feet, and the ability to tell who else is corrupted by the void and exactly how many Hit Points they have just by looking at them.",
+            "You also gain proficiency with medium armour."
+        ]
+    },
+    {   "name": "Engulfing Darkness",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Za'Strasz",
+        "subclassSource": "BensBrew",
+        "level": 6,
+        "entries": [
+            "Starting at 6th level, Za'strasz grants you his blessing as he protects you from all incoming attacks with a magical Void shield that manifests around you.",
+            "Once per long rest, you may cast the spell {@spell Astral Barrier|BensBrew} as a Bonus Action without any of its normal costs. The barrier appears pitch black when you are hit and lasts for double its normal duration. You may also cast the spell {@spell Darkness} as a Bonus Action without any of its normal costs once per short rest."
+        ]
+    },
+    {   "name": "Assimilation",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Za'Strasz",
+        "subclassSource": "BensBrew",
+        "level": 10,
+        "entries": [
+            "Assimilation WIP You can see normally in magical darkness, to a distance of 60 feet.",
+            "You can now concentrate on up to two spells at once, given one of those spells is the {@spell Darkness} spell. Both spells will end upon an unsuccessful Constitution saving throw. You cannot gain advantage on Constitution saving throws while using this feature.",
+            "You may choose any number of creatures within your {@spell Darkness} spell to half their spell, and disadvatage on all saving throws."
+        ]
+    },
+    {   "name": "Void Form",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Za'Strasz",
+        "subclassSource": "BensBrew",
+        "level": 14,
+        "entries": [
+            "Starting at 14th level, Za'strasz starts to see the true potential in you and decides to allow you to experience the true power of the Void. Once per day, you may engulf your entire body in Void essence, allowing you to gain the following abilities and bonuses:",
+            "• +3 to AC.",
+            "• +30 temporary HP.",
+            "• +10 feet. to any kind of movement you already have.",
+            "• {@b Void Form}. Instead of using your movement speed in a move action, you may choose to materialize into any shadow that you can see.",
+            "• {@b Corrupted Essence}. You are engulfed by the Void, and any creature that comes in direct contact with you takes one point of corruption. Direct contact means that the creature's skin must touch you.",
+            "• {@b Enhanced Assimilation}. While in this form, both the corruption and the healing values of your Assimilate ability are doubled.",
+            "This effect ends if you lose all of the form's temporary Hit Points."
+        ]
+    },
+
+    {   "name": "The Worldbreaker",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Worldbreaker",
+        "subclassSource": "BensBrew",
+        "level": 1,
+        "entries": [
+            "Your patron is an agent of absolute destruction. It seeks to bring all life as you know it to ruin, wanting nothing more than to collapse the universe to dust.", 
+            "While a hunger for power might have drawn you to your patron, you might now act against its interests now that you know its true desires. In these cases, your patron sees no reason to revoke the boons its granted you, seeing you as nothing more than a vessel through which its power can reach out and destroy, regardless of your intentions.",
+            {
+                "type": "entries",
+                "name": "Expanded Spell List",
+                "entries": [
+                    "The Worldbreaker lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you:",
+                    {
+                        "type": "table",
+                        "caption": "Archfey Expanded Spells",
+                        "colLabels": [
+                            "Spell Level",
+                            "Spells"
+                        ],
+                        "colStyles": [
+                            "col-2 text-center",
+                            "col-10"
+                        ],
+                        "rows": [
+                            [
+                                "1st",
+                                "{@spell Catapult}, {@spell Earth Tremor}"
+                            ],
+                            [
+                                "2nd",
+                                "{@spell Flaming Sphere}, {@spell Spike Growth}"
+                            ],
+                            [
+                                "3rd",
+                                "{@spell Erupting Earth}, {@spell Tidal Wave}"
+                            ],
+                            [
+                                "4th",
+                                "{@spell Storm Sphere}, {@spell Wall of Fire}"
+                            ],
+                            [
+                                "5th",
+                                "{@spell Maelstrom}, {@spell Immolation}"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "refSubclassFeature",
+                "subclassFeature": "Emissary of the Apocalypse|Warlock||Worldbreaker|BensBrew|1"
+            },
+            {
+                "type": "refSubclassFeature",
+                "subclassFeature": "Fall to Ruin|Warlock||Worldbreaker|BensBrew|1"
+            }
+        ]
+    },
+    {   "name": "Emissary of the Apocalypse",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Worldbreaker",
+        "subclassSource": "BensBrew",
+        "level": 1,
+        "entries": [
+            "Once per long rest, when you cast a warlock spell of 1st through 5th level that deals damage, you can choose to deal maximum damage with that spell instead.",
+            "When you reduce a creature to 0 hit points, you can scar the earth as a marker of your devastation. The ground within 10 feet of the creature becomes corrupted as plants wither and rock erodes. This ground becomes difficult terrain for 1 year, or until it's removed by dispel magic or a similar spell."
+        ]
+    },
+    {   "name": "Fall to Ruin",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Worldbreaker",
+        "subclassSource": "BensBrew",
+        "level": 1,
+        "entries": [
+            "When an aliied creature deals damage to a creature or object you can see within 60 feet of you, you can use your reaction to inflict ruin upon it. The target takes an additional 2d6 force damage. This damage increases to 4d6 at 10th level. If you reduce to 0 hit points with this feature, you do not expend a use of it. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+        ]
+    },
+    {   "name": "Elevated Destruction",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Worldbreaker",
+        "subclassSource": "BensBrew",
+        "level": 6,
+        "entries": [
+            "While you are in any area of difficult terrain created by one of your warlock spells or features, you may rise and descend vertically as part of your movement, up to 20 feet from the terrain.",
+            "You gain a +1 bonus to your AC while you are in or above any area of difficult terrain created by one of your warlock features or spells."
+        ]
+    },
+    {   "name": "Desecration",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Worldbreaker",
+        "subclassSource": "BensBrew",
+        "level": 10,
+        "entries": [
+            "Creatures in areas of difficult terrain have disadvantage on saving throws against your warlock spells and features. A creature that is unaffected by difficult terrain it is in is immune to this effect.",
+            "Your magic lingers and permamently corrupts the land around it. Any area of difficult terrain you create with your warlock features or warlock spells of 1st level or higher remain as difficult terrain indefinitely. Difficult terrain that lingers this way can be removed with a dispel magic spell or similar spell cast at 5th level or higher.",
+            "You can also dismiss any lingering difficult terrain you have created that you can see as an action."
+        ]
+    },
+    {   "name": "End of Days",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "subclassShortName": "Worldbreaker",
+        "subclassSource": "BensBrew",
+        "level": 14,
+        "entries": [
+            "End of Days WIP"
         ]
     }
 ],
@@ -2210,8 +2444,7 @@
         ]
     },
 
-    {
-        "name": "Divine Marksman",
+    {   "name": "Divine Marksman",
         "source": "BensBrew",
         "isClassFeatureVariant": true,
         "featureType": [
@@ -2221,8 +2454,7 @@
             "Whenever you use a paladin spell or feature that requires you to hit a creature with a melee weapon attack, you can hit that creature with a ranged weapon attack instead."
         ]
     },
-    {
-        "name": "Sacred Brawler",
+    {   "name": "Sacred Brawler",
         "source": "BensBrew",
         "isClassFeatureVariant": true,
         "featureType": [
@@ -2231,6 +2463,21 @@
         "entries": [
             "You can roll a d4 in place of the normal damage if your unarmed strikes. If you are not wielding any weapons or shields, you may roll a d6 instead.",
             "If you are holding a holy symbol in one hand, you can use that hand as a melee weapon for any paladin spell or feature that requires you to either touch a weapon or hit a creature with a melee weapon attack. When you roll for damage for any such spell or feature using that hand, you can treat any 1 on a damage die as a 2 instead."
+        ]
+    },
+
+    {   "name": "Signature Cantrip",
+        "source": "BensBrew",
+        "className": "Warlock",
+        "classSource": "PHB",
+        "level": 1,
+        "isClassFeatureVariant": true,
+        "entries": [
+            "{@i 1st-level warlock {@variantrule optional class features|tce|optional feature}}",
+            "You learn one cantrip that requires a spell attack roll or saving throw, which is included in the cantrips known column of the Warlock table. This cantrip becomes your signature cantrip.",
+            "When you use your signature cantrip, each damage die has a separate attack roll or saving throw, and you may target separate creatures with each die. If the cantrip has an additional effect on top of damage, only one target of the cantrip may suffer this addtional effect per turn.",
+            "When you learn eldritch incovations that alter and require the {@spell Eldritch Blast} cantrip, they instead alter and require your signature cantrip.",
+            "Whenever you gain a level in this any or any other class, you may choose another cantrip you know that requires a spell attack roll or saving throw to become your signature cantip."
         ]
     }
 ]
