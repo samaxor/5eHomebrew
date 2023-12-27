@@ -437,7 +437,22 @@
             "Desecration|Warlock||Worldbreaker|BensBrew|10",
             "End of Days|Warlock||Worldbreaker|BensBrew|14"    
         ]
+    },
+    {   "name": "Witchguard",
+        "shortName": "Witchguard",
+        "source": "BensBrew",
+        "subclassFeatures": [
+            "Witchery|Ranger||Witchguard|BensBrew|3",
+            "Witchguard's Bond|Ranger||Witchguard|BensBrew|3",
+            "Warder Training|Ranger||Witchguard|BensBrew|3",
+            "Patron's Gift|Ranger||Witchguard|BensBrew|7",
+            "Spellstrike|Ranger||Witchguard|BensBrew|11",
+            "Spellshield Bond|Ranger||Witchguard|BensBrew|15"
+        ],
+        "className": "Ranger",
+        "classSource": "PHB"
     }
+
 ],
 "subclassFeature": [
     {   "name": "Stalwart Defender",
@@ -809,7 +824,8 @@
         "level": 6,
         "entries": [
             "Starting at 6th level, Za'strasz grants you his blessing as he protects you from all incoming attacks with a magical Void shield that manifests around you.",
-            "Once per long rest, you may cast the spell {@spell Astral Barrier|BensBrew} as a Bonus Action without any of its normal costs. The barrier appears pitch black when you are hit and lasts for double its normal duration. You may also cast the spell {@spell Darkness} as a Bonus Action without any of its normal costs once per short rest."
+            "Once per long rest, you may cast the spell {@spell Astral Barrier|BensBrew} as a Bonus Action without any of its normal costs. The barrier appears pitch black when you are hit and lasts for double its normal duration.",
+            "You learn the spell {@spell Darkness}. It counts as a warlock spell for you, but it doesn't count against the number of spells you know. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest. You may also cast the spell  as a Bonus Action without any of its normal costs once per short rest."
         ]
     },
     {   "name": "Assimilation",
@@ -820,9 +836,9 @@
         "subclassSource": "BensBrew",
         "level": 10,
         "entries": [
-            "Assimilation WIP You can see normally in magical darkness, to a distance of 60 feet.",
+            "You can see normally in magical darkness, up to a distance of 60 feet.",
             "You can now concentrate on up to two spells at once, given one of those spells is the {@spell Darkness} spell. Both spells will end upon an unsuccessful Constitution saving throw. You cannot gain advantage on Constitution saving throws while using this feature.",
-            "You may choose any number of creatures within your {@spell Darkness} spell to half their spell, and disadvatage on all saving throws."
+            "Any number of creatures of your choice within your {@spell Darkness} spell to have disadvatage on all saving throws."
         ]
     },
     {   "name": "Void Form",
@@ -925,7 +941,7 @@
         "subclassSource": "BensBrew",
         "level": 1,
         "entries": [
-            "When an aliied creature deals damage to a creature or object you can see within 60 feet of you, you can use your reaction to inflict ruin upon it. The target takes an additional 2d6 force damage. This damage increases to 4d6 at 10th level. If you reduce to 0 hit points with this feature, you do not expend a use of it. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+            "When an allied creature deals damage to a creature or object you can see within 60 feet of you, you can use your reaction to inflict ruin upon it. The target takes an additional 2d6 force damage. This damage increases to 4d6 at 10th level. If you reduce a creature to 0 hit points with this feature, you do not expend a use of it. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
         ]
     },
     {   "name": "Elevated Destruction",
@@ -936,8 +952,9 @@
         "subclassSource": "BensBrew",
         "level": 6,
         "entries": [
-            "While you are in any area of difficult terrain created by one of your warlock spells or features, you may rise and descend vertically as part of your movement, up to 20 feet from the terrain.",
-            "You gain a +1 bonus to your AC while you are in or above any area of difficult terrain created by one of your warlock features or spells."
+            "While you are in any area of difficult terrain created by one of your warlock spells or features, you gain the following benefits:",
+            "• You may rise and descend vertically as part of your movement, up to 20 feet from the terrain.",
+            "• Your warlock spells deal an additional damage equal to your Charisma modifier."
         ]
     },
     {   "name": "Desecration",
@@ -961,7 +978,116 @@
         "subclassSource": "BensBrew",
         "level": 14,
         "entries": [
-            "End of Days WIP"
+            "As an action on your turn, you can choose a point you can see within 300 feet of you on the ground. A 40-foot cube of magical force appears at the point, tearing the earth apart. Non-magical objects and structures in the area that aren't being worn or carried take 300 force damage; any object or structure inside the area that isn't immediately destroyed becomes vulnerable to all damage until properly repaired.",
+            "Creatures in the area must make a Strength saving throw against your warlock spell save DC, taking 4d12 force damage and becoming stunned until the end of your next turn on a failed save, or take half as much damage and not becoming stunned on a success. If you reduce a creature to 0 hit points with this feature, it and any non-magical equipment it's wearing or carrying is immediately destroyed, turning to dust.",
+            "Once you use this feature, you can't do so again until you finish a long rest"
+        ]
+    },
+    {   "name": "Witchery",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Witchguard",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "entries": [
+            "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Witchery Spells table. This spell counts as a ranger spell for you, but doesn't count against the number of ranger spells you know.",
+            {
+                "type": "table",
+                "caption": "Witchery Spells",
+                "colLabels": [
+                    "Ranger Level",
+                    "Spells"
+                ],
+                "colStyles": [
+                    "col-2 text-center",
+                    "col-10"
+                ],
+                "rows": [
+                    [
+                        "3rd",
+                        "{@spell Sanctuary}"
+                    ],
+                    [
+                        "5th",
+                        "{@spell Warding Bond}"
+                    ],
+                    [
+                        "9th",
+                        "{@spell Dispel Magic}"
+                    ],
+                    [
+                        "13th",
+                        "{@spell Death Ward}"
+                    ],
+                    [
+                        "17th",
+                        "{@spell Telepathic Bond}"
+                    ]
+                ]
+            }
+        ]
+    },
+    {   "name": "Witchguard's Bond",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Witchguard",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "entries": [
+            "At 3rd level, you are sworn to protect your witch with your own life. Choose a willing humanoid, who must have the Spellcasting or Pact Magic feature, to be your ward. If your ward is killed, you cannot cast your Witchery spells until your ward is revived or you choose a new ward, which you can do by means of an eight-hour bonding ritual.",
+            "If you and your ward are on the same plane of existence and your ward is not dead, you sense your ward through the bond. You are always aware of the current hit points of and any conditions that affect your ward. As an action, you can know the relative direction and general distance of your ward from you. Your ward can sense your hit points, conditions, and location through the bond, in the same manner as you do."
+        ]
+    },
+    {   "name": "Warder Training",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Witchguard",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "entries": [
+            "At 3rd level, you are trained to protect and fight alongside your ward, with the following benefits:",
+            "• You gain proficiency with heavy armor.",
+            "• When a creature within 5 feet of you attacks your ward, it makes the attack roll with disadvantage.",
+            "• If you are within 15 feet of your ward when it uses its action to cast a spell of 1st level or higher, you can use your reaction to make a melee attack. This range increases to 30 feet at level 11 and 60 feet at level 15."
+        ]
+    },
+    {   "name": "Patron's Gift",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Witchguard",
+        "subclassSource": "BensBrew",
+        "level": 7,
+        "entries": [
+            "At 7th level, the bond grants you a measure of your ward's magical power. You learn two cantrips of your choice from the wizard spell list, which count as ranger spells for you.",
+            "In addition, choose one spell from your ward's class spell list and add it to your spells known. If your ward has more than one spellcasting class, choose from one list of your ward's highest class level. This spell must be of a level you can cast and counts as a ranger spell for you, but doesn't count against the number of ranger spells you know.",
+            "If your ward is alive, you can exchange this spell for another spell from your ward's class spell list at the end of a long rest. The new spell must also be of a level you can cast."
+        ]
+    },
+    {   "name": "Spellstrike",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Witchguard",
+        "subclassSource": "BensBrew",
+        "level": 11,
+        "entries": [
+            "Beginning at 11th level, when you use your action to attack, you can cast a cantrip in place of one of your weapon attacks."
+        ]
+    },
+    {   "name": "Spellshield Bond",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Witchguard",
+        "subclassSource": "BensBrew",
+        "level": 15,
+        "entries": [
+            "At 15th level, the spiritual bond you share protects the pair of you against hostile spellcraft. When you make a Charisma, Intelligence, or Wisdom saving throw, you can choose to use your ward's saving throw bonus instead of your own. In addition, when your ward makes a Charisma, Intelligence, or Wisdom saving throw, it can choose to use your bonus instead of its own.",
+            "You must be within 60 feet of your ward to gain or grant this benefit. "
         ]
     }
 ],
@@ -2465,6 +2591,18 @@
             "If you are holding a holy symbol in one hand, you can use that hand as a melee weapon for any paladin spell or feature that requires you to either touch a weapon or hit a creature with a melee weapon attack. When you roll for damage for any such spell or feature using that hand, you can treat any 1 on a damage die as a 2 instead."
         ]
     },
+    {   "name": "Blind Archery",
+        "source": "BensBrew",
+        "isClassFeatureVariant": true,
+        "featureType": [
+            "FS:R"
+        ],
+        "entries": [
+            "You learn the {@spell find familiar} spell. It counts as a ranger spell for you and doesn't count against your maximum number of spells known and you can cast it as a ritual. You can cast the spell once per day without expending material components.",
+            "Additionally, when you cast the spell, instead of using an action to see through your familiar's senses, you can do it as will (no actions required), as long as your familiar stays within 100 feet of you. You can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses. This allows you to position your body and attack using your familiar's senses to locate enemies."
+        ]
+    },
+
 
     {   "name": "Signature Cantrip",
         "source": "BensBrew",
