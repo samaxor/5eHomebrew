@@ -451,6 +451,33 @@
         ],
         "className": "Ranger",
         "classSource": "PHB"
+    },
+    {   "name": "Dawnwalker",
+        "shortName": "Dawnwalker",
+        "source": "BensBrew",
+        "subclassFeatures": [
+            "Dawnwalker Magic|Ranger||Dawnwalker|BensBrew|3",
+            "Sun Blessed|Ranger||Dawnwalker|BensBrew|3",
+            "Spark of the Sun|Ranger||Dawnwalker|BensBrew|3",
+            "Dawnbringer|Ranger||Dawnwalker|BensBrew|7",
+            "Corona|Ranger||Dawnwalker|BensBrew|11",
+            "Solar Warrior|Ranger||Dawnwalker|BensBrew|15"
+        ],
+        "className": "Ranger",
+        "classSource": "PHB"
+    },
+    {   "name": "Hybrid",
+        "shortName": "Hybrid",
+        "source": "BensBrew",
+        "subclassFeatures": [
+            "Hybrid Shape|Druid||Hybrid|BensBrew|2",
+            "Forced Evolution|Druid||Hybrid|BensBrew|6",
+            "Primal Strike|Druid||Hybrid|BensBrew|6",
+            "DLusus Natuae|Druid||Hybrid|BensBrew|10",
+            "Master of Two Worlds|Druid||Hybrid|BensBrew|14"
+        ],
+        "className": "Druid",
+        "classSource": "PHB"
     }
 
 ],
@@ -983,6 +1010,7 @@
             "Once you use this feature, you can't do so again until you finish a long rest"
         ]
     },
+
     {   "name": "Witchery",
         "source": "BensBrew",
         "className": "Ranger",
@@ -1089,7 +1117,118 @@
             "At 15th level, the spiritual bond you share protects the pair of you against hostile spellcraft. When you make a Charisma, Intelligence, or Wisdom saving throw, you can choose to use your ward's saving throw bonus instead of your own. In addition, when your ward makes a Charisma, Intelligence, or Wisdom saving throw, it can choose to use your bonus instead of its own.",
             "You must be within 60 feet of your ward to gain or grant this benefit. "
         ]
+    },
+
+    {   "name": "Dawnwalker Magic",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Dawnwalker",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "entries": [
+            "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Dawnwalker Spells table. This spell counts as a ranger spell for you, but doesn't count against the number of ranger spells you know.",
+            {
+                "type": "table",
+                "caption": "Witchery Spells",
+                "colLabels": [
+                    "Ranger Level",
+                    "Spells"
+                ],
+                "colStyles": [
+                    "col-2 text-center",
+                    "col-10"
+                ],
+                "rows": [
+                    [
+                        "3rd",
+                        "{@spell Healing Word}"
+                    ],
+                    [
+                        "5th",
+                        "{@spell Branding Smite}"
+                    ],
+                    [
+                        "9th",
+                        "{@spell Spirit Guardians}"
+                    ],
+                    [
+                        "13th",
+                        "{@spell Guardian of Faith}"
+                    ],
+                    [
+                        "17th",
+                        "{@spell Flame Strike}"
+                    ]
+                ]
+            }
+        ]
+    },
+    {   "name": "Sun Blessed",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Dawnwalker",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "entries": [
+            "Starting at 3rd level, you have been blessed by a celestial being, spirit, or god and have been invested with a spark of its holy magic. You gain resistance to necrotic and radiant damage."
+        ]
+    },
+    {   "name": "Spark of the Sun",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Dawnwalker",
+        "subclassSource": "BensBrew",
+        "level": 3,
+        "entries": [
+            "At 3rd level, as a bonus action, you can invoke the power of your holy spark to assume a glowing radiant form. While this form lasts, you shine bright light in a 20 foot radius and dim light for an additional 20 feet. Furthermore, your weapons attacks deal an additional 1d4 radiant damage. This damage increases as you gain levels, increasing to 1d6 at 7th level and 1d8 at 15th level.",
+            "The form lasts for 1 minute or until you use a bonus action on a subsequent turn to end it. You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses whenever you finish a long rest."
+        ]
+    },
+    {   "name": "Dawnbringer",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Dawnwalker",
+        "subclassSource": "BensBrew",
+        "level": 7,
+        "entries": [
+            "At 7th level, your very being is suffused with radiance. As a reaction, when a creature you can see within 30 feet hits you with an attack, you can release a targeted flash of sunlight and force the attacker to made a Constitution saving throw. On a failed saving throw, the target takes 1d10 radiant damage and is blinded until the start of its next turn. On a successful save, the target takes half damage and is not blinded.",
+            "You can use this reaction a number of times equal to your Wisdom modifier (minimum of once), and you regain all uses when you finish a long rest.",
+            "At 15th level, the damage is increased to 3d10 radiant damage."
+        ]
+    },
+    {   "name": "Corona",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Dawnwalker",
+        "subclassSource": "BensBrew",
+        "level": 11,
+        "entries": [
+            "When you reach 11th level, your divine spark has fused fully with your personality and body. You gain proficient in your choice of either Constitution or Charisma saving throws."
+        ]
+    },
+    {   "name": "Solar Warrior",
+        "source": "BensBrew",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "Dawnwalker",
+        "subclassSource": "BensBrew",
+        "level": 15,
+        "entries": [
+            "Beginning at 15th level, you are a light even in the darkest of places. Whenever you use your Spark of the Sun feature, you can choose to embolden it with the true strength of your inner spark. While that form persists, you gain the following benefits:",
+            "• If the bright light you exude overlaps with an area of darkness created by a spell, the spell that created that darkness is dispelled.",
+            "• You and allied creatures within the bright light gain advantage on death saving throws, as well as saving throws made against spells and magical effects.",
+            "• You and allied creatures within the bright light regain the maximum number of hit points from any healing.",
+            "• Hostile creatures within the bright light have disadvantage on attack rolls. A creature immune to the blinded condition, or a creature that can see without the use of its eyes (such as a creature with blindsight or tremorsense), is immune to this effect.",
+            "Once you have used this feature, you can't use it again until you finish a long rest. "
+        ]
     }
+
+    
 ],
 "spell": [
     {    "name": "Aether",
