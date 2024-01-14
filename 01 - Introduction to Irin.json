@@ -967,8 +967,7 @@
         "level": 1,
         "header": 1
     },
-    {
-        "name": "Shield the Defenseless",
+    {   "name": "Shield the Defenseless",
         "type": "entries",
         "entries":
         [
@@ -983,8 +982,7 @@
         "level": 1,
         "header": 1
     },
-    {
-        "name": "Channel Divinity: Safeguard",
+    {   "name": "Channel Divinity: Safeguard",
         "source": "BensBrew",
         "page": 1,
         "className": "Cleric",
@@ -998,8 +996,7 @@
             "Starting at 2nd level, you can make it harder for your friends to be harmed in battle. As an action, you may touch one friendly creature within 5 feet of you. Attack rolls against the selected creature have disadvantage until end of your next turn."
         ]
     },
-    {
-        "name": "Preservation",
+    {   "name": "Preservation",
         "source": "BensBrew",
         "page": 1,
         "className": "Cleric",
@@ -1013,8 +1010,7 @@
             "At 6th level, you can help preserve your allies on the battlefield or in a dungeon, where danger is everywhere. Whenever a creature within 30’ of you makes a saving throw, you can use your reaction to grant them advantage."
         ]
     },
-    {
-        "name": "Divine Strike",
+    {   "name": "Divine Strike",
         "source": "BensBrew",
         "page": 1,
         "className": "Cleric",
@@ -1028,8 +1024,7 @@
             "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type of damage by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."
         ]
     },
-    {
-        "name": "Imposition of the Immortal",
+    {   "name": "Imposition of the Immortal",
         "source": "BensBrew",
         "page": 1,
         "className": "Cleric",
@@ -1043,8 +1038,8 @@
             "Finally, at 17th level, you can now protect all of your allies on the battlefield from hostile foes. Whenever you use the Safeguard channel divinity, it instead affects all friendly creatures within 30 feet of the creature you touch."
         ]
     },
-    {
-        "name": "Arcane Warrior",
+    
+    {   "name": "Arcane Warrior",
         "source": "BensBrew",
         "page": 2,
         "className": "Sorcerer",
@@ -1061,8 +1056,7 @@
             "You may use a melee weapon as an arcane focus."
         ]
     },
-    {
-        "name": "War Witch",
+    {   "name": "War Witch",
         "source": "BensBrew",
         "page": 2,
         "className": "Sorcerer",
@@ -1075,8 +1069,7 @@
             "When you use your action to cast a sorcerer spell, you may make a melee weapon attack as a bonus action."
         ]
     },
-    {
-        "name": "Magical Armament",
+    {   "name": "Magical Armament",
         "source": "BensBrew",
         "page": 2,
         "className": "Sorcerer",
@@ -1092,8 +1085,7 @@
             "You are proficient in wearing this armor. You may unsummon the armor as a bonus action."
         ]
     },
-    {
-        "name": "Witch Walking",
+    {   "name": "Witch Walking",
         "source": "BensBrew",
         "page": 2,
         "className": "Sorcerer",
@@ -1106,8 +1098,7 @@
             "You have the ability to blink around the battlefield. At either the beginning or the end of your turn, you may instantly teleport up to 15 feet to an unoccupied space that you can see. You may spend a sorcery point to blink at both the beginning and end of your turn."
         ]
     },
-    {
-        "name": "Magical Flurry",
+    {   "name": "Magical Flurry",
         "source": "BensBrew",
         "page": 2,
         "className": "Sorcerer",
